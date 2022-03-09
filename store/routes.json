@@ -6,6 +6,9 @@
     "path": "/faq"
   },
   "store.custom#contact-us": {
-    "path": "/contact-us"
+    "path": "/contacto"
+  },
+  "store.custom#terminos-y-condiciones": {
+    "path": "/terminos-y-condiciones"
   }
 }

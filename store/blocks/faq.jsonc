@@ -7,6 +7,7 @@
 
   "flex-layout.row#faq": {
     "props": {
+      "horizontalAlign":"center",
       "blockClass": "faq"
     },
     "children": [
@@ -15,53 +16,117 @@
   },
 
   "flex-layout.col#faq": {
+    "props":{
+      "horizontalAlign":"center"
+    },
     "children": [
+      
       "rich-text#faq",
       "disclosure-layout-group#group"
     ]
   },
   "rich-text#faq": {
     "props": {
-      "text": "## FAQ"
+      "text": "## Preguntas frecuentes"
     }
   },
 
   "disclosure-layout-group#group": {
     "children": [
       "disclosure-layout#first",
+      "flex-layout.row#linea",
       "disclosure-layout#second",
+      "flex-layout.row#linea",
       "disclosure-layout#third",
-      "disclosure-layout#fourth"
+      "flex-layout.row#linea",
+      "disclosure-layout#fourth",
+      "flex-layout.row#linea",
+      "disclosure-layout#fifth",
+      "flex-layout.row#linea",
+      "flex-layout.row#fecha",
+      "flex-layout.row#boton-test"
     ]
   },
-
+  "flex-layout.row#boton-test":{
+    "props":{
+      "blockClass":"boton-test-row"
+    },
+    "children":[
+      "flex-layout.col#boton-test"
+    ]
+  },
+  "flex-layout.col#boton-test":{
+    "props":{
+      "horizontalAlign":"center",
+      "blockClass":"boton-test-col"
+    },
+    "children":[
+      "rich-text#button-rt"
+    ]
+  },
+  "rich-text#button-rt":{
+    "props":{
+      "blockClass":"buttontext",
+      "text":"[Button Test](/button)"
+    }
+  },
+  "flex-layout.row#fecha":{
+    "props":{
+      "horizontalAlign":"center",
+      "blockClass":"fecha"
+    },
+    "children":[
+      "rich-text#fecha"
+    ]
+  },
+  "rich-text#fecha":{
+    "props":{
+      "blockClass":"fecha",
+      "text":"Este documento fue modificado en 26/Enero/2022"
+    }
+  },
+  "flex-layout.row#linea":{
+    "props":{
+      "blockClass":"linea-faq"
+    }
+  },
   "disclosure-layout#first": {
     "props": {
       "animated": true
     },
-    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+    "children": [
+      "disclosure-trigger#first",
+      "disclosure-content#first"
+      
+    ]
   },
+
   "disclosure-trigger#first": {
     "props": {
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question1"]
+    "children": [
+      "rich-text#question1",
+      "disclosure-state-indicator"
+    ]
   },
   "disclosure-content#first": {
     "props": {
       "blockClass": "answer"
     },
-    "children": ["rich-text#answer1"]
+    "children": [
+      "rich-text#answer1"
+    ]
   },
   "rich-text#question1": {
     "props": {
-      "text": "How can I change my shipping address?"
+      "text": "Lorem Ipsum una pregunta super"
     }
   },
   "rich-text#answer1": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234."
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan semper fusce mauris risus habitasse facilisi. Pharetra ullamcorper sed eget in bibendum justo sed. Venenatis iaculis gravida amet turpis ultrices turpis tincidunt pretium, pellentesque. Maecenas ut ultrices dictum etiam. Dis sodales pharetra lorem augue amet posuere id. Dignissim orci ultrices purus egestas. Morbi vitae lorem sed sed augue. Nisl, sed libero convallis pellentesque "
     }
   },
 
@@ -69,14 +134,21 @@
     "props": {
       "animated": true
     },
-    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+    "children": [
+      "disclosure-trigger#second", 
+      "disclosure-content#second"
+    ]
   },
+  
   "disclosure-trigger#second": {
     "props": {
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question2"]
+    "children": [
+      "rich-text#question2",
+      "disclosure-state-indicator"
+    ]
   },
   "disclosure-content#second": {
     "props": {
@@ -86,12 +158,12 @@
   },
   "rich-text#question2": {
     "props": {
-      "text": "How can I track my order?"
+      "text": "Lorem Ipsum una pregunta super"
     }
   },
   "rich-text#answer2": {
     "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan semper fusce mauris risus habitasse facilisi. Pharetra ullamcorper sed eget in bibendum justo sed. Venenatis iaculis gravida amet turpis ultrices turpis tincidunt pretium, pellentesque. Maecenas ut ultrices dictum etiam. Dis sodales pharetra lorem augue amet posuere id. Dignissim orci ultrices purus egestas. Morbi vitae lorem sed sed augue. Nisl, sed libero convallis pellentesque "
     }
   },
 
@@ -100,14 +172,20 @@
     "props": {
       "animated": true
     },
-    "children": ["disclosure-trigger#third", "disclosure-content#third"]
+    "children": [
+      "disclosure-trigger#third",
+      "disclosure-content#third"
+    ]
   },
   "disclosure-trigger#third": {
     "props": {
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question3"]
+    "children": [
+      "rich-text#question3",
+      "disclosure-state-indicator"
+    ]
   },
   "disclosure-content#third": {
     "props": {
@@ -117,12 +195,12 @@
   },
   "rich-text#question3": {
     "props": {
-      "text": "How can I change my shipping address?"
+      "text": "Lorem Ipsum una pregunta super"
     }
   },
   "rich-text#answer3": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234."
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan semper fusce mauris risus habitasse facilisi. Pharetra ullamcorper sed eget in bibendum justo sed. Venenatis iaculis gravida amet turpis ultrices turpis tincidunt pretium, pellentesque. Maecenas ut ultrices dictum etiam. Dis sodales pharetra lorem augue amet posuere id. Dignissim orci ultrices purus egestas. Morbi vitae lorem sed sed augue. Nisl, sed libero convallis pellentesque "
     }
   },
 
@@ -131,14 +209,20 @@
     "props": {
       "animated": true
     },
-    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+    "children": [
+      "disclosure-trigger#fourth",
+      "disclosure-content#fourth"
+    ]
   },
   "disclosure-trigger#fourth": {
     "props": {
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question4"]
+    "children": [
+      "rich-text#question4",
+      "disclosure-state-indicator"
+    ]
   },
   "disclosure-content#fourth": {
     "props": {
@@ -148,12 +232,49 @@
   },
   "rich-text#question4": {
     "props": {
-      "text": "How can I track my order?"
+      "text": "Lorem Ipsum una pregunta super"
     }
   },
   "rich-text#answer4": {
     "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan semper fusce mauris risus habitasse facilisi. Pharetra ullamcorper sed eget in bibendum justo sed. Venenatis iaculis gravida amet turpis ultrices turpis tincidunt pretium, pellentesque. Maecenas ut ultrices dictum etiam. Dis sodales pharetra lorem augue amet posuere id. Dignissim orci ultrices purus egestas. Morbi vitae lorem sed sed augue. Nisl, sed libero convallis pellentesque "
+    }
+  },
+
+
+  "disclosure-layout#fifth": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#fifth", 
+      "disclosure-content#fifth"
+    ]
+  },
+  "disclosure-trigger#fifth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#question5",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#fifth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question5": {
+    "props": {
+      "text": "Lorem Ipsum una pregunta super"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan semper fusce mauris risus habitasse facilisi. Pharetra ullamcorper sed eget in bibendum justo sed. Venenatis iaculis gravida amet turpis ultrices turpis tincidunt pretium, pellentesque. Maecenas ut ultrices dictum etiam. Dis sodales pharetra lorem augue amet posuere id. Dignissim orci ultrices purus egestas. Morbi vitae lorem sed sed augue. Nisl, sed libero convallis pellentesque "
     }
   },
 

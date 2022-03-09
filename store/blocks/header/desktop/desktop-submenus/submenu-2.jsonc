@@ -1,0 +1,85 @@
+{
+    "menu-item#personajes": {
+        "props": {
+            "id": "menu-item-personajes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Personajes",
+                "text": "Personajes"
+            },
+            "blockClass": "menu-prin-header"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#personajes"
+        ]
+    },
+    "vtex.menu@2.x:submenu#personajes": {
+        "props": {
+            "width": "auto",
+            "blockClass": "cont-submenu-desktop"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#personajes"
+        ]
+    },
+    "vtex.menu@2.x:menu#personajes": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#personaje-1",
+            "menu-item#personaje-2",
+            "menu-item#personaje-3"
+        ]
+    },
+    "menu-item#personaje-1": {
+        "props": {
+            "id": "menu-item-personaje-1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Personaje 1",
+                "text": "Personaje 1"
+            }
+        }
+    },
+    "menu-item#personaje-2": {
+        "props": {
+            "id": "menu-item-personaje-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Personaje 2",
+                "text": "Personaje 2"
+            }
+        }
+    },
+    "menu-item#personaje-3": {
+        "props": {
+            "id": "menu-item-personaje-3",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Personaje 3",
+                "text": "Personaje 3"
+            }
+        }
+    }
+}

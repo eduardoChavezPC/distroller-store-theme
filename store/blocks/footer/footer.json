@@ -1,116 +1,329 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+      ]
   },
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "vtex.menu@2.x:menu#menuVertical1",
+      "vtex.menu@2.x:menu#menuVertical2",
+      "flex-layout.row#imagen"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
-      "paddingBottom": 3
+      "paddigBottom": 3
     }
   },
 
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        }
-      ]
-    }
+  "flex-layout.row#imagen":{
+    "props":{
+      "width":"50%"
+    },
+    "children":[
+      "flex-layout.col#footerImagen"
+    ]
   },
 
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
-    "props": {
-      "blockClass": "payment-methods"
-    }
+  "flex-layout.col#footerImagen":{
+    "props":{
+      "horizontalAlign":"center"
+    },
+    "children":[
+      "image#footerImageDistroller"
+    ]
   },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+  "image#footerImageDistroller":{
+    "props":{
+      "src":"assets/distroller_white_1.svg",
+      "blockClass":"imagFooter"
+
     }
   },
 
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "flex-layout.row#footerRow"
+    ],
     "props": {
       "blockClass": "credits"
     }
   },
-  "rich-text#footer": {
+  "flex-layout.row#footerRow":{
+    "props":{
+      "blockClass":"footerRow"  
+    },
+    "children":[
+      "flex-layout.col#footerCol1",
+      "footer-spacer#1",
+      "flex-layout.col#footerCol4"
+      ]
+  },
+  "footer-spacer#1":{
+    "props":{
+      "width":"7%"
+    }
+  },
+  "flex-layout.col#footerCol1":{
+    "props":{
+      "horizontalAlign":"right",
+      "verticalAlign":"middle"
+    },
+    "children":[
+      "rich-text#footer"
+    ]
+  },
+  "flex-layout.col#footerCol4":{
+    "props":{
+      "horizontalAlign":"left",
+      "verticalAlign":"middle",
+      "blockClass":"footerText"
+    },
+    "children":[
+      "rich-text#footer4"
+    ]
+  },"rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
+      "horizontalAlign":"center",
+      "text":"Made with <span>**&#10084;**</span> by Punto Commerce",
+      "blockClass": "footer1"
+    }
+  },
+  "rich-text#footer4": {
+    "props": {
+      "horizontalAlign":"center",
+      "text": "Distroller 2022. Todos los derechos reservados",
+      "blockClass": "footer4"
     }
   },
 
+
+
+
+
+
   "footer-layout.mobile": {
+    "props":{
+        "blockClass":"footer-mobile"
+    },
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#3-footer-mobile",
+      "flex-layout.row#4-footer-mobile",
+      "flex-layout.row#5-footer-mobile"
     ]
   },
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4
+  "flex-layout.row#4-footer-mobile":{
+    "props":{
+      "verticalAlign":"middle",
+      "blockClass":"imagenDistroller"
+    },
+    "children":[
+      "image#distroller"
+    ]
+  },
+  "image#distroller":{
+    "props":{
+      "src":"assets/distroller_white_1.svg"
     }
   },
-  "flex-layout.col#footer-1-mobile": {
-    "children": [
-      "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
-    ],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4,
-      "rowGap": 4
+  "flex-layout.row#3-footer-mobile":{
+    "props":{
+      "preserveLayoutOnMobile":true,
+      "horizontalAlign":"center",
+      "preventHorizontalStretch": true,
+      "blockClass":"imagenesRedes"
+    },
+    "children":[
+      "flex-layout.col#img7",
+      "flex-layout.col#img6",
+      "flex-layout.col#img5",
+      "flex-layout.col#img4",
+      "flex-layout.col#img3",
+      "flex-layout.col#img2",
+      "flex-layout.col#img1"
+    ]
+  },
+  "flex-layout.col#img1":{
+    "props":{
+      "marginLeft":2,
+      "marginRight":2,
+      "verticalAlign":"middle",
+      "blockClass":"imgRed-1"
+    },
+    "children":[
+      "image#red-1"
+    ]
+  },
+  "flex-layout.col#img2":{
+    "props":{
+      "marginLeft":2,
+      "marginRight":2,
+      "verticalAlign":"middle",
+      "blockClass":"imgRed-2"
+    },
+    "children":[
+      "image#red-2"
+    ]
+  },
+  "flex-layout.col#img3":{
+    "props":{
+      "marginLeft":2,
+      "marginRight":2,
+      "verticalAlign":"middle",
+      "blockClass":"imgRed-3"
+    },
+    "children":[
+      "image#red-3"
+    ]
+  },
+  "flex-layout.col#img4":{
+    "props":{
+      "marginLeft":2,
+      "marginRight":2,
+      "verticalAlign":"middle",
+      "blockClass":"imgRed-4"
+    },
+    "children":[
+      "image#red-4"
+    ]
+  },
+  "flex-layout.col#img5":{
+    "props":{
+      "marginLeft":2,
+      "marginRight":2,
+      "verticalAlign":"middle",
+      "blockClass":"imgRed-5"
+    },
+    "children":[
+      "image#red-5"
+    ]
+  },
+  "flex-layout.col#img6":{
+    "props":{
+      "marginLeft":2,
+      "marginRight":2,
+      "verticalAlign":"middle",
+      "blockClass":"imgRed-6"
+    },
+    "children":[
+      "image#red-6"
+    ]
+  },
+  "flex-layout.col#img7":{
+    "props":{
+      "marginLeft":2,
+      "marginRight":2,
+      "verticalAlign":"middle",
+      "blockClass":"imgRed-7"
+    },
+    "children":[
+      "image#red-7"
+    ]
+  },
+  "image#red-1":{
+    "props":{
+      "src":"assets/Vector.svg",
+      "link":{
+        "url":"https://twitter.com/distroller"
+      }
     }
   },
+  "image#red-2":{
+    "props":{
+      "src":"assets/Vector-1.svg",
+      "link":{
+        "url":"https://open.spotify.com/"
+      }
+    }
+  },
+  "image#red-3":{
+    "props":{
+      "src":"assets/Vector-2.svg",
+      "link":{
+        "url":"https://www.pinterest.com.mx/distroller/"
+      }
+    }
+  },
+  "image#red-4":{
+    "props":{
+      "src":"assets/Vector-3.svg",
+      "link":{
+        "url":"https://www.tiktok.com/"
+      }
+    }
+  },
+  "image#red-5":{
+    "props":{
+      "src":"assets/Vector-4.svg",
+      "link":{
+        "url":"https://www.youtube.com/user/distrollertube"
+      }
+    }
+  },
+  "image#red-6":{
+    "props":{
+      "src":"assets/Vector-5.svg",
+      "link":{
+        "url":"https://www.instagram.com/distrollergram"
+      }
+    }
+  },
+  "image#red-7":{
+    "props":{
+      "src":"assets/Vector-6.svg",
+      "link":{
+        "url":"https://www.facebook.com/distroller"
+      }
+    }
+  },
+  "flex-layout.row#5-footer-mobile":{
+    "props":{"verticalAlign":"middle",
+      "blockClass":"footer-mobile"
+    },
+    "children":[
+      "rich-text#footer-mobile-text"
+    ]
+  },
+  "rich-text#footer-mobile-text":{
+    "props":{
+      "preserveLayoutOnMobile":true,
+      "preventHorizontalStretch":true,
+      "blockClass":"texto-mobile-footer",
+      "text":"Made with <span>*&#10084;*</span> by Punto Commerce\nDistroller 2022. Todos los derechos reservados"
+    }
+  },
+  
   "flex-layout.row#1-footer-mobile": {
     "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
     },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile"
+    ]
   },
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
+  "flex-layout.row#2-footer-mobile":{
+    "props":{
+      "fullWidth":true,
+      "horizontalAlign":"center",
+      "blockClass":"redes-mobile-footer"
+    },
+    "children":[
+        "rich-text#footer-mobile-redes"
+    ]
+  },
+  "rich-text#footer-mobile-redes":{
+    "props":{
+      "text":"REDES SOCIALES"
     }
   }
 }
+

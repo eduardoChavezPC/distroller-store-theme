@@ -1,0 +1,18 @@
+{
+    "menu-item#channel": {
+        "props": {
+            "id": "menu-item-channel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Distroller Channel",
+                "text": "Distroller Channel"
+            },
+            "blockClass": "menu-prin-header"
+        }
+    }
+}

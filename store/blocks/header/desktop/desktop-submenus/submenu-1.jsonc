@@ -1,0 +1,172 @@
+{
+    "menu-item#productos": {
+        "props": {
+            "id": "menu-item-productos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Productos",
+                "text": "Productos"
+            },
+            "blockClass": "menu-prin-header"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#product"
+        ]
+    },
+    "vtex.menu@2.x:submenu#product": {
+        "props": {
+            "width": "auto",
+            "blockClass": "cont-submenu-desktop"
+        },
+        "children": [
+            // "flex-layout.row#producto-img"
+            "vtex.menu@2.x:menu#producto",
+            "vtex.menu@2.x:menu#image-product"
+        ]
+    },
+
+
+    
+    "flex-layout.row#producto-img": {
+        "children": [
+            "vtex.menu@2.x:menu#producto",
+            "vtex.menu@2.x:menu#image-product"
+        ],
+        "props": {
+            "width": "auto",
+            "blockClass": "row-cont-items-image"
+        }
+    },
+
+
+    "vtex.menu@2.x:menu#producto": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "col-desk-menu-items"
+        },
+        "children": [
+            "menu-item#producto-1",
+            "menu-item#producto-2",
+            "menu-item#producto-3"
+        ]
+    },
+    "vtex.menu@2.x:menu#image-product": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#banerProductos"
+        ]
+    },
+
+
+
+
+
+
+    // "flex-layout.row#items-img": {
+    //     "children": [
+    //         "flex-layout.col#col-items-productos",
+    //         "flex-layout.col#col-image"
+    //     ],
+    //     "props": {
+    //         "blockClass": "rowmenprin",
+    //         "colSizing": "auto",
+    //         "fullWdith": true,
+    //         "colGap": 2,
+    //         "horizontalAlign": "center"
+    //     }
+    // },
+    // "flex-layout.col#col-items-productos": {
+    //     "children": [
+    //         "menu-item#producto-1",
+    //         "menu-item#producto-2",
+    //         "menu-item#producto-3"
+    //     ]
+    // },
+    // "flex-layout.col#col-image": {
+    //     "children": [
+    //         "image#banerProductos"
+    //     ]
+    // },
+
+
+
+
+
+
+    "menu-item#banerProductos": {
+        "props": {
+            "id": "menu-item-producto-1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false
+            }
+        },
+        "children":[
+            "image#banerProductos"
+        ]
+    },
+
+    "image#banerProductos": {
+        "props": {
+            "minWidth": "220px",
+            "minHeight": "180px",
+            "src": "assets/header/img-prueba-header.png"
+        }
+    },
+    "menu-item#producto-1": {
+        "props": {
+            "id": "menu-item-producto-1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Producto 1",
+                "text": "Producto 1"
+            }
+        }
+    },
+    "menu-item#producto-2": {
+        "props": {
+            "id": "menu-item-producto-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Producto 2",
+                "text": "Producto 2"
+            }
+        }
+    },
+    "menu-item#producto-3": {
+        "props": {
+            "id": "menu-item-product0-3",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Producto 3",
+                "text": "Producto 3"
+            }
+        }
+    }
+}

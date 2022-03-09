@@ -111,24 +111,2152 @@
   font-weight: bold;
   font-size: 30px;
 }
-
-/* Notifiation bar */
-:global(.vtex-flex-layout-0-x-flexRowContent--notificationBar) {
-  background-color: #E42990;
-  /* height: 40px; */
-}
-
-:global(.vtex-rich-text-0-x-paragraph--txtNotBar) {/* Caption2 */
-  font-family: "Roboto";
+/* ---------------------------------------- Font Family ---------------------------------------- */
+:global(.vtex-rich-text-0-x-paragraph--txtNotBar) { /* Notbar textos */
+  font-family: 'RobotoRegular';
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;  
   color: #FFFFFF;
 }
-
-:global(.vtex-flex-layout-0-x-flexCol--icon-NotBar) {
-  max-width: 24px;
-  margin-right: -15px;
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-hideDecorators), 
+:global(.vtex-rich-text-0-x-link--txtSucursales),
+:global(.vtex-rich-text-0-x-link--overlay-chile),
+:global(.vtex-rich-text-0-x-link--overlay-colombia),
+:global(.vtex-rich-text-0-x-link--overlay-espana),
+:global(.vtex-rich-text-0-x-link--overlay-peru),
+:global(.vtex-rich-text-0-x-link--overlay-argentina),
+:global(.vtex-rich-text-0-x-link--overlay-usa),
+:global(.vtex-menu-2-x-styledLinkContent--menu-prin-header),
+:global(.vtex-menu-2-x-styledLinkContent--menu-juegos),
+:global(.vtex-menu-2-x-styledLinkContent--menu-distrollerizate) { /* Notbar textos */  
+  font-family: 'RobotoRegular';
+  
+}
+:global(.vtex-store-components-3-x-notificationBarContainer--header-mob) {
+  background-color: #E42990;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+:global(.vtex-rich-text-0-x-link--overlay-chile), :global(.vtex-rich-text-0-x-link--overlay-colombia),
+:global(.vtex-rich-text-0-x-link--overlay-espana), :global(.vtex-rich-text-0-x-link--overlay-peru),
+:global(.vtex-rich-text-0-x-link--overlay-argentina), :global(.vtex-rich-text-0-x-link--overlay-usa) {
+  text-decoration:none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
 }
 
+/* -------------------------------------------- Mensajes errores -------------------------------------------- */
+:global(.vtex-toast-container) :global(.vtex-toast) {
+  background-color: #8E3392;
+  border-radius: 5px;
+}
+
+/* Icono Login */
+:global(.vtex-login-2-x-label)::after, :global(.vtex-rich-text-0-x-link--txtSucursales),
+:global(.vtex-minicart-2-x-openIconContainer)::after {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-prin-header), 
+:global(.vtex-menu-2-x-styledLinkContent--menu-juegos),
+:global(.vtex-menu-2-x-styledLinkContent--menu-distrollerizate){
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+/* ------------------------------- Notifiation bar Desk-------------------------------  */
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desk) {
+  min-height: 141px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--notificationBar) {
+  background-color: #E42990;
+}
+:global(.vtex-overlay-layout-0-x-popper--contenedor-pais) {
+  z-index: 1000;
+}
+
+:global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-pais)
+:global(.vtex-rich-text-0-x-paragraph--txtNotBar) {
+  margin: 5px 0 6px 0;
+}
+:global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-pais)
+:global(.vtex-rich-text-0-x-paragraph--txtNotBar)::before {
+  content: url("assets/icons-notificationbar/flag-mexico.svg");
+  position: relative;
+  margin-right: 5px;
+  top: 7px;
+}
+:global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-pais)
+:global(.vtex-rich-text-0-x-paragraph--txtNotBar)::after {
+  content: url("assets/icons-notificationbar/img-dropdown.svg");
+  margin-left: 8px;
+}
+
+:global(.vtex-overlay-layout-0-x-container--contenedor-pais) {
+  padding: 16px 2px 16px 5px;
+  border: 0px;
+}
+:global(.vtex-rich-text-0-x-container--overlay-chile), :global(.vtex-rich-text-0-x-container--overlay-colombia),
+:global(.vtex-rich-text-0-x-container--overlay-espana), :global(.vtex-rich-text-0-x-container--overlay-peru),
+:global(.vtex-rich-text-0-x-container--overlay-argentina), :global(.vtex-rich-text-0-x-container--overlay-usa) {
+   width: 150px; 
+}
+:global(.vtex-rich-text-0-x-paragraph--overlay-chile), :global(.vtex-rich-text-0-x-paragraph--overlay-colombia),
+:global(.vtex-rich-text-0-x-paragraph--overlay-espana), :global(.vtex-rich-text-0-x-paragraph--overlay-peru),
+:global(.vtex-rich-text-0-x-paragraph--overlay-argentina), :global(.vtex-rich-text-0-x-paragraph--overlay-usa) {
+  margin: -2px 0px 10px 21px;
+}
+:global(.vtex-rich-text-0-x-paragraph--overlay-chile)::before {
+  content: url("assets/icons-notificationbar/flag-chile.svg");
+  position: relative;
+  margin-right: 7px;
+  top: 8px;
+}
+:global(.vtex-rich-text-0-x-paragraph--overlay-colombia)::before {
+  content: url("assets/icons-notificationbar/flag-colombia.svg");
+  position: relative;
+  margin-right: 8px;
+  top: 8px;
+}
+:global(.vtex-rich-text-0-x-paragraph--overlay-espana)::before {
+  content: url("assets/icons-notificationbar/flag-espana.svg");
+  position: relative;
+  margin-right: 7px;
+  top: 8px;
+}
+:global(.vtex-rich-text-0-x-paragraph--overlay-peru)::before {
+  content: url("assets/icons-notificationbar/flag-peru.svg");
+  position: relative;
+  margin-right: 7px;
+  top: 8px;
+}
+:global(.vtex-rich-text-0-x-paragraph--overlay-argentina)::before {
+  content: url("assets/icons-notificationbar/flag-argentina.svg");
+  position: relative;
+  margin-right: 7px;
+  top: 8px;
+}
+:global(.vtex-rich-text-0-x-paragraph--overlay-usa)::before {
+  content: url("assets/icons-notificationbar/flag-usa.svg");
+  position: relative;
+  margin-right: 7px;
+  top: 8px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--icon-notBar) {
+  margin: auto 2px auto 5px;
+}
+
+
+:global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-newsletter)
+:global(.vtex-rich-text-0-x-container--txtNotBar) {
+  margin: auto 45px auto 0;
+  margin-bottom: 5px;
+}
+:global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-newsletter)
+:global(.vtex-rich-text-0-x-paragraph--txtNotBar) {
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+:global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-newsletter)
+:global(.vtex-rich-text-0-x-paragraph--txtNotBar)::before {
+  content: url("assets/icons-notificationbar/icon-newsletter.svg");
+  position: relative;
+  margin-top: 0px;
+  margin-right: 5px;
+  top: 7px;
+}
+:global(.vtex-overlay-layout-0-x-container--mob-contenedor-newsletter) {
+  background-color: #00B6E9;
+  border: 0px;
+  border-bottom: 1px solid;
+  padding: 10px;
+}
+:global(.vtex-overlay-layout-0-x-popper--mob-contenedor-newsletter) {
+  z-index: 1000;
+}
+:global(.vtex-overlay-layout-0-x-container--mob-contenedor-newsletter) {
+  background-color: #00B6E9;
+  border: 0px;
+  padding: 20px 15px;
+}
+:global(.vtex-overlay-layout-0-x-container--mob-contenedor-newsletter) :global(.vtex-rich-text-0-x-paragraph--mob-text-newsletter-header) {
+  font-family: "Billy";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 34px;
+  color: #EAEAEA;
+  margin: 0px;
+}
+:global(.vtex-store-newsletter-1-x-emailInputContainer--mob-email-header) :global(.vtex-input-prefix__group) {
+  border: 0px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+:global(.vtex-store-newsletter-1-x-emailInputContainer--mob-email-header) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.22em;
+  color: #000000;
+}
+:global(.vtex-store-newsletter-1-x-newsletterForm--mob-newsletter-header) :global(.vtex-flex-layout-0-x-flexRow--mob-newsletterEmail-header),
+:global(.vtex-store-newsletter-1-x-newsletterForm--mob-newsletter-header) :global(.vtex-flex-layout-0-x-flexRow--mob-newsletterButton-header) {
+  margin: auto 0px;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer--mob-button-header) :global(.vtex-button) {
+  border: 0px;
+  background: #E42990;
+  border-radius: 5px;
+  margin-left: 9px;
+}
+:global(.vtex-store-newsletter-1-x-formSubmitContainer--mob-button-header) :global(.vtex-button) :global(.vtex-button__label) {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+/* ------------------------------ Header Desktop ------------------------------ */
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desk) {
+  background-color: #8E3392;
+}
+
+/* Logo */
+:global(.vtex-store-components-3-x-logoImage--logo-Header) { 
+  margin: 22px 0px 16px 46px
+}
+@media (min-width: 1026px) and (max-width: 1200px) {  
+  :global(.vtex-store-components-3-x-logoImage--logo-Header) { 
+    width: 167px !important;
+  }
+}  
+
+/* Search bar */
+:global(.vtex-flex-layout-0-x-flexRowContent--row-searchBar) {
+  margin-top: 18px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--row-searchBar)
+:global(.vtex-store-components-3-x-searchBarContainer) {
+  max-width: 482px;
+  min-width: 271px;
+  width: 482px
+}
+:global(.vtex-store-components-3-x-searchBarInnerContainer--searchBar) {
+  max-width: 482px;
+  min-width: 271px;
+  width: 482px;
+  height: 35px !important;
+}
+@media (max-width: 1300px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--row-searchBar) :global(.vtex-store-components-3-x-searchBarContainer),
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--searchBar) {
+    width: 400px;
+  }
+}
+@media (max-width: 1250px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--row-searchBar) :global(.vtex-store-components-3-x-searchBarContainer),
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--searchBar) {
+    width: 350px;
+  }
+}
+@media (max-width: 1150px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--row-searchBar) :global(.vtex-store-components-3-x-searchBarContainer),
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--searchBar) {
+    width: 300px;
+  }
+  
+}
+@media (max-width: 1100px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--row-searchBar) :global(.vtex-store-components-3-x-searchBarContainer),
+  :global(.vtex-store-components-3-x-searchBarInnerContainer--searchBar) {
+    width: 250px;
+  }
+}
+
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar)
+:global(.vtex-input-prefix__group) {
+  border-radius: 5px;
+  background-color: white;
+  border: 0px;
+  height: 35px !important;
+}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar)
+:global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-hideDecorators) {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #BABABA;
+}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar)
+:global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  padding-left: 21px !important;
+  color: black;
+}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar)
+:global(.vtex-input-prefix__group)
+:global(.vtex-input__suffix) {
+  padding-left: 17px;
+  padding-right: 17px;
+  background-color: #F58831;
+}
+:global(.vtex-store-components-3-x-searchBarIcon--searchBar) {
+  content: url(assets/header/icon-searchBar.svg);
+  width: 19px;
+  height: 19px;
+  padding-right: 0px !important;
+  margin: auto;
+}
+
+/* Icons row 1 header */
+:global(.vtex-rich-text-0-x-link--txtSucursales) {
+  text-decoration:none;
+
+  padding: 0px !important;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--txtSucursales) {
+  margin: 0px;
+  padding-top: 11px;
+}
+:global(.vtex-rich-text-0-x-link--txtSucursales)::before {
+  content: url("assets/header/icon-storage.svg");
+  position: relative;
+  margin-right: 13px;
+  top: 6px;
+}
+
+/* Icons row 2 header */
+:global(.vtex-flex-layout-0-x-flexRowContent--row-menu) {
+  margin-top: 17px;
+}
+:global(.vtex-menu-2-x-styledLinkContent--menu-prin-header),
+:global(.vtex-menu-2-x-styledLinkContent--menu-juegos),
+:global(.vtex-menu-2-x-styledLinkContent--menu-distrollerizate) {
+  font-family: 'RobotoRegular' !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px !important;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+:global(.vtex-menu-2-x-menuItem--menu-prin-header) {
+  margin-right: 5px;
+}
+:global(.vtex-menu-2-x-styledLinkContainer--menu-prin-header) {
+  margin: 0px 5px 0px 20px;
+  padding: 10px; 
+}
+:global(.vtex-menu-2-x-styledLinkContainer--menu-juegos) {
+  padding: 10px; 
+  margin: 0px;
+  background-color: #F58831;
+}
+:global(.vtex-menu-2-x-menuItem--menu-juegos) {
+  /* background-color: #F58831; */
+  margin-left: 39px;
+  margin-right: 19px;
+}
+:global(.vtex-menu-2-x-styledLinkContainer--menu-distrollerizate) {
+  padding: 10px; 
+  margin: 0px;
+  background-color: #00B6E9;
+}
+:global(.vtex-menu-2-x-menuItem--menu-distrollerizate) {
+  /* background-color: #00B6E9; */
+  margin-right: 45px;
+}
+
+
+:global(.vtex-menu-2-x-submenuWrapper--cont-submenu-desktop) {
+  background-color: #E42990;
+  border-radius: 5px;
+  border: 0px;
+}
+:global(.vtex-menu-2-x-submenuContainer--cont-submenu-desktop) :global(.vtex-menu-2-x-submenuWrapper--cont-submenu-desktop){
+  padding: 23px 10px 17px 10px;
+}
+
+:global(.vtex-menu-2-x-menuContainer--col-desk-menu-items) {
+  width: 243px;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-prin-header) :global(.vtex-menu-2-x-styledLink) {
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+
+  padding: 7px 0px 8px 0px;
+}
+:global(.vtex-menu-2-x-menuContainer--col-desk-menu-items) :global(.vtex-menu-2-x-styledLinkContainer) {
+  padding: 7px 0px 8px 0px;
+}
+
+:global(.vtex-menu-2-x-submenu--cont-submenu-desktop) :global(.vtex-menu-2-x-styledLinkContainer)
+:global(.vtex-menu-2-x-styledLinkContent) {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+/* ------------------------------ Header Mobile ------------------------------ */
+/* -------------------- Font Family Inicio -------------------- */
+:global(.vtex-menu-2-x-styledLinkContent--mob-menu-prin-header),
+:global(.vtex-menu-2-x-styledLinkContent--mob-menu-prin-header-juegos),
+:global(.vtex-menu-2-x-styledLinkContent--mob-menu-prin-header-distrollerizate) {
+  font-family: 'RobotoRegular' !important;
+  margin-left: 15px;
+}
+:global(.vtex-menu-2-x-submenuAccordion--cont-product-menu) :global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-menu-2-x-submenuAccordion--cont-personaje-menu) :global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-menu-2-x-submenuAccordion--cont-diversion-menu) :global(.vtex-menu-2-x-styledLinkContent) {
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+/* -------------------- Font Family Fin -------------------- */
+
+:global(.vtex-sticky-layout-0-x-container) {
+  background-color: #8E3392;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--header-mob) {
+  background-color: #8E3392;
+  padding: 19px 32px 14px 32px;
+}
+
+:global(.vtex-store-components-3-x-notificationBarContainer--header-mob) {
+  background-color: #E42990;
+}
+
+/* Menu Hamburguesa */
+:global(.vtex-minicart-2-x-drawer) {
+  width: 90% !important;
+}
+:global(.vtex-store-drawer-0-x-closeIconButton--menuDrawer) {
+  color: #8E3392;
+}
+:global(.vtex-store-drawer-0-x-closeIconButton--menuDrawer)::after {
+  content: url(assets/header/icon-closeDrawer.svg);
+  position: relative;
+  left: -29px;
+  top: -1px;
+}
+:global(.vtex-store-drawer-0-x-openIconContainer) {
+  padding: 28px 16px 0px 2px !important;
+}
+:global(.vtex-store-drawer-0-x-menuIcon) {
+  width: 24px;
+  color: white !important;
+}
+
+:global(.vtex-store-drawer-0-x-drawer--menuDrawer) {
+  background-color: #8E3392;
+}
+:global(.vtex-menu-2-x-accordionIcon--mob-menu-prin-header) {
+  content: url(assets/header/img-dropdown.svg);
+  color: white;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--mob-menu-prin-header),
+:global(.vtex-menu-2-x-styledLinkContainer--mob-menu-prin-header-juegos),
+:global(.vtex-menu-2-x-styledLinkContainer--mob-menu-prin-header-distrollerizate) {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+:global(.vtex-menu-2-x-styledLinkContainer--mob-menu-prin-header-juegos) {
+  background-color: #F58831;
+}
+:global(.vtex-menu-2-x-styledLinkContainer--mob-menu-prin-header-distrollerizate) {
+  background-color: #00B6E9;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--mob-menu-prin-header), 
+:global(.vtex-menu-2-x-styledLinkContent--mob-menu-prin-header-juegos),
+:global(.vtex-menu-2-x-styledLinkContent--mob-menu-prin-header-distrollerizate) {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+
+/* Search Bar */
+:global(.vtex-flex-layout-0-x-flexRow--row-srchBar-mob) {
+  background-color: #8E3392;
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-srchBar-mob) :global(.vtex-store-components-3-x-container) {
+  padding: 0px 32px 14px 32px!important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--row-srchBar-mob) :global(.vtex-store-components-3-x-searchBarContainer) {
+  padding: 0px !important;
+}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar-mobile) :global(.vtex-input-prefix__group) {
+  border-radius: 5px;
+  border: 0px;
+  height: 30px !important;
+}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar-mobile)
+:global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  color: black !important;
+}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar-mobile) 
+:global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-hideDecorators) {
+  font-family: 'RobotoRegular';
+  border-radius: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #C4C4C4;
+}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar-mobile) 
+:global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  padding-left: 31px !important;
+}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar-mobile) 
+:global(.vtex-input-prefix__group) :global(.vtex-input__suffix) {
+  padding: 0px 13px 0px 15px !important;
+}
+:global(.vtex-store-components-3-x-searchBarIcon--searchBar-mobile) {
+  content: url(assets/header/icon-searchBar-mob.svg);
+  width: 19px;
+  height: 19px;
+  padding-right: 0px !important;
+  margin: auto;
+}
+
+:global(.vtex-store-components-3-x-notificationContent--header-mob) {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  
+  color: #FFFFFF;
+}
+
+@media (max-width: 1025px) {
+  :global(.vtex-rich-text-0-x-paragraph--txtNotBar) {
+    font-size: 0px !important;
+    height: 24px;
+    margin: 0px !important;
+    padding: 27px 0px 0px 5px !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--txtNotBar)::after {
+    content: none !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--txtNotBar)::before  {
+    top: 0px !important;
+    height: 24px !important;;
+  }
+  :global(.vtex-overlay-layout-0-x-outsideClickHandler--contenedor-pais) {
+    position: relative;
+    top: 23px;
+  } 
+  :global(.vtex-store-components-3-x-logoImage--logo-Header) {
+    margin: 0px;
+  }
+  :global(.vtex-store-components-3-x-sizeMobile) {
+    padding: 0px !important;
+  }
+  :global(.vtex-login-2-x-label) {
+    top: -7px !important;
+    position: relative !important;
+    height: 32px !important;
+    display: block !important;
+  }
+  :global(.vtex-login-2-x-label)::after {
+    content: none !important;
+  }
+  :global(.vtex-login-2-x-label)::before {
+    content: url(assets/header/icon-myAccountMob.svg);
+    margin-right: 18px !important;
+    height: 32px !important;
+  }
+  :global(.vtex-login-2-x-profile) {
+    margin-right: 17px;
+  }
+}
+
+
+/* Pagina de Mi cuenta / My account */
+/* Menú lateral */
+:global(.vtex-my-account-1-x-menuLinks) :global(.vtex-account_menu-link) {
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) :global(.vtex-my-account-1-x-menuLink) {
+  background: #8E3392;
+  border-radius: 5px;
+  font-size: 0px;
+  padding-right: 16px;
+  text-align: center;
+}
+:global(.vtex-my-account-1-x-menuLinks) :global(.vtex-my-account-1-x-menuLink)::after {
+  content: "Salir de mi cuenta";
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+/* Header Button Regreso */
+:global(.vtex-pageHeader-link__container) :global(.vtex-button),
+:global(.vtex-store-link-0-x-label--wishlist-return-link) {
+  background: #E42990;
+  border-radius: 5px;
+  padding: 10px 26px 10px 26px !important;
+
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+:global(.vtex-pageHeader__container) :global(.vtex-pageHeader__title ) {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid #8E3392;
+  color: #8E3392;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-button) {
+  background-color: #8E3392;
+  border-radius: 5px;
+  border: 0px;
+  color: #FFFFFF;
+}
+
+/* Perfil */ 
+:global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input__label),
+:global(.vtex-profile-form-3-x-profileSummary) :global(.vtex-my-account-1-x-dataEntryLabel),
+:global(.vtex-my-account-1-x-newsletterBoxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-newsletterContainerTitle) {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+:global(.vtex-profile-form-3-x-profileSummary) :global(.vtex-my-account-1-x-dataEntryChildren),
+:global(.vtex-my-account-1-x-newsletterBoxContainer) :global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-my-account-1-x-newsletterContainerMessage),
+:global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label) {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/* Footer button Editar / Modificar */
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button) 
+:global(.vtex-button__label) {
+  background: #E42990;
+  border-radius: 5px;
+  padding: 10px 26px 10px 26px !important;
+  font-size: 0px;
+}
+:global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button) 
+:global(.vtex-button__label)::after {
+  content: "Modificar";
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+/* Direcciones */
+/* :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.vtex-button) {
+  
+} */
+
+:global(.vtex-my-account-1-x-addressBox) :global(.vtex-my-account-1-x-boxContainerBody) {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/* ///////////////////////////////////////////////////////  FIN CAMBIOS MI CUENTA / MY ACCOUNT PAGE /////////////////////////////////////////////////////// */
+
+
+
+
+/* NEWSLETTER DESKTOP */
+:global(.vtex-flex-layout-0-x-flexRowContent--newsletter-home)
+:global(.vtex-store-newsletter-1-x-defaultSuccessMessage--nl-desktop){
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 36px;
+  font-size: 34px;
+  font-family: 'Billy';
+}
+:global(.vtex-store-newsletter-1-x-defaultSuccessMessage){
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 18px;
+  font-size: 24px;
+  font-family: 'Billy';
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--mailNewsLetter-col) {
+  width: 600px;
+  margin-left: 46px;
+  margin-left: 42%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--newsletter-home) {
+  height: 111px;
+  background-color: #00b6e9;
+  height: 111px;
+  position: inherit;
+  width: 100%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--labelNewsLetter) {
+  color: #eaeaea;
+  margin-top: 18px;
+  font-size: 34px !important;
+  left: 8.82%;
+  right: 70%;
+  line-height: 34px;
+  font-family: "billyL";
+  margin-top: -15px;
+  margin-left: -47%;
+  font-style: normal;
+  font-weight: 600 !important;
+  letter-spacing: 1.5px;
+}
+
+:global(.vtex-store-newsletter-1-x-newsletterForm--nl-desktop) {
+  margin-top: 35px;
+}
+
+:global(.vtex-store-newsletter-1-x-emailInputContainer--emailNewsLetter) {
+  border: hidden;
+}
+:global(.vtex-store-newsletter-1-x-emailInputContainer--emailNewsLetter)
+  :global(.vtex-input-prefix__group) {
+  border: 0px;
+  height: 40px;
+}
+:global(.vtex-store-newsletter-1-x-emailInputContainer--emailNewsLetter)
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  font-weight: 700;
+  color: black !important;
+  font-size: 10px;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer--buttonNewsLetter)
+  :global(.vtex-button) {
+  width: 39%;
+  background-color: #e42990;
+  border: hidden;
+  max-width: 223px;
+  margin-left: 14.2rem;
+  font-family: "robotoRegular";
+  font-weight: 400;
+  /* letter-spacing: 0.09em; */
+  font-size: 20px !important;
+}
+:global(.vtex-store-components-3-x-backToTopButtonContainer)
+  :global(.vtex-button) {
+  background-color: #e42990;
+  border: hidden;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--master-inforPagos) {
+  margin-top: 5%;
+}
+
+/* FOOTER MOBILE------------------------------------------------------------------------------------------- */
+
+:global(.vtex-menu-2-x-accordionIcon--isOpen),
+:global(.vtex-menu-2-x-accordionIcon--isClosed) {
+  position: absolute;
+  right: 7%;
+  margin: 0;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--informacion-mobile) {
+  content: url(assets/icon-accordion-menu.svg);
+}
+:global(.vtex-menu-2-x-accordionIcon--legales-mobile) {
+  content: url(assets/icon-accordion-menu.svg);
+}
+
+:global(.vtex-rich-text-0-x-paragraph--texto-mobile-footer) {
+  text-align: center;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: normal;
+}
+:global(.vtex-flex-layout-0-x-flexRow--footer-mobile)
+  :global(.vtex-store-components-3-x-container) {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+:global(.vtex-menu-2-x-menuItem--informacion-mobile) {
+  border-bottom: 1px solid white;
+  padding-bottom: 7%;
+  font-family: "robotoLight";
+}
+:global(.vtex-menu-2-x-menuItem--legales-mobile) {
+  border-bottom: 1px solid white;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  font-family: "robotoLight";
+}
+
+:global(.vtex-menu-2-x-menuItem--informacion-mobile)
+  :global(.vtex-menu-2-x-submenuAccordion) {
+  justify-content: center;
+  padding-left: 0px;
+}
+
+:global(.vtex-menu-2-x-menuItem--legales-mobile)
+  :global(.vtex-menu-2-x-submenuAccordion) {
+  justify-content: center;
+  padding-left: 0px;
+}
+
+:global(.vtex-rich-text-0-x-container--texto-mobile-footer) {
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--footer-mobile) {
+  background-color: #e42990;
+  /* height: 46px; */
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--redes-mobile-footer)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+:global(.vtex-menu-2-x-submenuAccordio) {
+  justify-content: center;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--legales-mobile),
+:global(.vtex-menu-2-x-styledLinkContent--informacion-mobile) {
+  justify-content: center;
+  margin-bottom: 10px !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--informacion-mobile) {
+  margin-top: 10% !important;
+  font-size: 16px !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--legales-mobile) {
+  font-size: 16px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--redes-mobile-footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-rich-text-0-x-container) {
+  display: grid;
+  place-content: center;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--imagenDistroller) {
+  min-width: 312px;
+  margin-top: 10%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--imagenDistroller)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  margin-bottom: 10%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--submit-mobile) {
+  height: 21px;
+}
+:global(.vtex-rich-text-0-x-container--labelNewsLetter-mobile) {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--conjuntomailsubmit) {
+  background-color: #03034e;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--nl-mobile-mailButton) {
+  display: flex;
+  justify-content: center;
+}
+:global(.vtex-rich-text-0-x-italic--texto-mobile-footer) {
+  font-size: 15px;
+  color: #de5385;
+  font-style: normal;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--labelNewsLetter-mobile) {
+  line-height: normal;
+  color: #eaeaea;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 6px;
+  margin-bottom: 1px;
+  white-space: nowrap;
+  font-family: "Billy";
+}
+:global(.vtex-store-footer-2-x-footerLayout--footer-mobile) {
+  background-color: #8e3392;
+}
+:global(.vtex-store-newsletter-1-x-emailInputContainer--emailNewsLetter-mobile)
+  :global(.vtex-input)
+  :global(.vtex-input-prefix__group) {
+  border: 0px;
+}
+:global(.vtex-store-newsletter-1-x-emailInputContainer--emailNewsLetter-mobile)
+  :global(.vtex-input)
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-styleguide-9-x-input) {
+  height: 21px;
+  min-width: 215px;
+  font-family: "robotoBold";
+  font-weight: 700;
+  letter-spacing: 0.09em;
+}
+
+:global(.vtex-store-newsletter-1-x-emailInputContainer--emailNewsLetter-mobile)
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  font-weight: 700;
+  color: black !important;
+  font-size: 10px;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer--buttonNewsLetter-mobile)
+  :global(.vtex-button) {
+  width: 112px !important;
+  background-color: #e42990;
+  border: hidden;
+  font-weight: 600;
+  min-height: 21px;
+  margin-left: -15px;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer--buttonNewsLetter-mobile)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  padding: 0px !important;
+  font-size: 12px;
+  font-weight: 400 !important;
+  font-family: "robotoRegular";
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--nl-mobile) {
+  background-color: #00b6e9;
+  height: 62px;
+}
+
+/* FOOTER ----------------------------------------------------------------------------------- */
+:global(.vtex-menu-2-x-styledLinkContent--informacionHeaderText),
+:global(.vtex-menu-2-x-styledLinkContent--legalesHeaderText) {
+  margin-bottom: 1% !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent) {
+  margin-bottom: -2%;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'robotoLight';
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrusel-metodosPago) {
+  margin-bottom: 20%;
+  margin-top: 10%;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--carrusel-metodosPago) {
+  background-color: #f58831;
+  height: 15px !important;
+  width: 15px !important;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+  background-color: #00b6e9;
+  height: 15px !important;
+  width: 15px !important;
+}
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--carrusel-metodosPago) {
+  margin-bottom: -10%;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--carrusel-metodosPago) {
+  /* width: 523% !important; */
+  /* width: 510% !important; */
+  width: 390% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--metodos-de-pago) {
+  text-align: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--metodos-de-pago) {
+  padding-bottom: 6%;
+  padding-top: 5%;
+}
+:global(.vtex-rich-text-0-x-strong--footer1) {
+  font-size: 15px;
+  color: #de5385;
+  font-style: normal;
+  line-height: 0;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer1),
+:global(.vtex-rich-text-0-x-paragraph--footer4) {
+  color: #ffffff;
+  font-weight: 700 !important;
+  font-size: 10px !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 23px;
+  margin-top: 8px;
+  letter-spacing: 0.22em;
+  font-family: "robotoLight";
+}
+:global(.vtex-rich-text-0-x-paragraph--footer1),
+:global(.vtex-rich-text-0-x-paragraph--footer4) {
+  white-space: nowrap;
+}
+
+:global(.vtex-store-components-3-x-imageElement--footer2) {
+  height: 17px;
+  max-width: 20px;
+  margin-top: 38%;
+}
+:global(.vtex-rich-text-0-x-paragraph--footer4) {
+  white-space: nowrap;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--verticalMenu1) {
+  margin-left: 10%;
+  padding-left: 27%;
+}
+:global(.vtex-menu-2-x-menuContainer--verticalMenu2) {
+  margin-left: 10%;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent) {
+  font-size: 14px;
+  font-weight: 400;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row) {
+  padding-top: 5.2rem;
+}
+:global(.vtex-store-components-3-x-imageElement--imagFooter) {
+  margin-top: -18px;
+  margin-right: 76px;
+  width: 390px;
+  height: 134px;
+}
+:global(.vtex-menu-2-x-menuContainerNav--verticalMenu2) {
+  margin-right: 80%;
+  padding-left: 33%;
+}
+:global(.vtex-store-footer-2-x-footerLayout) {
+  background-color: #8e3392;
+}
+:global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+  height: 274px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--credits) {
+  background-color: #e42990;
+}
+:global(.vtex-menu-2-x-menuContainer),
+:global(.vtex-rich-text-0-x-wrapper--footer) {
+  color: #ffffff;
+}
+:global(.vtex-rich-text-0-x-paragraph--footer) {
+  margin: 3px 0px 0px 0px;
+}
+:global(.vtex-rich-text-0-x-container--footer) {
+  margin-left: 32%;
+}
+:global(.vtex-menu-2-x-styledLinkContent) {
+  color: white;
+  margin-top: -3px;
+  /* font-family: 'robotoThin'; */
+}
+
+/* HOME MOBILE ------------------- */
+:global(.vtex-slider-layout-0-x-slide--carrusel-metodosPago){
+  margin-left: 0.678788%!important;
+  margin-right: 0.678788%!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--promoInfo-mobile)
+  :global(.vtex-store-components-3-x-container) {
+  padding-right: 0;
+  padding-left: 0;
+}
+:global(.vtex-rich-text-0-x-container--info-pago-1-txt),
+:global(.vtex-rich-text-0-x-container--info-pago-2-txt),
+:global(.vtex-rich-text-0-x-container--info-pago-3-txt) {
+  display: grid;
+  place-content: center;
+  font-size: 24px !important;
+  font-weight: 400;
+  color: #00b6e9;
+}
+:global(.vtex-rich-text-0-x-wrapper--info-pago-3-txt) {
+  margin-bottom: -15%;
+}
+:global(.vtex-rich-text-0-x-paragraph--info-pago-1-txt),
+:global(.vtex-rich-text-0-x-paragraph--info-pago-2-txt),
+:global(.vtex-rich-text-0-x-paragraph--info-pago-3-txt) {
+  line-height: 1;
+  margin-top: 3%;
+  white-space: nowrap;
+  font-family: "Billy";
+  font-size: 24px !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--info-pago-1-rowimg) {
+  margin-top: 15%;
+}
+
+/* HOME DESKTOP */
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--carrusel-metodosPago)
+:global(.vtex-store-components-3-x-imageElement){
+  height: 70px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--texto1),
+:global(.vtex-flex-layout-0-x-flexColChild--icono1),
+:global(.vtex-flex-layout-0-x-flexColChild--texto2),
+:global(.vtex-flex-layout-0-x-flexColChild--icono2),
+:global(.vtex-flex-layout-0-x-flexColChild--texto3),
+:global(.vtex-flex-layout-0-x-flexColChild--icono3) {
+  display: grid;
+  place-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--master-inforPagos) {
+  margin-top: 3%;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--texto1)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  color: #e42990;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Billy";
+}
+:global(.vtex-flex-layout-0-x-flexColChild--texto2)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  color: #e42990;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Billy";
+}
+:global(.vtex-flex-layout-0-x-flexColChild--texto3)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  color: #e42990;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Billy";
+}
+:global(.vtex-flex-layout-0-x-flexCol--texto1) {
+  border-right: 1px solid #e42990;
+  height: 101px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--icono3) {
+  border-left: 1px solid #e42990;
+  height: 101px;
+  margin-left: 18%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--promoInfo)
+  :global(.vtex-store-components-3-x-container) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* INSTITUCIONALES */
+:global(.vtex-rich-text-0-x-container--mision),
+:global(.vtex-rich-text-0-x-wrapper),
+:global(.vtex-rich-text-0-x-paragraph) {
+  font-size: 16px;
+  font-weight: 400;
+}
+:global(.vtex-rich-text-0-x-container--title-about),
+:global(.vtex-rich-text-0-x-container--title-mision) {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  color: #e42990;
+  font-family: "Billy";
+}
+:global(.vtex-rich-text-0-x-wrapper--mision) {
+  margin-bottom: 15%;
+}
+:global(.vtex-rich-text-0-x-wrapper--title-about) {
+  margin-top: 2%;
+}
+
+:global(.vtex-rich-text-0-x-container--about),
+:global(.vtex-rich-text-0-x-container--mision) {
+  display: contents !important;
+  color: #000000;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--textAbout),
+:global(.vtex-flex-layout-0-x-flexRowContent--textMision) {
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+/* faq */
+:global(.vtex-disclosure-layout-1-x-trigger--question) {
+  width: 100%;
+}
+
+@media (max-width: 1075px) {
+  :global(.vtex-flex-layout-0-x-flexRow--linea-faq) {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRow--linea-faq) {
+  margin-left: -50%;
+  margin-right: -50%;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--question) {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--question)
+  :global(.vtex-store-icons-0-x-caretIcon) {
+  margin-left: 15%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--linea-faq) {
+  border-bottom: 1px solid #979797;
+  margin-top: 1%;
+}
+:global(.vtex-rich-text-0-x-container--fecha) {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+:global(.vtex-rich-text-0-x-paragraph--fecha) {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2) {
+  color: #e42990;
+  font-size: 48px;
+  /* white-space: nowrap; */
+  text-align: center;
+}
+:global(.vtex-rich-text-0-x-wrapper--buttontext) {
+  background-color: #f58831;
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+}
+:global(.vtex-rich-text-0-x-paragraph--buttontext) {
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ffffff;
+}
+:global(.vtex-rich-text-0-x-link--buttontext) {
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+:global(.vtex-flex-layout-0-x-flexCol--boton-test-col) {
+  margin-bottom: 15%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--terminos),
+:global(.vtex-rich-text-0-x-paragraph--terminos2) {
+  font-weight: 400;
+  font-size: 16px;
+}
+:global(.vtex-rich-text-0-x-wrapper--terminos) {
+  margin-bottom: 3%;
+}
+:global(.vtex-rich-text-0-x-wrapper--terminos2) {
+  margin-bottom: 12%;
+}
+
+:global(.vtex-rich-text-0-x-heading--title-terminos) {
+  font-size: 48px;
+  color: #e42990;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Billy";
+}
+
+:global(.vtex-rich-text-0-x-heading--title-about),
+:global(.vtex-rich-text-0-x-heading--title-mision),
+:global(.vtex-rich-text-0-x-heading--title-terminos) {
+  font-family: "Billy";
+}
+
+:global(.vtex-rich-text-0-x-container--title-terminos) {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+:global(.vtex-rich-text-0-x-paragraph--mision),
+:global(.vtex-rich-text-0-x-paragraph--terminos),
+:global(.vtex-rich-text-0-x-paragraph--terminos2),
+:global(.vtex-rich-text-0-x-paragraph--about) {
+  font-family: "robotoMedium";
+  color: #000000;
+}
+
+/* CATEGORIAS------------------------------------------------ */
+:global(.vtex-rich-text-0-x-container--texto-categoria) {
+  display: flex;
+  justify-content: center;
+}
+:global(.vtex-rich-text-0-x-paragraph--texto-categoria) {
+  font-weight: bold;
+  font-size: 48px;
+  color: #e42990;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "BillyBold";
+}
+
+:global(.vtex-rich-text-0-x-container--texto-categoria-mobile) {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--texto-categoria-mobile) {
+  font-weight: bold;
+  font-size: 30px;
+  color: #e42990;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "BillyBold";
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--cat1) {
+  background-color: #f58831;
+}
+:global(.vtex-flex-layout-0-x-flexCol--cat2) {
+  background-color: #75a843;
+}
+:global(.vtex-flex-layout-0-x-flexCol--cat3) {
+  background-color: #00b6e9;
+}
+:global(.vtex-flex-layout-0-x-flexCol--cat4) {
+  background-color: #b565b9;
+}
+:global(.vtex-flex-layout-0-x-flexCol--cat5) {
+  background-color: #8e3392;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--categoryText1),
+:global(.vtex-rich-text-0-x-paragraph--categoryText2),
+:global(.vtex-rich-text-0-x-paragraph--categoryText3),
+:global(.vtex-rich-text-0-x-paragraph--categoryText4),
+:global(.vtex-rich-text-0-x-paragraph--categoryText5) {
+  text-align: center;
+}
+:global(.vtex-rich-text-0-x-heading--categoryText1),
+:global(.vtex-rich-text-0-x-heading--categoryText2),
+:global(.vtex-rich-text-0-x-heading--categoryText3),
+:global(.vtex-rich-text-0-x-heading--categoryText4),
+:global(.vtex-rich-text-0-x-heading--categoryText5) {
+  color: #ffffff;
+  white-space: nowrap;
+  font-family: "billyL";
+  font-size: 34px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--categoryText1),
+:global(.vtex-rich-text-0-x-paragraph--categoryText2),
+:global(.vtex-rich-text-0-x-paragraph--categoryText3),
+:global(.vtex-rich-text-0-x-paragraph--categoryText4),
+:global(.vtex-rich-text-0-x-paragraph--categoryText5) {
+  font-size: 24px;
+  color: #000000;
+  font-family: "Billy";
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--categoriasCols)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel3--categoryText1),
+:global(.vtex-rich-text-0-x-headingLevel3--categoryText2),
+:global(.vtex-rich-text-0-x-headingLevel3--categoryText3),
+:global(.vtex-rich-text-0-x-headingLevel3--categoryText4),
+:global(.vtex-rich-text-0-x-headingLevel3--categoryText5) {
+  margin-bottom: 10px;
+}
+:global(.vtex-rich-text-0-x-paragraph--categoryText1),
+:global(.vtex-rich-text-0-x-paragraph--categoryText2),
+:global(.vtex-rich-text-0-x-paragraph--categoryText3),
+:global(.vtex-rich-text-0-x-paragraph--categoryText4),
+:global(.vtex-rich-text-0-x-paragraph--categoryText5) {
+  margin-top: 0px !important;
+}
+:global(.vtex-rich-text-0-x-wrapper--botonText1),
+:global(.vtex-rich-text-0-x-wrapper--botonText2),
+:global(.vtex-rich-text-0-x-wrapper--botonText3),
+:global(.vtex-rich-text-0-x-wrapper--botonText4),
+:global(.vtex-rich-text-0-x-wrapper--botonText5) {
+  background-color: #e42990;
+  max-width: 268px;
+  border-radius: 30px;
+  height: 36px;
+  margin-bottom: 15%;
+  margin-top: 20%;
+}
+:global(.vtex-rich-text-0-x-paragraph--botonText1),
+:global(.vtex-rich-text-0-x-paragraph--botonText2),
+:global(.vtex-rich-text-0-x-paragraph--botonText3),
+:global(.vtex-rich-text-0-x-paragraph--botonText4),
+:global(.vtex-rich-text-0-x-paragraph--botonText5) {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "robotoRegular";
+}
+
+:global(.vtex-rich-text-0-x-link--botonText1),
+:global(.vtex-rich-text-0-x-link--botonText2),
+:global(.vtex-rich-text-0-x-link--botonText3),
+:global(.vtex-rich-text-0-x-link--botonText4),
+:global(.vtex-rich-text-0-x-link--botonText5) {
+  text-decoration: none;
+  color: #ffffff;
+  /* padding: 8px 107px 7px 107px; */
+  margin-top: -7px;
+  text-align: center;
+  margin-top: 0px;
+  min-width: 201px;
+  max-width: 268px;
+}
+
+@media (min-width: 1400px) {
+  :global(.vtex-rich-text-0-x-link--botonText1),
+  :global(.vtex-rich-text-0-x-link--botonText2),
+  :global(.vtex-rich-text-0-x-link--botonText3),
+  :global(.vtex-rich-text-0-x-link--botonText4),
+  :global(.vtex-rich-text-0-x-link--botonText5) {
+    text-decoration: none;
+    color: #ffffff;
+    /* padding: 8px 107px 7px 107px; */
+    margin-top: -7px;
+    text-align: center;
+    margin-top: 0px;
+    width: 268px !important;
+  }
+}
+
+:global(.vtex-rich-text-0-x-container--botonText1),
+:global(.vtex-rich-text-0-x-container--botonText2),
+:global(.vtex-rich-text-0-x-container--botonText3),
+:global(.vtex-rich-text-0-x-container--botonText4),
+:global(.vtex-rich-text-0-x-container--botonText5) {
+  display: flex;
+  justify-content: center;
+}
+
+/* CATEGORIA MOBILE */
+:global(.vtex-rich-text-0-x-paragraph--textCatMobile1),
+:global(.vtex-rich-text-0-x-paragraph--textCatMobile2),
+:global(.vtex-rich-text-0-x-paragraph--textCatMobile3),
+:global(.vtex-rich-text-0-x-paragraph--textCatMobile4),
+:global(.vtex-rich-text-0-x-paragraph--textCatMobile5) {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Billy";
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--catMobile1),
+:global(.vtex-flex-layout-0-x-flexCol--catMobile2),
+:global(.vtex-flex-layout-0-x-flexCol--catMobile3),
+:global(.vtex-flex-layout-0-x-flexCol--catMobile4),
+:global(.vtex-flex-layout-0-x-flexCol--catMobile5) {
+  padding-bottom: 20%;
+  margin-bottom: 15%;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--carrusel-categorias) {
+  background-color: #f58831;
+  height: 15px !important;
+  width: 15px !important;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+  background-color: #00b6e9;
+  height: 15px !important;
+  width: 15px !important;
+}
+
+/* SLIDER HOME DESKTOP PROMOS */
+:global(.vtex-store-components-3-x-infoCardContainer--sliderHomeDesktop-1) {
+  height: 400px;
+  /* width: 1440px; */
+  width: 100%;
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--sliderHomeDesktop-1) {
+  padding-right: 15px;
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--sliderHomeDesktop-1)
+  :global(.vtex-button) {
+  background-color: #e42990;
+  border: hidden;
+  font-size: 14px;
+  border-radius: 28px;
+  width: 91px;
+  min-height: 36px;
+  height: 36px;
+  font-family: "robotoRegular";
+}
+:global(.vtex-store-components-3-x-infoCardHeadline--sliderHomeDesktop-1) {
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+  font-family: "BillyBold";
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--sliderHomeDesktop-1) {
+  padding-right: 5%;
+}
+@media (max-width: 1240px) {
+  :global(.vtex-store-components-3-x-infoCardTextContainer--sliderHomeDesktop-1) {
+    padding-right: 1%;
+  }
+}
+/* SLIDER HOME MOBILE PROMOS */
+
+:global(.vtex-store-components-3-x-infoCardContainer--sliderHomeMobile-1) {
+  background-size: 100% 100% !important;
+  border-color: #ffffff;
+  height: 100%;
+  width: 100%;
+}
+@media(min-width: 640px){
+  :global(.vtex-flex-layout-0-x-flexRow--title-top)
+  :global(.vtex-store-components-3-x-container) {
+    margin-top: 20%;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--info-pago-1-rowimg)
+  :global(.vtex-store-components-3-x-container){
+    margin-top: 20%;
+  }
+  :global(.vtex-store-components-3-x-infoCardTextContainer--info-card-promoBanner){
+    margin-top: -5%;
+  }
+}
+:global(.vtex-rich-text-0-x-container--enviosMexico) {
+  background-color: #e42990;
+}
+:global(.vtex-rich-text-0-x-paragraph--enviosMexico) {
+  color: #ffffff;
+  font-family: "robotoRegular";
+  font-size: 14px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--enviosMexico)
+  :global(.vtex-store-components-3-x-container) {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+:global(.vtex-store-components-3-x-infoCardTextContainer--sliderHomeMobile-1){
+  margin-top: 39%;
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--sliderHomeMobile-1)
+  :global(.vtex-button) {
+  border: hidden;
+  background-color: #e42990;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 15%;
+  margin-top: 35%;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--carouselMobile){
+  margin-top: -10%;
+}
+
+@media (min-width: 640px) {
+  :global(.vtex-slider-layout-0-x-sliderTrack--carouselMobile){
+    width: 500%!important;
+    margin-left: 0%;
+    margin-top: 0%;
+  }  
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--sliderHomeMobile-1){
+  min-height: 250px;
+}
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--carouselMobile) {
+  bottom: -32px;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--carouselMobile) {
+  background-color: #f58831;
+  height: 15px !important;
+  width: 15px !important;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+  background-color: #00b6e9;
+  height: 15px !important;
+  width: 15px !important;
+}
+
+/* RECOMENDACION DESKTOP */
+:global(.vtex-rich-text-0-x-container--recomendadosTitulo) {
+  display: flex;
+  justify-content: center;
+}
+:global(.vtex-rich-text-0-x-paragraph--recomendadosTitulo) {
+  color: #e42990;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 5%;
+  font-family: "BillyBold";
+  letter-spacing: 1px;
+}
+
+/* LO MAS NUEVO MOBILE */
+:global(.vtex-rich-text-0-x-paragraph--titulo-newest) {
+  font-weight: bold;
+  font-size: 30px;
+  color: #e42990;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "billyBold";
+}
+
+:global(.vtex-rich-text-0-x-container--titulo-newest) {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelfNewest) {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--shelfNewest) {
+  background-color: #f58831;
+  height: 15px !important;
+  width: 15px !important;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+  background-color: #00b6e9;
+  height: 15px !important;
+  width: 15px !important;
+}
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--shelfNewest) {
+  top: 100%;
+}
+
+/* TOP OFFERS */
+
+:global(.vtex-rich-text-0-x-paragraph--titulo-top) {
+  font-weight: bold;
+  font-size: 30px;
+  color: #e42990;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Billy";
+}
+
+:global(.vtex-rich-text-0-x-container--titulo-top) {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelfTop) {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--shelfTop) {
+  background-color: #f58831;
+  height: 15px !important;
+  width: 15px !important;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+  background-color: #00b6e9;
+  height: 15px !important;
+  width: 15px !important;
+}
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--shelfTop) {
+  top: 100%;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--shelf) {
+  background-color: #f58831;
+  height: 15px !important;
+  width: 15px !important;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+  background-color: #00b6e9;
+  height: 15px !important;
+  width: 15px !important;
+}
+
+/* GIFTCARD DESKTOP */
+:global(.vtex-store-components-3-x-infoCardContainer--infoCard-giftCard) {
+  height: 537px;
+  width: 939px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--infoCard-giftCard)
+  :global(.vtex-button) {
+  background-color: #e42990;
+  color: #ffffff;
+  border: hidden;
+  border-radius: 28px;
+  width: 209px !important;
+  height: 38px !important;
+  margin-right: 34px;
+  min-height: 36px;
+  font-family: "robotoRegular";
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--infoCard-giftCard) {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-family: "BillyBold";
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--rowGiftcard)
+  :global(.vtex-store-components-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+:global(.vtex-store-components-3-x-infoCardHeadline--infoCard-giftCard) {
+  padding-right: 82px;
+}
+:global(.vtex-store-components-3-x-infoCardTextContainer--infoCard-giftCard) {
+  margin-top: 18%;
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--infoCard-giftCard) {
+  margin-top: 11%;
+}
+:global(.vtex-store-components-3-x-infoCardContainer--taniaInfo) {
+  height: 400px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--taniaInfo)
+  :global(.vtex-store-components-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+:global(.vtex-store-components-3-x-infoCardContainer--taniaInfo)
+  :global(.vtex-store-components-3-x-infoCardTextContainer) {
+  width: 328px;
+  height: 400px;
+  background-color: #8e3392;
+  justify-content: center;
+  align-items: center;
+}
+:global(.vtex-store-components-3-x-infoCardHeadline--taniaInfo) {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px !important;
+  font-family: "BillyBold";
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--taniaInfo)
+  :global(.vtex-button) {
+  border-radius: 28px;
+  border: hidden;
+  background-color: #e42990;
+  width: 215px;
+  height: 36px;
+  margin-bottom: -100px !important;
+  font-family: "robotoRegular";
+  min-height: 36px;
+}
+:global(.vtex-store-components-3-x-infoCardTextContainer--taniaInfo) {
+  margin-right: 148px;
+}
+
+/* PROMO BANNER MOBILE */
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-promoBanner) {
+  width: 380px;
+  /* height: 386px; */
+  /* height: 350px;*/
+  height: 100%;
+  background-size: 100% 100% !important;
+}
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-promoBanner) {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: "Billy";
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-promoBanner)
+  :global(.vtex-button) {
+  border-radius: 28px;
+  border: hidden;
+  background-color: #e42990;
+  width: 91px;
+  height: 36px;
+  margin-top: -20px;
+  min-height: 36px;
+}
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-promoBanner) {
+  margin-top: 20%;
+}
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-promoBanner) {
+  margin-bottom: 188px;
+  text-align: center;
+  display: flex;
+  align-items: stretch;
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-promoBanner)
+  :global(.vtex-button__label) {
+  font-size: 14px;
+  font-family: "robotoRegular";
+}
+
+/* CONOCE A TANIA MOBILE*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--infoTania-mobile) {
+  /* height: 380px; */
+  height: 100%;
+  width: 100%;
+  margin-top: 15%;
+  background-size: 100% 100% !important;
+}
+:global(.vtex-store-components-3-x-infoCardTextContainer--infoTania-mobile) {
+  display: flex;
+  flex-direction: row;
+  background-color: #8e3392;
+  margin-right: 0px;
+  height: 62px;
+  width: 241px;
+  margin-top: 60%;
+  margin-bottom: 25%;
+  /* margin-bottom: 10%; */
+  /* margin-top: 0px!important; */
+  /* margin-bottom: -12px!important;
+  margin-left: 13px!important; */
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--infoTania-mobile)
+  :global(.vtex-button) {
+  border: hidden;
+  border-radius: 28px;
+  background-color: #e42990;
+  height: 36px;
+  width: 91px;
+  margin-left: -9px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--infoTania-mobile)
+  :global(.vtex-button__label) {
+  font-size: 14px;
+  color: #ffffff;
+}
+:global(.vtex-store-components-3-x-infoCardHeadline--infoTania-mobile) {
+  color: #ffffff;
+  font-size: 24px;
+  padding-left: 20px;
+  line-height: 22px;
+  margin-bottom: 8px;
+  font-family: "Billy";
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--infoTania-mobile) {
+  margin-top: 0px !important;
+  margin-bottom: 11px !important;
+  margin-left: 22px !important;
+}
+
+/* WHATSAPP */
+:global(.vtex-store-components-3-x-imageElement--whatsapp) {
+  position: fixed;
+  top: 65%;
+  right: 1%;
+  /* margin-top: -100px; */
+}
+
+/* PDP DESKTOP */
+:global(.vtex-store-components-3-x-productBrand--quickview){
+  color: #8E3392;
+  font-size: 34px;
+  font-weight: 400;
+  font-family: 'Billy';
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--buttonPDP)
+:global(.vtex-button){
+  background-color: #8E3392;
+  border: hidden;
+  width: 372px;
+  height: 40px;
+  margin-right: 30%;
+}
+:global(.vtex-breadcrumb-1-x-term){
+  color: #000000;
+  font-size: 12px;
+}
+:global(.vtex-breadcrumb-1-x-arrow){
+  color: #A1A1A1;
+  font-size: 12px;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+.productImageTag--main{
+  width: 100px;
+  height: 100px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--product-name){
+  width: 60%;
+}
+:global(.vtex-product-identifier-0-x-product-identifier--productReference){
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+:global(.vtex-flex-layout-0-x-flexCol--right){
+  padding-left: 63px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--id){
+  margin-top:42px;
+}
+:global(.vtex-rich-text-0-x-paragraph--relatedText){
+  color: #e42990;
+  font-size: 48px!important;
+  font-weight: 700;
+  padding-top: 5%;
+  font-family: "BillyBold";
+  letter-spacing: 1px;
+}
+:global(.vtex-store-components-3-x-shareSocialButton--facebook){
+  background: url(assets/distroller_white_1.svg);
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf){
+  padding-bottom: 24px
+}
+:global(.vtex-tab-layout-0-x-listItem--home1)
+:global(.vtex-button){
+  background-color: transparent;
+  border: hidden;
+  color: #E42990;
+  font-family: 'Billy'; 
+  padding-bottom: 25px!important;
+  padding-top: 0px!important;
+  text-transform: capitalize;
+}
+:global(.vtex-tab-layout-0-x-listItem--home2)
+:global(.vtex-button){
+  background-color: transparent;
+  border: hidden;
+  color: #E42990;
+  font-family: 'Billy'; 
+  padding-bottom: 25px!important;
+  padding-top: 0px!important;
+  text-transform: capitalize;
+}
+:global(.vtex-tab-layout-0-x-listItem--home3)
+:global(.vtex-button){
+  background-color: transparent;
+  border: hidden;
+  color: #E42990;
+  font-family: 'Billy'; 
+  padding-bottom: 25px!important;
+  padding-top: 0px!important;
+  text-transform: capitalize;
+}
+
+:global(.vtex-tab-layout-0-x-listItemActive--home1)
+:global(.vtex-button__label),
+:global(.vtex-tab-layout-0-x-listItemActive--home2)
+:global(.vtex-button__label),
+:global(.vtex-tab-layout-0-x-listItemActive--home3)
+:global(.vtex-button__label){
+  color: #8E3392!important;
+  border-bottom: 4px solid;
+  border-radius: 0px;
+  padding-bottom: 25px!important;
+  padding-top: 0px!important;
+  /* margin-bottom: -12px; */
+}
+
+:global(.vtex-tab-layout-0-x-listItem--home1)
+:global(.vtex-button)
+:global(.vtex-button__label),
+:global(.vtex-tab-layout-0-x-listItem--home2)
+:global(.vtex-button)
+:global(.vtex-button__label),
+:global(.vtex-tab-layout-0-x-listItem--home3)
+:global(.vtex-button)
+:global(.vtex-button__label){
+  padding-top: 0px!important;
+}
+
+
+:global(.vtex-tab-layout-0-x-container--home)
+:global(.vtex-tab-layout-0-x-listContainer){
+  border-bottom: 2px solid #D9D9D9;
+  margin-left: 5%;
+  width: 90%;
+  height: 52px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--imgMeet){
+  text-align: center;
+  padding-top: 26px;
+}
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+:global(.vtex-reviews-and-ratings-2-x-container){
+  width: 90%;
+  margin-left: 5%;
+}
+:global(.vtex-reviews-and-ratings-2-x-formSubmit)
+:global(.vtex-button){
+  background-color: #8E3392;
+  border: hidden;
+  font-family: "robotoRegular";
+}
+:global(.vtex-reviews-and-ratings-2-x-formReview)
+:global(.vtex-textarea)
+:global(.vtex-textarea__input){
+  background-color: #F5F5F5;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 309px;
+  width: 850px;
+}
+:global(.vtex-reviews-and-ratings-2-x-formName)
+:global(.vtex-input-prefix__group)
+:global(.vtex-styleguide-9-x-input){
+  background-color: #F5F5F5;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+:global(.vtex-reviews-and-ratings-2-x-formBottomLine)
+:global(.vtex-input-prefix__group)
+:global(.vtex-styleguide-9-x-input){
+  background-color: #F5F5F5;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+:global(.vtex-reviews-and-ratings-2-x-formName)
+:global(.vtex-input-prefix__group),
+:global(.vtex-reviews-and-ratings-2-x-formBottomLine)
+:global(.vtex-input-prefix__group){
+  width: 30%;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formBottomLine){
+  position: sticky;
+  margin-top: 9%;
+}
+:global(.vtex-reviews-and-ratings-2-x-formRating){
+  position: sticky;
+  margin-top: -4%;
+  margin-left: 32%;
+}
+:global(.vtex-reviews-and-ratings-2-x-formName){
+  position: sticky;
+  margin-left: 0%;
+  margin-top: -14%;
+}
+:global(.vtex-reviews-and-ratings-2-x-formReview){
+  margin-top: 8%;
+}
+:global(.vtex-reviews-and-ratings-2-x-star--filled),
+:global(.vtex-reviews-and-ratings-2-x-star--empty){
+  height: 100px;
+}
+/* :global(.vtex-reviews-and-ratings-2-x-formRating) {
+  
+} */

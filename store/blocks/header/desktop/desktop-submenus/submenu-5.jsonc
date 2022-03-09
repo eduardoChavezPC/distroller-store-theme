@@ -1,0 +1,18 @@
+{
+    "menu-item#juegos": {
+        "props": {
+            "id": "menu-item-juegos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/juegos",
+                "noFollow": false,
+                "tagTitle": "Juegos",
+                "text": "Juegos"
+            },
+            "blockClass": "menu-juegos"
+        }
+    }
+}
