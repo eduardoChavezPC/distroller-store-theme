@@ -1652,12 +1652,15 @@
 :global(.vtex-rich-text-0-x-link--botonText5) {
   text-decoration: none;
   color: #ffffff;
-  /* padding: 8px 107px 7px 107px; */
   margin-top: -7px;
   text-align: center;
   margin-top: 0px;
   min-width: 201px;
   max-width: 268px;
+
+  padding-bottom: 3%;
+  margin-top: -3%;
+  padding-top: 3%;
 }
 
 @media (min-width: 1400px) {
@@ -1668,10 +1671,8 @@
   :global(.vtex-rich-text-0-x-link--botonText5) {
     text-decoration: none;
     color: #ffffff;
-    /* padding: 8px 107px 7px 107px; */
     margin-top: -7px;
     text-align: center;
-    margin-top: 0px;
     width: 268px !important;
   }
 }
@@ -2002,6 +2003,10 @@
 }
 :global(.vtex-store-components-3-x-infoCardTextContainer--taniaInfo) {
   margin-right: 148px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--summaryGifcard) :global(.vtex-product-summary-2-x-image) {
+  width: 88% !important;
 }
 
 /* PROMO BANNER MOBILE */

@@ -70,7 +70,8 @@
 
 
   "flex-layout.row#shelf-producto": {
-    "children": ["list-context.product-list#producto"]
+    "children": ["list-context.product-list#producto"],
+    "props":{"blockClass": "summaryGifcard"}
   },
   "list-context.product-list#producto": {
     "blocks": [
@@ -109,7 +110,7 @@
   },
   "flex-layout.col#giftCard-1":{
     "props":{
-      "width":"67%",
+      "width":"83%",
       "blockClass":"giftCard-1"
     },
     "children":[
@@ -118,7 +119,7 @@
   },
   "flex-layout.col#giftCard-2":{
     "props":{
-      "width":"33%",
+      "width":"45%",
       "blockClass":"giftCard-2"
     },
     "children":[
