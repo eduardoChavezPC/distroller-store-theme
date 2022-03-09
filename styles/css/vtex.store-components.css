@@ -771,12 +771,12 @@
 :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
   background-color: #FFFFFF;
   border-radius: 5px;
-  border: 1px solid #8E3392;
-  color: #8E3392;
+  border: 1px solid #E42990;
+  color: #E42990;
 }
 
 :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-button) {
-  background-color: #8E3392;
+  background-color: #E42990;
   border-radius: 5px;
   border: 0px;
   color: #FFFFFF;
@@ -804,6 +804,10 @@
   color: #000000;
 }
 
+:global(.vtex-my-account-1-x-boxContainerBody) {
+  background-color: #EAEAEA;
+}
+
 /* Footer button Editar / Modificar */
 :global(.vtex-my-account-1-x-profile) :global(.vtex-my-account-1-x-boxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button) 
 :global(.vtex-button__label) {
@@ -823,10 +827,27 @@
   color: #FFFFFF;
 }
 
+:global(.vtex-my-account-1-x-boxContainerFooter) {
+  background-color: #EAEAEA;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid #E42990;
+  color: #E42990;
+  border-radius: 5px;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-button) {
+  background-color: #E42990;
+  border-radius: 5px;
+  border: 0px;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
 /* Direcciones */
-/* :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.vtex-button) {
-  
-} */
 
 :global(.vtex-my-account-1-x-addressBox) :global(.vtex-my-account-1-x-boxContainerBody) {
   font-family: "RobotoRegular";
@@ -835,6 +856,36 @@
   font-size: 16px;
   line-height: 19px;
   color: #000000;
+}
+ 
+:global(.vtex-my-account-1-x-addressList) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button) {
+  border: 0px;
+}
+:global(.vtex-my-account-1-x-addressList) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button) :global(.vtex-button__label) {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  
+  padding: 4px 20px !important;
+  background-color: #F58831;
+  border-radius: 5px;
+}
+
+:global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.vtex-button) {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  
+  padding: 4px 28px 4px 28px;
+  background: #E42990;
+  border-radius: 5px;
+  border: 0px;
 }
 
 /* ///////////////////////////////////////////////////////  FIN CAMBIOS MI CUENTA / MY ACCOUNT PAGE /////////////////////////////////////////////////////// */
