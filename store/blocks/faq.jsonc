@@ -20,6 +20,7 @@
       "horizontalAlign":"center"
     },
     "children": [
+      
       "rich-text#faq",
       "disclosure-layout-group#group"
     ]

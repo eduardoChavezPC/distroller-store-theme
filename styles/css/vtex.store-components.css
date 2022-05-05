@@ -719,7 +719,6 @@
 
 /* Pagina de Mi cuenta / My account */
 /* Menú lateral */
-
 :global(.vtex-my-account-1-x-menuLinks) :global(.vtex-account_menu-link) {
   font-family: 'RobotoRegular';
   font-style: normal;
