@@ -1,0 +1,32 @@
+{
+  "menu-item#mobile_menu-5": {
+    "props": {
+      "id": "menu-item-juegos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/juegos",
+        "noFollow": false,
+        "tagTitle": "Juegos",
+        "text": "Juegos"
+      },
+      "blockClass": "mob-menu-prin-header-juegos"
+      // "blockClass": "menuMob-juegos"
+    }
+    // "blocks":["vtex.menu@2.x:submenu.accordion#mobile_menu-5"]
+  }
+  // "vtex.menu@2.x:submenu.accordion#mobile_menu-5":{
+  //   "children":[
+  //     "vtex.menu@2.x:menu#mobile_submenu-5"
+  //   ]
+  // },
+  // "vtex.menu@2.x:menu#mobile_submenu-5":{
+  //   "props":{
+  //     "blockClass": "submenuAccordion",
+  //     "categoryId": 61,
+  //     "orientation": "vertical"
+  //   }
+  // }
+}

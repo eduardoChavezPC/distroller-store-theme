@@ -1,0 +1,6 @@
+
+/* .styledLinkContent--reviews-mobile */
+:global(.vtex-flex-layout-0-x-flexRow--menu3)
+.menuContainer{
+    height: auto!important;
+  }

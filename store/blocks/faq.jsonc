@@ -7,6 +7,7 @@
 
   "flex-layout.row#faq": {
     "props": {
+      "horizontalAlign":"center",
       "blockClass": "faq"
     },
     "children": [
@@ -15,6 +16,9 @@
   },
 
   "flex-layout.col#faq": {
+    "props":{
+      "horizontalAlign":"center"
+    },
     "children": [
       "rich-text#faq",
       "disclosure-layout-group#group"
@@ -22,138 +26,260 @@
   },
   "rich-text#faq": {
     "props": {
-      "text": "## FAQ"
+      "blockClass":"titulofaq",
+      "text": "## Preguntas frecuentes"
     }
   },
 
   "disclosure-layout-group#group": {
     "children": [
-      "disclosure-layout#first",
-      "disclosure-layout#second",
-      "disclosure-layout#third",
-      "disclosure-layout#fourth"
+      "disclosure-layout#firstb",
+      "flex-layout.row#linea",
+      "disclosure-layout#secondb",
+      "flex-layout.row#linea",
+      "disclosure-layout#thirdb",
+      "flex-layout.row#linea",
+      "disclosure-layout#fourthb",
+      "flex-layout.row#linea",
+      "disclosure-layout#fifthb",
+      "flex-layout.row#linea",
+      "flex-layout.row#fecha",
+      "flex-layout.row#boton-test"
+    ]
+  },
+  "flex-layout.row#boton-test":{
+    "props":{
+      "blockClass":"boton-test-row"
+    },
+    "children":[
+      "flex-layout.col#boton-test"
+    ]
+  },
+  "flex-layout.col#boton-test":{
+    "props":{
+      "horizontalAlign":"center",
+      "blockClass":"boton-test-col"
+    },
+    "children":[
+      "rich-text#button-rt"
+    ]
+  },
+  "rich-text#button-rt":{
+    "props":{
+      "blockClass":"buttontext",
+      "text":"[Button Test](/button)"
+    }
+  },
+  "flex-layout.row#fecha":{
+    "props":{
+      "horizontalAlign":"center",
+      "blockClass":"fecha"
+    },
+    "children":[
+      "rich-text#fecha"
+    ]
+  },
+  "rich-text#fecha":{
+    "props":{
+      "blockClass":"fecha",
+      "text":"Este documento fue modificado en 26/Enero/2022"
+    }
+  },
+  "flex-layout.row#linea":{
+    "props":{
+      "blockClass":"linea-faq"
+    }
+  },
+  "disclosure-layout#firstb": {
+    "props": {
+      "blockClass":"rowfaq",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#firstb",
+      "disclosure-content#firstb"
+      
     ]
   },
 
-  "disclosure-layout#first": {
-    "props": {
-      "animated": true
-    },
-    "children": ["disclosure-trigger#first", "disclosure-content#first"]
-  },
-  "disclosure-trigger#first": {
+  "disclosure-trigger#firstb": {
     "props": {
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question1"]
+    "children": [
+      "rich-text#question1b",
+      "disclosure-state-indicator"
+    ]
   },
-  "disclosure-content#first": {
+  "disclosure-content#firstb": {
     "props": {
       "blockClass": "answer"
     },
-    "children": ["rich-text#answer1"]
+    "children": [
+      "rich-text#answer1b"
+    ]
   },
-  "rich-text#question1": {
+  "rich-text#question1b": {
     "props": {
-      "text": "How can I change my shipping address?"
+      "text": "Lorem Ipsum una pregunta super"
     }
   },
-  "rich-text#answer1": {
+  "rich-text#answer1b": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234."
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan semper fusce mauris risus habitasse facilisi. Pharetra ullamcorper sed eget in bibendum justo sed. Venenatis iaculis gravida amet turpis ultrices turpis tincidunt pretium, pellentesque. Maecenas ut ultrices dictum etiam. Dis sodales pharetra lorem augue amet posuere id. Dignissim orci ultrices purus egestas. Morbi vitae lorem sed sed augue. Nisl, sed libero convallis pellentesque "
     }
   },
 
-  "disclosure-layout#second": {
+  "disclosure-layout#secondb": {
     "props": {
+      "blockClass":"rowfaq",
       "animated": true
     },
-    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+    "children": [
+      "disclosure-trigger#secondb", 
+      "disclosure-content#secondb"
+    ]
   },
-  "disclosure-trigger#second": {
+  
+  "disclosure-trigger#secondb": {
     "props": {
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question2"]
+    "children": [
+      "rich-text#question2b",
+      "disclosure-state-indicator"
+    ]
   },
-  "disclosure-content#second": {
+  "disclosure-content#secondb": {
     "props": {
       "blockClass": "answer"
     },
-    "children": ["rich-text#answer2"]
+    "children": ["rich-text#answer2b"]
   },
-  "rich-text#question2": {
+  "rich-text#question2b": {
     "props": {
-      "text": "How can I track my order?"
+      "text": "Lorem Ipsum una pregunta super"
     }
   },
-  "rich-text#answer2": {
+  "rich-text#answer2b": {
     "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan semper fusce mauris risus habitasse facilisi. Pharetra ullamcorper sed eget in bibendum justo sed. Venenatis iaculis gravida amet turpis ultrices turpis tincidunt pretium, pellentesque. Maecenas ut ultrices dictum etiam. Dis sodales pharetra lorem augue amet posuere id. Dignissim orci ultrices purus egestas. Morbi vitae lorem sed sed augue. Nisl, sed libero convallis pellentesque "
     }
   },
 
 
-  "disclosure-layout#third": {
+  "disclosure-layout#thirdb": {
     "props": {
+      "blockClass":"rowfaq",
       "animated": true
     },
-    "children": ["disclosure-trigger#third", "disclosure-content#third"]
+    "children": [
+      "disclosure-trigger#thirdb",
+      "disclosure-content#thirdb"
+    ]
   },
-  "disclosure-trigger#third": {
+  "disclosure-trigger#thirdb": {
     "props": {
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question3"]
+    "children": [
+      "rich-text#question3b",
+      "disclosure-state-indicator"
+    ]
   },
-  "disclosure-content#third": {
+  "disclosure-content#thirdb": {
     "props": {
       "blockClass": "answer"
     },
-    "children": ["rich-text#answer3"]
+    "children": ["rich-text#answer3b"]
   },
-  "rich-text#question3": {
+  "rich-text#question3b": {
     "props": {
-      "text": "How can I change my shipping address?"
+      "text": "Lorem Ipsum una pregunta super"
     }
   },
-  "rich-text#answer3": {
+  "rich-text#answer3b": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234."
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan semper fusce mauris risus habitasse facilisi. Pharetra ullamcorper sed eget in bibendum justo sed. Venenatis iaculis gravida amet turpis ultrices turpis tincidunt pretium, pellentesque. Maecenas ut ultrices dictum etiam. Dis sodales pharetra lorem augue amet posuere id. Dignissim orci ultrices purus egestas. Morbi vitae lorem sed sed augue. Nisl, sed libero convallis pellentesque "
     }
   },
 
 
-  "disclosure-layout#fourth": {
+  "disclosure-layout#fourthb": {
     "props": {
+      "blockClass":"rowfaq",
       "animated": true
     },
-    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+    "children": [
+      "disclosure-trigger#fourthb",
+      "disclosure-content#fourthb"
+    ]
   },
-  "disclosure-trigger#fourth": {
+  "disclosure-trigger#fourthb": {
     "props": {
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question4"]
+    "children": [
+      "rich-text#question4b",
+      "disclosure-state-indicator"
+    ]
   },
-  "disclosure-content#fourth": {
+  "disclosure-content#fourthb": {
     "props": {
       "blockClass": "answer"
     },
-    "children": ["rich-text#answer2"]
+    "children": ["rich-text#answer2b"]
   },
-  "rich-text#question4": {
+  "rich-text#question4b": {
     "props": {
-      "text": "How can I track my order?"
+      "text": "Lorem Ipsum una pregunta super"
     }
   },
-  "rich-text#answer4": {
+  "rich-text#answer4b": {
     "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan semper fusce mauris risus habitasse facilisi. Pharetra ullamcorper sed eget in bibendum justo sed. Venenatis iaculis gravida amet turpis ultrices turpis tincidunt pretium, pellentesque. Maecenas ut ultrices dictum etiam. Dis sodales pharetra lorem augue amet posuere id. Dignissim orci ultrices purus egestas. Morbi vitae lorem sed sed augue. Nisl, sed libero convallis pellentesque "
+    }
+  },
+
+
+  "disclosure-layout#fifthb": {
+    "props": {
+      "blockClass":"rowfaq",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#fifthb", 
+      "disclosure-content#fifthb"
+    ]
+  },
+  "disclosure-trigger#fifthb": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#question5b",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#fifthb": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2b"]
+  },
+  "rich-text#question5b": {
+    "props": {
+      "text": "Lorem Ipsum una pregunta super"
+    }
+  },
+  "rich-text#answer5b": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan semper fusce mauris risus habitasse facilisi. Pharetra ullamcorper sed eget in bibendum justo sed. Venenatis iaculis gravida amet turpis ultrices turpis tincidunt pretium, pellentesque. Maecenas ut ultrices dictum etiam. Dis sodales pharetra lorem augue amet posuere id. Dignissim orci ultrices purus egestas. Morbi vitae lorem sed sed augue. Nisl, sed libero convallis pellentesque "
     }
   },
 

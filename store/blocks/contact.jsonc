@@ -1,7 +1,8 @@
 {
   "store.custom#contact-us": {
     "children": [
-      "flex-layout.row#contact-us"
+      "flex-layout.row#contact-us",
+      "flex-layout.row#form"
     ]
   },
 
@@ -10,28 +11,118 @@
       "blockClass": "contact"
     },
     "children": [
-      "flex-layout.col#contact-us"
+      "flex-layout.col#contact-us"//,
+      //"flex-layout.col#form"
     ]
   },
 
   "flex-layout.col#contact-us": {
     "children": [
       "rich-text#contact-us",
-      "form#contact-us"
+      "rich-text#textoContacto"
+      //"flex-layout.row#textoContacto"
+      //"form#contact-us"
     ]
   },
-  "rich-text#contact-us": {
-    "props": {
-      "text": "## Contact Us"
+  "flex-layout.row#textoContacto":{
+    "props":{
+      "blockClass":"textoContacto"
+    },
+    "children":[
+      "rich-text#textoContacto"
+    ]
+  },
+
+  "rich-text#textoContacto":{
+    "props":{
+      "blockClass":"textoContacto",
+      "text":"AAA"
     }
   },
 
+  "rich-text#contact-us": {
+    "props": {
+      "text": "## Contáctanos",
+      "blockClass":"contactUsTitle"
+    }
+  },
+  /*----------------- Inicio de Formulario--------------------*/
+  "flex-layout.row#form":{
+    "children":[
+    "form#contacto"
+    ],"props":{
+        "widht":"70%",
+        "blockClass":"colform",
+        "paddingLeft":10,
+        "paddingRight":10
+    }
+},
+
+"form#contacto": {
+  "props": {
+    "entity": "contactform",
+    "schema": "datoscont"
+  },
+  "children": [
+    "form-input.text#nombre",
+    "form-input.text#correo",
+    "form-input.text#empresa",
+    "form-input.textarea",
+    "form-submit#contacto"
+  ],
+  "blocks": ["form-success#contacto"]
+},
+"form-success#contacto": {
+  "children": [
+    "rich-text#successSubmit-contacto"
+  ]
+},
+"rich-text#successSubmit-contacto": {
+  "props": {
+    "text": "Mensaje enviado correctamente!",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass":"mensajeConfirmacion"
+  }
+},
+"form-input.text#nombre": {
+  "props": {
+    "pointer": "#/properties/nombre",
+    "label": "Nombre"
+  }
+},
+"form-input.text#correo": {
+  "props": {
+    "pointer": "#/properties/email",
+    "label": "Correo"
+  }
+},
+"form-input.text#empresa": {
+  "props": {
+    "pointer": "#/properties/empresa",
+    "label": "Empresa"
+  }
+},
+"form-input.textarea": {
+  "props": {
+    "pointer": "#/properties/mensaje",
+    "label": "Comentario"
+  }
+},
+"form-submit#contacto": {
+  "props": {
+    "label": "Button Text",
+    "blockClass":"botonEnviar"
+  }
+},
+
+/*----------------- Final de Formulario--------------------*/
   "form#contact-us": {
     "props": {
       "entity": "contact",
       "schema": "site-contact"
-    },
-    "blocks": [
+  },
+  "blocks": [
       "form-success#contact-us"
     ],
     "children": [

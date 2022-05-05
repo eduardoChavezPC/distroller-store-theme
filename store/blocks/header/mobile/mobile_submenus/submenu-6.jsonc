@@ -1,0 +1,32 @@
+{
+  "menu-item#mobile_menu-6": {
+    "props": {
+      "id": "menu-item-distrollerizate",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Distrollerizate",
+        "text": "Distrollerizate"
+      },
+      "blockClass": "mob-menu-prin-header-distrollerizate"
+      // "blockClass": "menuMob-distrollerizate"
+    }
+    // "blocks":["vtex.menu@2.x:submenu.accordion#mobile_menu-6"]
+  }
+  // "vtex.menu@2.x:submenu.accordion#mobile_menu-6":{
+  //   "children":[
+  //     "vtex.menu@2.x:menu#mobile_submenu-6"
+  //   ]
+  // },
+  // "vtex.menu@2.x:menu#mobile_submenu-6":{
+  //   "props":{
+  //     "blockClass": "submenuAccordion",
+  //     "categoryId": 63,
+  //     "orientation": "vertical"
+  //   }
+  // }
+}
