@@ -1,4 +1,28 @@
 {
+    "menu-item#bebesNeonatos": {
+        "props": {
+            "id": "menu-item-channel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Bebés neonatos",
+                "text": "Bebés neonatos"
+            },
+            "blockClass": "menu-prin-header"
+        }
+    },
+
+
+
+
+
+
+
+
     "menu-item#productos": {
         "props": {
             "id": "menu-item-productos",
@@ -63,41 +87,6 @@
             "menu-item#banerProductos"
         ]
     },
-
-
-
-
-
-
-    // "flex-layout.row#items-img": {
-    //     "children": [
-    //         "flex-layout.col#col-items-productos",
-    //         "flex-layout.col#col-image"
-    //     ],
-    //     "props": {
-    //         "blockClass": "rowmenprin",
-    //         "colSizing": "auto",
-    //         "fullWdith": true,
-    //         "colGap": 2,
-    //         "horizontalAlign": "center"
-    //     }
-    // },
-    // "flex-layout.col#col-items-productos": {
-    //     "children": [
-    //         "menu-item#producto-1",
-    //         "menu-item#producto-2",
-    //         "menu-item#producto-3"
-    //     ]
-    // },
-    // "flex-layout.col#col-image": {
-    //     "children": [
-    //         "image#banerProductos"
-    //     ]
-    // },
-
-
-
-
 
 
     "menu-item#banerProductos": {
@@ -169,4 +158,35 @@
             }
         }
     }
+
+
+
+
+
+
+    // "flex-layout.row#items-img": {
+    //     "children": [
+    //         "flex-layout.col#col-items-productos",
+    //         "flex-layout.col#col-image"
+    //     ],
+    //     "props": {
+    //         "blockClass": "rowmenprin",
+    //         "colSizing": "auto",
+    //         "fullWdith": true,
+    //         "colGap": 2,
+    //         "horizontalAlign": "center"
+    //     }
+    // },
+    // "flex-layout.col#col-items-productos": {
+    //     "children": [
+    //         "menu-item#producto-1",
+    //         "menu-item#producto-2",
+    //         "menu-item#producto-3"
+    //     ]
+    // },
+    // "flex-layout.col#col-image": {
+    //     "children": [
+    //         "image#banerProductos"
+    //     ]
+    // },
 }

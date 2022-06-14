@@ -413,7 +413,8 @@
     },
     "children":[
       "flex-layout.row#description",
-      "product-specification-group#table"
+      "product-specification-group#table",
+      "longDescription"
     ]
   },
 

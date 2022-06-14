@@ -85,6 +85,12 @@
     }
   },
 
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
+
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,

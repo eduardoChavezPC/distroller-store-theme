@@ -1,7 +1,7 @@
 {
-    "menu-item#diversion": {
+    "menu-item#accesorios": {
         "props": {
-            "id": "menu-item-diversion",
+            "id": "menu-item-juegos",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -9,77 +9,31 @@
                 "type": "internal",
                 "href": "",
                 "noFollow": false,
-                "tagTitle": "Diversion",
-                "text": "Diversion"
+                "tagTitle": "Accesorios para ti",
+                "text": "Accesorios para ti"
             },
             "blockClass": "menu-prin-header"
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#diversion"
-        ]
-    },
-    "vtex.menu@2.x:submenu#diversion": {
-        "props": {
-            "width": "auto",
-            "blockClass": "cont-submenu-desktop"
-        },
-        "children": [
-            "vtex.menu@2.x:menu#diversion"
-        ]
-    },
-    "vtex.menu@2.x:menu#diversion": {
-        "props": {
-            "orientation": "vertical"
-        },
-        "children": [
-            "menu-item#diversion-1",
-            "menu-item#diversion-2",
-            "menu-item#diversion-3"
-        ]
-    },
-    "menu-item#diversion-1": {
-        "props": {
-            "id": "menu-item-diversion-1",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "",
-                "noFollow": false,
-                "tagTitle": "Diversion 1",
-                "text": "Diversion 1"
-            }
         }
     },
-    "menu-item#diversion-2": {
+    
+
+
+
+
+    "menu-item#juegos": {
         "props": {
-            "id": "menu-item-diversion-2",
+            "id": "menu-item-juegos",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "",
+                "href": "/juegos",
                 "noFollow": false,
-                "tagTitle": "Diversion 2",
-                "text": "Diversion 2"
-            }
-        }
-    },
-    "menu-item#diversion-3": {
-        "props": {
-            "id": "menu-item-diversion-3",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "",
-                "noFollow": false,
-                "tagTitle": "Diversion 3",
-                "text": "Diversion 3"
-            }
+                "tagTitle": "Juegos",
+                "text": "Juegos"
+            },
+            "blockClass": "menu-juegos"
         }
     }
 }

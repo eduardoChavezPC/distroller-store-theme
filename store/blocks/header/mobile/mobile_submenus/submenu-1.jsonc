@@ -1,7 +1,7 @@
 {
   "menu-item#mobile_menu-1": {
     "props": {
-      "id": "menu-item-productos",
+      "id": "menu-item-bebes-neonatos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -9,30 +9,55 @@
         "type": "internal",
         "href": "",
         "noFollow": false,
-        "tagTitle": "Productos",
-        "text": "Productos"
+        "tagTitle": "Bebés neonatos",
+        "text": "Bebés neonatos"
       },
       "blockClass": "mob-menu-prin-header"
-    },
-    "blocks":["vtex.menu@2.x:submenu.accordion#mobile_menu-1"]
-  },
-  "vtex.menu@2.x:submenu.accordion#mobile_menu-1": {
-    "props": {
-      "width": "auto",
-      "blockClass": "cont-product-menu"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#mobile_menu-1"
-    ]
-  },
-  "vtex.menu@2.x:menu#mobile_menu-1": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#producto-1",
-      "menu-item#producto-2",
-      "menu-item#producto-3"
-    ]
+    }
   }
+
+
+
+
+
+
+
+
+
+  // "menu-item#mobile_menu-1": {
+  //   "props": {
+  //     "id": "menu-item-productos",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "",
+  //       "noFollow": false,
+  //       "tagTitle": "Productos",
+  //       "text": "Productos"
+  //     },
+  //     "blockClass": "mob-menu-prin-header"
+  //   },
+  //   "blocks":["vtex.menu@2.x:submenu.accordion#mobile_menu-1"]
+  // },
+  // "vtex.menu@2.x:submenu.accordion#mobile_menu-1": {
+  //   "props": {
+  //     "width": "auto",
+  //     "blockClass": "cont-product-menu"
+  //   },
+  //   "children": [
+  //     "vtex.menu@2.x:menu#mobile_menu-1"
+  //   ]
+  // },
+  // "vtex.menu@2.x:menu#mobile_menu-1": {
+  //   "props": {
+  //     "orientation": "vertical"
+  //   },
+  //   "children": [
+  //     "menu-item#producto-1",
+  //     "menu-item#producto-2",
+  //     "menu-item#producto-3"
+  //   ]
+  // }
 }

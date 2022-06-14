@@ -16,7 +16,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": false,
-        "maxItemsPerPage": 10,
+        "maxItemsPerPage": 100,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -70,7 +70,9 @@
 
 
       "flex-layout.row#searchtitle",
-      "flex-layout.row#result"
+      "flex-layout.row#result",
+      "back-to-top-button",
+      "OrderFilters"
     ],
     "props": {
       "pagination": "show-more",
@@ -392,6 +394,17 @@
       "blockClass": "filterCol"
     }
   },
+  // "filter-navigator.v3": {
+  //   "props": {
+  //     "facetOrdering": [
+  //       {
+  //         "key": "brand",
+  //         "orderBy": "name",
+  //         "order": "ASC"
+  //       }
+  //     ]
+  //   }
+  // },
   "flex-layout.col#content": {
     "children": [
       // "flex-layout.row#searchinfo",
@@ -441,7 +454,14 @@
   },
   "search-fetch-more": {
     "props": {
-      "htmlElementForButton": "a"
+      "htmlElementForButton": "a",
+      "specificationOptions": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ]
     }
   },
   "flex-layout.row#products": {
@@ -462,7 +482,9 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "back-to-top-button",
+      "OrderFilters"
     ],
     "props": {
       "pagination": "show-more",
@@ -521,13 +543,14 @@
   },
   "flex-layout.col#mob-searchResult-item1": {
     "children": [
-      "flex-layout.row#image-mob-item1"
+      "flex-layout.row#slider-image-mob-item1",
+      "flex-layout.row#slider-mob-text-item1"
     ],
     "props": {
       "blockClass": "col-mob-sliderSearchResult-item1"
     }
   },
-  "flex-layout.row#image-mob-item1": {
+  "flex-layout.row#slider-image-mob-item1": {
     "children": ["image#slider-mob-item1"],
     "props": {"horizontalAlign": "center"}
   },
@@ -541,6 +564,16 @@
       "blockClass": "mob-searchResult-item"
     }
   },
+  "flex-layout.row#slider-mob-text-item1": {
+    "children": ["rich-text#slider-mob-text1"]
+  },
+  "rich-text#slider-mob-text1": {
+    "props": {
+      "text": "Ksimerito",
+      "textPosition": "CENTER",
+      "blockClass": "text-slider-mob-searchResult"
+    }
+  },
 
 
 
@@ -552,7 +585,8 @@
   },
   "flex-layout.col#mob-searchResult-item2": {
     "children": [
-      "flex-layout.row#image-mob-item2"
+      "flex-layout.row#image-mob-item2",
+      "flex-layout.row#slider-mob-text-item2"
     ],
     "props": {
       "blockClass": "col-mob-sliderSearchResult-item2"
@@ -572,6 +606,16 @@
       "blockClass": "mob-searchResult-item"
     }
   },
+  "flex-layout.row#slider-mob-text-item2": {
+    "children": ["rich-text#slider-mob-text2"]
+  },
+  "rich-text#slider-mob-text2": {
+    "props": {
+      "text": "Aquamerito",
+      "textPosition": "CENTER",
+      "blockClass": "text-slider-mob-searchResult"
+    }
+  },
 
 
 
@@ -584,7 +628,8 @@
   },
   "flex-layout.col#mob-searchResult-item3": {
     "children": [
-      "flex-layout.row#image-mob-item3"
+      "flex-layout.row#image-mob-item3",
+      "flex-layout.row#slider-mob-text-item3"
     ],
     "props": {
       "blockClass": "col-mob-sliderSearchResult-item3"
@@ -603,6 +648,16 @@
       "blockClass": "mob-searchResult-item"
     }
   },
+  "flex-layout.row#slider-mob-text-item3": {
+    "children": ["rich-text#slider-mob-text3"]
+  },
+  "rich-text#slider-mob-text3": {
+    "props": {
+      "text": "Amoshionato",
+      "textPosition": "CENTER",
+      "blockClass": "text-slider-mob-searchResult"
+    }
+  },
 
 
 
@@ -615,7 +670,8 @@
   },
   "flex-layout.col#mob-searchResult-item4": {
     "children": [
-      "flex-layout.row#image-mob-item4"
+      "flex-layout.row#image-mob-item4",
+      "flex-layout.row#slider-mob-text-item4"
     ],
     "props": {
       "blockClass": "col-mob-sliderSearchResult-item4"
@@ -634,6 +690,16 @@
       "blockClass": "mob-searchResult-item"
     }
   },
+  "flex-layout.row#slider-mob-text-item4": {
+    "children": ["rich-text#slider-mob-text4"]
+  },
+  "rich-text#slider-mob-text4": {
+    "props": {
+      "text": "Emoshionato",
+      "textPosition": "CENTER",
+      "blockClass": "text-slider-mob-searchResult"
+    }
+  },
 
 
 
@@ -646,7 +712,8 @@
   },
   "flex-layout.col#mob-searchResult-item5": {
     "children": [
-      "flex-layout.row#image-item5"
+      "flex-layout.row#image-item5",
+      "flex-layout.row#slider-mob-text-item5"
     ],
     "props": {
       "blockClass": "col-mob-sliderSearchResult-item5"
@@ -663,6 +730,16 @@
       },
       "maxHeight": 180,
       "blockClass": "mob-searchResult-item"
+    }
+  },
+  "flex-layout.row#slider-mob-text-item5": {
+    "children": ["rich-text#slider-mob-text5"]
+  },
+  "rich-text#slider-mob-text5": {
+    "props": {
+      "text": "Emoshionato",
+      "textPosition": "CENTER",
+      "blockClass": "text-slider-mob-searchResult"
     }
   },
 // ------------------------------------------------- Slider Mobile Fin -------------------------------------------------
@@ -692,8 +769,8 @@
 
   "flex-layout.row#searchinfomobile": {
     "children": [
-      "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile"
+      "flex-layout.col#orderByMobile"
+      // "flex-layout.col#filterMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,

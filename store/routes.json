@@ -17,6 +17,12 @@
   "store.custom#terminos-y-condiciones": {
     "path": "/terminos-y-condiciones"
   },
+  "store.custom#facturacion": {
+    "path": "/facturacion"
+  },
+  "store.custom#juegos": {
+    "path": "/juegos"
+  },
   "store.storelocator":{
     "path": "/tiendas"
   }

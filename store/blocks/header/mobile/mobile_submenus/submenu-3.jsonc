@@ -1,7 +1,7 @@
 {
   "menu-item#mobile_menu-3": {
     "props": {
-      "id": "menu-item-channel",
+      "id": "menu-item-chiki-pun-taun",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -9,13 +9,35 @@
         "type": "internal",
         "href": "",
         "noFollow": false,
-        "tagTitle": "Distroller Channel",
-        "text": "Distroller Channel"
+        "tagTitle": "Chiki Pun Taun",
+        "text": "Chiki Pun Taun"
       },
       "blockClass": "mob-menu-prin-header"
     }
-    // "blocks":["vtex.menu@2.x:submenu.accordion#mobile_menu-3"]
   }
+
+
+
+
+
+
+  // "menu-item#mobile_menu-3": {
+  //   "props": {
+  //     "id": "menu-item-channel",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "",
+  //       "noFollow": false,
+  //       "tagTitle": "Distroller Channel",
+  //       "text": "Distroller Channel"
+  //     },
+  //     "blockClass": "mob-menu-prin-header"
+  //   }
+  //   // "blocks":["vtex.menu@2.x:submenu.accordion#mobile_menu-3"]
+  // }
   // "vtex.menu@2.x:submenu.accordion#mobile_menu-3":{
   //   "children":[
   //     "vtex.menu@2.x:menu#mobile_submenu-3"

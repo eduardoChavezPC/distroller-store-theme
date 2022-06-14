@@ -1,4 +1,28 @@
 {
+    "menu-item#chamoyAmiguis": {
+        "props": {
+            "id": "menu-item-channel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Chamoy y amiguis",
+                "text": "Chamoy y amiguis"
+            },
+            "blockClass": "menu-prin-header"
+        }
+    },
+
+
+
+
+
+
+
+
     "menu-item#personajes": {
         "props": {
             "id": "menu-item-personajes",

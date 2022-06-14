@@ -3,9 +3,10 @@
     "flex-layout.row#2-desktop": {
         "children": [
             "flex-layout.col#pais",
-            "flex-layout.col#redes",
+            // "flex-layout.col#redes",
             "flex-layout.col#txtNotBar",
-            "flex-layout.col#newsletter"
+            // "flex-layout.col#newsletter"
+            "flex-layout.col#notbar__button-contact"
         ],
         "props": {
             "maxHeight": "40px",
@@ -259,14 +260,15 @@
             "rich-text#txtNotBar"
         ],
         "props": {
-            "verticalAlign": "middle"
+            "verticalAlign": "middle",
+            "blockClass": "envios-gratis"
         }
     },
     "rich-text#txtNotBar": {
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "Envíos gratis en compras mayores de $799",
+            "text": "Meses sin intereses y envío gratis en compras mayores a $799",
             "blockClass": "txtNotBar"
         }
     },
@@ -373,6 +375,24 @@
             "blockClass": "mob-button-header"
         }
     },
+    // ---------- Button Contact ----------
+    
+    "flex-layout.col#notbar__button-contact": {
+        "children": [
+            "rich-text#notbar__boton-contacto"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "verticalAlign": "middle",
+            "blockClass": "notbar__button-contact"
+        }
+    },
+    "rich-text#notbar__boton-contacto": {
+        "props": {
+            "text": "[Contacto](/contact-us)",
+            "blockClass": "notbar__button-contact"
+        }
+    },
     /* ------------------------------------- Fin Notification Bar ------------------------------------- */
 
     /* ------------------------------------- Inicio Header ------------------------------------- */
@@ -465,7 +485,8 @@
     },
     "login": {
         "props": {
-            "accessCodeTitle": "Acceder con codigo de acceso"
+            "accessCodeTitle": "Accede con código de acceso",
+            "logInButtonBehavior": "popover"
         }
     },
     "flex-layout.col#desk-sucursales": {
@@ -473,8 +494,8 @@
     },
     "rich-text#sucursales": {
         "props": {
-            "text": "[Sucursales](/tiendas)",
-            "blockClass": "txtSucursales"
+            "text": "[Mis Favoritos](/account#/wishlist)",
+            "blockClass": "txtMisFavoritos"
         }
     },
     "flex-layout.col#desk-minicart": {

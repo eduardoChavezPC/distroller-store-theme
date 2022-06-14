@@ -123,7 +123,7 @@
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar) 
 :global(.vtex-input-prefix__group) 
 :global(.vtex-styleguide-9-x-hideDecorators), 
-:global(.vtex-rich-text-0-x-link--txtSucursales),
+:global(.vtex-rich-text-0-x-link--txtMisFavoritos),
 :global(.vtex-rich-text-0-x-link--overlay-chile),
 :global(.vtex-rich-text-0-x-link--overlay-colombia),
 :global(.vtex-rich-text-0-x-link--overlay-espana),
@@ -144,6 +144,13 @@
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
+  /* min-height: 0px;
+  height: 30px; */
+}
+:global(.vtex-store-components-3-x-notificationBarContainer--header-mob)
+:global(.vtex-store-components-3-x-notificationBarInner--header-mob) {
+  min-height: 0px;
+  height: 30px;
 }
 :global(.vtex-rich-text-0-x-link--overlay-chile), :global(.vtex-rich-text-0-x-link--overlay-colombia),
 :global(.vtex-rich-text-0-x-link--overlay-espana), :global(.vtex-rich-text-0-x-link--overlay-peru),
@@ -163,7 +170,8 @@
 }
 
 /* Icono Login */
-:global(.vtex-login-2-x-label)::after, :global(.vtex-rich-text-0-x-link--txtSucursales),
+:global(.vtex-login-2-x-label)::after, 
+:global(.vtex-rich-text-0-x-link--txtMisFavoritos),
 :global(.vtex-minicart-2-x-openIconContainer)::after {
   font-style: normal;
   font-weight: normal;
@@ -190,19 +198,23 @@
 :global(.vtex-flex-layout-0-x-flexRow--notificationBar) {
   background-color: #E42990;
 }
+:global(.vtex-flex-layout-0-x-flexRowContent--notificationBar) {
+  max-height: 40px;
+  margin: auto;
+}
 :global(.vtex-overlay-layout-0-x-popper--contenedor-pais) {
   z-index: 1000;
 }
 
 :global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-pais)
 :global(.vtex-rich-text-0-x-paragraph--txtNotBar) {
-  margin: 5px 0 6px 0;
+  font-size: 0px;
+  margin: 1px 0 6px 0;
 }
 :global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-pais)
 :global(.vtex-rich-text-0-x-paragraph--txtNotBar)::before {
   content: url("assets/icons-notificationbar/flag-mexico.svg");
   position: relative;
-  margin-right: 5px;
   top: 7px;
 }
 :global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-pais)
@@ -261,11 +273,23 @@
   margin-right: 7px;
   top: 8px;
 }
-
 :global(.vtex-store-components-3-x-imageElement--icon-notBar) {
   margin: auto 2px auto 5px;
 }
-
+:global(.vtex-flex-layout-0-x-flexCol--envios-gratis)
+:global(.vtex-rich-text-0-x-paragraph--txtNotBar) {
+  font-size: 12px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--notbar__button-contact)
+:global(.vtex-rich-text-0-x-link--notbar__button-contact) {
+  text-decoration: none;
+  font-family: "RobotoRegular";
+  font-size: 12px;
+  color: #ffffff;
+  padding: 10px;
+  margin-right: 58px;
+  background-color: #00B6E9;
+}
 
 :global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-newsletter)
 :global(.vtex-rich-text-0-x-container--txtNotBar) {
@@ -350,6 +374,7 @@
 @media (min-width: 1026px) and (max-width: 1200px) {  
   :global(.vtex-store-components-3-x-logoImage--logo-Header) { 
     width: 167px !important;
+    margin-left: 7%;
   }
 }  
 
@@ -431,7 +456,7 @@
 }
 
 /* Icons row 1 header */
-:global(.vtex-rich-text-0-x-link--txtSucursales) {
+:global(.vtex-rich-text-0-x-link--txtMisFavoritos) {
   text-decoration:none;
 
   padding: 0px !important;
@@ -439,20 +464,21 @@
   margin-top: 40px;
 }
 
-:global(.vtex-rich-text-0-x-paragraph--txtSucursales) {
+:global(.vtex-rich-text-0-x-paragraph--txtMisFavoritos) {
   margin: 0px;
-  padding-top: 11px;
+  padding-top: 20px;
 }
-:global(.vtex-rich-text-0-x-link--txtSucursales)::before {
-  content: url("assets/header/icon-storage.svg");
+:global(.vtex-rich-text-0-x-link--txtMisFavoritos)::before {
+  content: url("assets/header/icon-misFavoritos.svg");
   position: relative;
   margin-right: 13px;
-  top: 6px;
+  top: 2px;
 }
 
 /* Icons row 2 header */
 :global(.vtex-flex-layout-0-x-flexRowContent--row-menu) {
   margin-top: 17px;
+  justify-content: center;
 }
 :global(.vtex-menu-2-x-styledLinkContent--menu-prin-header),
 :global(.vtex-menu-2-x-styledLinkContent--menu-juegos),
@@ -616,20 +642,24 @@
   color: #FFFFFF;
 }
 
+:global(.vtex-menu-2-x-submenuAccordion--mobile-submenu-6) {
+  margin-left: 25px;
+}
+
 
 /* Search Bar */
 :global(.vtex-flex-layout-0-x-flexRow--row-srchBar-mob) {
   background-color: #8E3392;
 }
 :global(.vtex-flex-layout-0-x-flexRow--row-srchBar-mob) :global(.vtex-store-components-3-x-container) {
-  padding: 0px 32px 14px 32px!important;
+  padding: 0px !important;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--row-srchBar-mob) :global(.vtex-store-components-3-x-searchBarContainer) {
   padding: 0px !important;
 }
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar-mobile) :global(.vtex-input-prefix__group) {
-  border-radius: 5px;
-  border: 0px;
+  border-radius: 0px;
+  border: 0.5px solid #000000;
   height: 30px !important;
 }
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar-mobile)
@@ -652,7 +682,8 @@
 }
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar-mobile) 
 :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) {
-  padding: 0px 13px 0px 15px !important;
+  padding: 0px 43px 0px 15px !important;
+  border-radius: 0px;
 }
 :global(.vtex-store-components-3-x-searchBarIcon--searchBar-mobile) {
   content: url(assets/header/icon-searchBar-mob.svg);
@@ -716,6 +747,60 @@
   }
 }
 
+/* Template Facturación - INICIO */
+:global(.vtex-flex-layout-0-x-flexRowContent--form-facturacion) {
+  padding-top: 45px
+}
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__numPedido),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__razon-social),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__rfc),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__correo),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__telefono),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__calle),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__numCasa),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__cp),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__entreCalle),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__colonia),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__ciudad),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__estado),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__cfdi),
+:global(.vtex-flex-layout-0-x-flexColChild--form-input__pago) {
+  margin: 0px 10px 10px 10px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--form-facturacion) :global(.vtex-input__label),
+:global(.vtex-flex-layout-0-x-flexRowContent--form-facturacion) :global(.vtex-dropdown__label) {
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--form-facturacion) :global(.vtex-input-prefix__group),
+:global(.vtex-flex-layout-0-x-flexRowContent--form-facturacion) :global(.vtex-dropdown__container) {
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--form-facturacion) :global(.vtex-store-form-0-x-formSubmitContainer--botonEnviar) {
+  padding-top: 20px;
+  padding-bottom: 45px;
+  padding: 20px 10px 45px 10px;
+}
+/* Template Facturación - FIN */
+
+/* Template StoreLocator - FIN */
+:global(.vtex-rich-text-0-x-headingLevel2--tituloStroreLocator) {
+  font-family: "BillyBold" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #8E3392 !important;
+
+}
+/* Template StoreLocator - FIN */
+/* FIN CAMBIOS NotBar, Header, PLP */
 
 /* Pagina de Mi cuenta / My account */
 /* Menú lateral */
@@ -1267,6 +1352,15 @@
   :global(.vtex-button) {
   background-color: #e42990;
   border: hidden;
+  width: 55px;
+  height: 55px;
+  padding: 0px;
+  border-radius: 50%;
+}
+:global(.vtex-store-components-3-x-backToTopButtonContainer)
+  :global(.vtex-button) :global(.vtex-button__label) {
+  content: url(assets/home/icon-backToTop.svg);
+  padding: 11px 14px 11px 14px !important;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--master-inforPagos) {
@@ -3180,7 +3274,7 @@
 :global(.vtex-styleguide-9-x-dropdown)
 :global(.vtex-dropdown__container){
   height: 38px!important;
-  bottom: 12px;
+  /* bottom: 12px; */
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--reviewsRow)
@@ -4130,3 +4224,150 @@
   color: #E42990;
   padding-bottom: 25%;
 }
+
+
+
+
+
+/* Order placed - INICIO */
+:global(.vtex-order-placed-2-x-section--confirmation) :global(.vtex-order-placed-2-x-confirmationTitle) {
+  font-family: "BillyBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #F58831;
+}
+:global(.vtex-order-placed-2-x-section--confirmation) :global(.vtex-order-placed-2-x-confirmationMessage) {
+  font-family: 'Billy';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+:global(.vtex-order-placed-2-x-orderPlacedWrapper) :global(.vtex-button) {
+  background-color: #8E3392;
+  border-color: #8E3392;
+  color: #ffffff;
+}
+:global(.vtex-order-placed-2-x-orderPlacedWrapper) :global(.vtex-order-placed-2-x-cancelOrderButton) :global(.vtex-button) {
+  background-color: #ffffff;
+  border-color: #e42990;
+  color: #e42990;
+}
+:global(.vtex-order-placed-2-x-orderPlacedWrapper) :global(.vtex-order-placed-2-x-cancelOrderButton) :global(.vtex-button):hover {
+  background-color: #ffe6e6;
+}
+:global(.vtex-order-placed-2-x-orderListItem) :global(.vtex-order-placed-2-x-orderOptionsWrapper) :global(.vtex-order-placed-2-x-cancelOrderButton) {
+  display: none;
+}
+:global(.vtex-order-placed-2-x-totalListWrapper) :global(.vtex-order-placed-2-x-totalListItem) :global(.vtex-order-placed-2-x-totalListItemLabel),
+:global(.vtex-order-placed-2-x-totalListWrapper) :global(.vtex-order-placed-2-x-totalListItem) :global(.vtex-order-placed-2-x-totalListItemValue) {
+  font-family: 'robotoBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+:global(.vtex-order-placed-2-x-totalListItem--Items) :global(.vtex-order-placed-2-x-totalListItemLabel),
+:global(.vtex-order-placed-2-x-totalListItem--Items) :global(.vtex-order-placed-2-x-totalListItemValue),
+:global(.vtex-order-placed-2-x-totalListItem--Tax) :global(.vtex-order-placed-2-x-totalListItemLabel),
+:global(.vtex-order-placed-2-x-totalListItem--Tax) :global(.vtex-order-placed-2-x-totalListItemValue) {
+  font-family: 'RobotoRegular' !important;
+  font-weight: 400 !important;
+}
+
+:global(.vtex-order-placed-2-x-updateOrderButton) :global(.vtex-button),
+:global(.vtex-order-placed-2-x-myOrdersButton) :global(.vtex-button) {
+  max-height: 35px;
+  min-height: 0px;
+  height: 35px;
+  border: none;
+}
+:global(.vtex-order-placed-2-x-updateOrderButton) :global(.vtex-button) :global(.vtex-button__label),
+:global(.vtex-order-placed-2-x-myOrdersButton) :global(.vtex-button) :global(.vtex-button__label) {
+  text-transform: initial;
+}
+:global(.vtex-rich-text-0-x-paragraph--orderplaced-button-facturacion) {
+  margin: 0px;
+  margin-top: 6px;
+}
+:global(.vtex-rich-text-0-x-link--orderplaced-button-facturacion) {
+  padding: 9px 46px;
+  background-color: #8E3392;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Mobile */
+:global(.vtex-rich-text-0-x-container--orderplaced-mob-button-facturacion) {
+  height: 35px;
+}
+:global(.vtex-rich-text-0-x-paragraph--orderplaced-mob-button-facturacion) {
+  margin: 0px;
+}
+:global(.vtex-rich-text-0-x-link--orderplaced-mob-button-facturacion) {
+  padding: 8px 46px;
+  background-color: #8E3392;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+}
+@media (max-width: 640px) {
+  :global(.vtex-rich-text-0-x-link--orderplaced-mob-button-facturacion) {
+    position: absolute;
+    left: calc(6% + 2px);
+    width: calc(87% + 2px);
+    margin-top: -35px;
+  }
+}
+@media (max-width: 500px) {
+  :global(.vtex-rich-text-0-x-link--orderplaced-mob-button-facturacion) {
+    width: calc(87% + 1px);
+  }
+}
+@media (max-width: 400px) {
+  :global(.vtex-rich-text-0-x-link--orderplaced-mob-button-facturacion) {
+    width: calc(87% - 1px);
+  }
+}
+/* @media (max-width: 640px) {
+  :global(.vtex-rich-text-0-x-wrapper--orderplaced-mob-button-facturacion) {
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  :global(.vtex-rich-text-0-x-link--orderplaced-mob-button-facturacion) {
+    padding: 8px calc(32% + 2px + 10%);
+  }
+}
+@media (max-width: 600px) {
+  :global(.vtex-rich-text-0-x-link--orderplaced-mob-button-facturacion) {
+    padding: 8px calc(32% + 0px + 10%);
+  }
+}
+@media (max-width: 550px) {
+  :global(.vtex-rich-text-0-x-link--orderplaced-mob-button-facturacion) {
+    padding: 8px calc(32% + 1px + 9%);
+  }
+}
+@media (max-width: 410px) {
+  :global(.vtex-rich-text-0-x-link--orderplaced-mob-button-facturacion) {
+    padding: 8px calc(32% + 1px + 6%);
+  }
+}
+@media (max-width: 350px) {
+  :global(.vtex-rich-text-0-x-link--orderplaced-mob-button-facturacion) {
+    padding: 8px calc(32% + 0px + 4%);
+  }
+}
+@media (max-width: 282px) {
+  :global(.vtex-rich-text-0-x-link--orderplaced-mob-button-facturacion) {
+    padding: 8px calc(32% + 1px + 0%);
+  }
+} */
+
+/* Order placed - FIN */

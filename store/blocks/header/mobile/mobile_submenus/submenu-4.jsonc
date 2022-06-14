@@ -1,7 +1,7 @@
 {
-  "menu-item#mobile_menu-4":{
+  "menu-item#mobile_menu-4": {
     "props": {
-      "id": "menu-item-diversion",
+      "id": "menu-item-accesorios",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -9,31 +9,58 @@
         "type": "internal",
         "href": "",
         "noFollow": false,
-        "tagTitle": "Diversion",
-        "text": "Diversion"
+        "tagTitle": "Accesorios para ti",
+        "text": "Accesorios para ti"
       },
       "blockClass": "mob-menu-prin-header"
-    },
-    "blocks":["vtex.menu@2.x:submenu.accordion#mobile_menu-4"]
-  },
-  "vtex.menu@2.x:submenu.accordion#mobile_menu-4":{
-    "props": {
-      "width": "auto",
-      "blockClass": "cont-diversion-menu"
-    },
-    "children":[
-      "vtex.menu@2.x:menu#mobile_menu-4"
-    ]
-  },
-
-  "vtex.menu@2.x:menu#mobile_menu-4": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#diversion-1",
-      "menu-item#diversion-2",
-      "menu-item#diversion-3"
-    ]
+    }
   }
+
+
+
+
+
+
+
+
+
+
+
+  // "menu-item#mobile_menu-4":{
+  //   "props": {
+  //     "id": "menu-item-diversion",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "",
+  //       "noFollow": false,
+  //       "tagTitle": "Diversion",
+  //       "text": "Diversion"
+  //     },
+  //     "blockClass": "mob-menu-prin-header"
+  //   },
+  //   "blocks":["vtex.menu@2.x:submenu.accordion#mobile_menu-4"]
+  // },
+  // "vtex.menu@2.x:submenu.accordion#mobile_menu-4":{
+  //   "props": {
+  //     "width": "auto",
+  //     "blockClass": "cont-diversion-menu"
+  //   },
+  //   "children":[
+  //     "vtex.menu@2.x:menu#mobile_menu-4"
+  //   ]
+  // },
+
+  // "vtex.menu@2.x:menu#mobile_menu-4": {
+  //   "props": {
+  //     "orientation": "vertical"
+  //   },
+  //   "children": [
+  //     "menu-item#diversion-1",
+  //     "menu-item#diversion-2",
+  //     "menu-item#diversion-3"
+  //   ]
+  // }
 }

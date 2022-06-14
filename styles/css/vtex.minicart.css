@@ -25,8 +25,10 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color: #000000;
-  
+  color: #000000; 
+}
+:global(.vtex-minicart-2-x-drawer) :global(.vtex-product-list-0-x-productPriceContainer) {
+  padding-top: 27px;
 }
 :global(.vtex-minicart-2-x-drawer) :global(.vtex-product-list-0-x-productPriceCurrency) {
   font-family: 'RobotoRegular';
@@ -57,6 +59,19 @@
 
 :global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summarySmallContent)
 :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+:global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summarySmallContent)
+:global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child {
+  font-family: 'robotoBold';
+}
+/* :global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summarySmallContent)
+:global(.vtex-checkout-summary-0-x-summaryItemContainer) {
   max-width: 415px;
 }
 :global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summarySmallContent) 
@@ -84,33 +99,6 @@
 :global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summarySmallContent) 
 :global(.vtex-checkout-summary-0-x-summaryItemContainer):nth-child(even) :global(.vtex-checkout-summary-0-x-price) {
   font-weight: 600;
-}
-/* :global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summarySmallContent)
-:global(.vtex-checkout-summary-0-x-summaryItemContainer):nth-child(odd) {
-  font-family: 'RobotoRegular';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000000;
-} */
-
-
-/* :global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summarySmallContent)
-:global(.vtex-checkout-summary-0-x-summaryItemContainer):nth-child(odd)
-:global(.vtex-checkout-summary-0-x-summaryItemLabel) {
-  font-weight: normal;
-} */
-
-
-/* :global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summarySmallContent)
-:global(.vtex-checkout-summary-0-x-summaryItemContainer):nth-child(even) {
-  font-family: 'RobotoRegular';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000000;
 } */
 
 
@@ -177,6 +165,9 @@
 :global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button):hover {
   background-color: #8E3392;
 }
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button):focus {
+  background-color: #8E3392;
+}
 
 /* ---------------------- Carrito Drawer ---------------------- */
 :global(.vtex-minicart-2-x-overlay--visible) {
@@ -225,6 +216,9 @@
 :global(.vtex-minicart-2-x-drawer) :global(.vtex-product-list-0-x-deleteIcon) {
   color: #8E3392;
 }
+:global(.vtex-minicart-2-x-drawer) :global(.vtex-product-list-0-x-unitPriceContainer) {
+  display: none;
+}
 /* Fin Previsualizaciín producto */
 
 /* Empty state cart icon*/
@@ -240,25 +234,54 @@
 :global(.vtex-minicart-2-x-drawer) :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
   text-align: center;
   font-size: 0px;
-  padding-top: 22px;
 }
 :global(.vtex-minicart-2-x-drawer) :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer)::after {
   content: "Shipping and taxes calculated in the Cart";
 }
-/* Button pagar */
-:global(.vtex-minicart-2-x-minicartCheckoutButton) {
+/* Button checkout minicart */
+:global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-minicart) {
   padding: 0px;
-  margin: 26px 0px 30px 0px;
+  margin: 18px 0px 0px 0px;
 }
-:global(.vtex-minicart-2-x-minicartCheckoutButton)
+:global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-minicart)
 :global(.vtex-button) {
   background-color: #8E3392;
   border: 0px;
   font-size: 0px;
 }
-:global(.vtex-minicart-2-x-minicartCheckoutButton)
+:global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-minicart)
+:global(.vtex-button):hover {
+  background-color: #e42990;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-minicart)
 :global(.vtex-button)::after {
-  content: "IR A PAGO";font-style: normal;
+  content: "Mi carrito";
+  font-style: normal;
+}
+/* Button checkout orderform */
+:global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-orderform) {
+  padding: 0px;
+  margin: 6px 0px 30px 0px;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-orderform)
+:global(.vtex-button) {
+  border: 1px solid #e42990;
+  background-color: #ffffff;
+  font-size: 0px;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-orderform)
+:global(.vtex-button):hover {
+  background-color: #e42990;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-orderform)
+:global(.vtex-button)::after {
+  content: "Pagar";
+  font-style: normal;
+  color: #e42990;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-orderform)
+:global(.vtex-button):hover::after {
+  color: #ffffff;
 }
 
 

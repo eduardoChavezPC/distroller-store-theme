@@ -148,16 +148,15 @@
 :global(.vtex-login-2-x-emailPasswordOptionBtn) :global(.vtex-button) {
     background-color: #FFFFFF;
 }
-:global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button) :global(.vtex-button__label) {
-    font-size: 0px !important;
-}
-:global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button) :global(.vtex-button__label)::after {
-    content: "Acceder con código de acceso";
-    font-size: 14px;
-}
 :global(.vtex-login-2-x-optionsList) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button),
 :global(.vtex-login-2-x-optionsList) :global(.vtex-login-2-x-emailPasswordOptionBtn) :global(.vtex-button) {
     color: #FFFFFF;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+:global(.vtex-login-2-x-optionsList) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button) :global(.vtex-button__label) {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /* Google login inicio*/
@@ -197,6 +196,13 @@
     background: #FFFFFF;
     border-radius: 5px;
 }
+:global(.vtex-login-2-x-facebookOptionBtn) :global(.vtex-login-2-x-oauthLabel) {
+    font-size: 0px !important;
+}
+:global(.vtex-login-2-x-facebookOptionBtn) :global(.vtex-login-2-x-oauthLabel)::before {
+    content: "Entra con";
+    font-size: 14px;
+}
 :global(.vtex-login-2-x-facebookOptionBtn) :global(.vtex-button)::after {
     content: url(assets/header/icon-facebook.jpg);
     position: relative;
@@ -222,7 +228,6 @@
     line-height: 16px;
     color: #8E3392;
 }
-
 /* Facebook login fin*/
 
 :global(.vtex-login-2-x-content) :global(.vtex-input-prefix__group) {

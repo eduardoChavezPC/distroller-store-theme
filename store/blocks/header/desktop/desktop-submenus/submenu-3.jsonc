@@ -1,4 +1,25 @@
 {
+    "menu-item#chikiPunTaun": {
+        "props": {
+            "id": "menu-item-channel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Chiki Pun Taun",
+                "text": "Chiki Pun Taun"
+            },
+            "blockClass": "menu-prin-header"
+        }
+    },
+
+
+
+
+
     "menu-item#channel": {
         "props": {
             "id": "menu-item-channel",

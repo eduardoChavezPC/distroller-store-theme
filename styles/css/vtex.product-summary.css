@@ -92,7 +92,7 @@
   font-family: 'Billy';
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 24px;
   display: flex;
   align-items: flex-end;
@@ -129,8 +129,8 @@
 /* Button */
 :global(.vtex-search-1-x-tileListItem) :global(.vtex-product-summary-2-x-buyButtonContainer) :global(.vtex-button),
 :global(.vtex-product-summary-2-x-container) :global(.vtex-flex-layout-0-x-flexRowContent--row-add-btn-cart) :global(.vtex-button) {
-  background: #E42990;
-  border-radius: 20px;
+  background-color: #8E3392;
+  border-radius: 5px;
   border: 0px;
   width: 100%;
 }
@@ -144,9 +144,9 @@
   min-height: 36px !important;
 }
 
-:global(.vtex-search-1-x-tileListItem) :global(.vtex-product-summary-2-x-buyButtonContainer) :global(.vtex-button),
+:global(.vtex-search-1-x-tileListItem) :global(.vtex-product-summary-2-x-buyButtonContainer) :global(.vtex-button):hover,
 :global(.vtex-product-summary-2-x-container) :global(.vtex-flex-layout-0-x-flexRowContent--row-add-btn-cart) :global(.vtex-button):hover {
-  background: #8E3392;
+  background-color: #E42990;
 }
 :global(.vtex-search-1-x-tileListItem) :global(.vtex-product-summary-2-x-buyButtonContainer) :global(.vtex-button) :global(.vtex-button__label),
 :global(.vtex-product-summary-2-x-container) :global(.vtex-add-to-cart-button-0-x-buttonText) {

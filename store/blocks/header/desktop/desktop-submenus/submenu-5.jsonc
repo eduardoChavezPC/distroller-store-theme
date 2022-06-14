@@ -1,5 +1,5 @@
 {
-    "menu-item#juegos": {
+    "menu-item#outlet": {
         "props": {
             "id": "menu-item-juegos",
             "type": "custom",
@@ -7,12 +7,37 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/juegos",
+                "href": "",
                 "noFollow": false,
-                "tagTitle": "Juegos",
-                "text": "Juegos"
+                "tagTitle": "Outlet",
+                "text": "Outlet"
             },
-            "blockClass": "menu-juegos"
+            "blockClass": "menu-prin-header"
+        }
+    },
+
+
+
+
+
+
+
+
+
+    "menu-item#distrollerizate": {
+        "props": {
+            "id": "menu-item-distrollerizate",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/distrollerizate",
+                "noFollow": false,
+                "tagTitle": "Distrollerizate",
+                "text": "Distrollerizate"
+            },
+            "blockClass": "menu-distrollerizate"
         }
     }
 }
