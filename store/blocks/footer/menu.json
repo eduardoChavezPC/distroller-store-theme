@@ -1,7 +1,7 @@
 {
   "vtex.menu@2.x:menu#menuVertical1": {
     "props": {
-      "width":"16%",
+      "width":"20%",
       "orientation": "vertical",
       "blockClass":"verticalMenu1"
     },
@@ -12,9 +12,27 @@
       "menu-item#compromisoSocial",
       "menu-item#bolsaDeTrabajo",
       "menu-item#contacto",
-      "menu-item#faq"
+      "menu-item#faq",
+      "menu-item#fac"
     ]
   },
+
+  "menu-item#fac": {
+    "props": {
+      "blockClass":"facturacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/facturacion",
+        "noFollow": true,
+        "tagTitle": "Facturación",
+        "text": "Facturación"
+      }
+    }
+  },
+
   "menu-item#faq": {
     "props": {
       "blockClass":"preguntasFrecuentes",
@@ -31,6 +49,8 @@
     }
   },
 
+
+
   "menu-item#contacto": {
     "props": {
       "blockClass":"contacto",
@@ -41,8 +61,8 @@
         "type": "internal",
         "href": "/contact-us",
         "noFollow": true,
-        "tagTitle": "contacto",
-        "text": "Contacto"
+        "tagTitle": "Datos de contacto",
+        "text": "Datos de contacto"
       }
     }
   },
@@ -119,7 +139,7 @@
   },
   "vtex.menu@2.x:menu#menuVertical2": {
     "props": {
-      "width":"16%",
+      "width":"20%",
       "orientation": "vertical",
       "blockClass":"verticalMenu2"
     },
@@ -367,9 +387,26 @@
       "menu-item#tiendas-mobile",
       "menu-item#compromisoSocial-mobile",
       "menu-item#bolsaDeTrabajo-mobile",
-      "menu-item#contacto-mobile"
+      "menu-item#contacto-mobile",
+      "menu-item#fac-mobile"
     ]
   },
+
+  "menu-item#fac-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Facturación",
+        "noFollow": false,
+        "tagTitle": "Facturación",
+        "text": "Facturación"
+      }
+    }
+  },
+
   "menu-item#contacto-mobile": {
     "props": {
       "type": "custom",
@@ -379,8 +416,8 @@
         "type": "internal",
         "href": "/contacto",
         "noFollow": false,
-        "tagTitle": "contacto",
-        "text": "Contacto"
+        "tagTitle": "Datos de contacto",
+        "text": "Datos de contacto"
       }
     }
   },
@@ -465,7 +502,7 @@
         "href": "/aviso-privacidad",
         "noFollow": false,
         "tagTitle": "Aviso De Privacidad",
-        "text": "Aviso De Drivacidad"
+        "text": "Aviso De Privacidad"
       }
     }
   },
@@ -531,7 +568,7 @@
   },
   "vtex.menu@2.x:menu#menuVertical3": {
     "props": {
-      "width":"16%",
+      "width":"20%",
       "orientation": "vertical",
       "blockClass":"verticalMenu2"
     },

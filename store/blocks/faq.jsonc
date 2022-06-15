@@ -43,9 +43,9 @@
       "disclosure-layout#fourthb",
       "flex-layout.row#linea",
       "disclosure-layout#fifthb",
-      "flex-layout.row#linea",
-      "flex-layout.row#fecha",
-      "flex-layout.row#boton-test"
+      "flex-layout.row#linea"//,
+      // "flex-layout.row#fecha",
+      // "flex-layout.row#boton-test"
     ]
   },
   "flex-layout.row#boton-test":{

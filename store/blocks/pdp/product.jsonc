@@ -18,11 +18,13 @@
       "flex-layout.row#id-mobile",
       "flex-layout.row#stars-mobile",
       "flex-layout.row#product-price-mobile",
+      "flex-layout.row#descriptionMobile",
       "flex-layout.row#cantidad-compartir",
       // "product-price#product-details-mobile",
       "sku-selector",
       // "shipping-simulator",
       "flex-layout.row#buy-button-mobile",
+      "shipping-simulator#mobile",
       "flex-layout.row#menu1",
       "flex-layout.row#menu2",
       "flex-layout.row#menu3",
@@ -45,6 +47,21 @@
       "flex-layout.row#newsletter-mobile"
     ]
   },
+
+  "flex-layout.row#descriptionMobile": {
+    "props": {
+      "blockClass":"descriptionMobile",
+      "marginBottom": 7
+    },
+    "children": ["product-description"]
+  },
+
+  "shipping-simulator#mobile":{
+    "props":{
+      "blockClass":"mobileSimulator"
+    }
+  },
+
   "flex-layout.row#product-breadcrumb-mobile": {
     "props": {
       "marginTop": 4
@@ -330,7 +347,7 @@
     "props": {
       "blockClass":"home1",
       "tabId": "home1",
-      "label": "Conoce el personaje",
+      "label": "Conóceme",
       "defaultActiveTab": true
     }
   },
@@ -368,27 +385,36 @@
   },
   "flex-layout.row#headerBody":{
     "props":{
-      "blockClass":"imgMeet"
+      "blockClass":"headerMeet"
     },
     "children":[
-      "flex-layout.col#imgMeet"
+      "flex-layout.col#txtMeet"
     ]
   },
-  "flex-layout.col#imgMeet":{
+  "flex-layout.col#txtMeet":{
     "props":{
-      "blockClass":"imgMeet"
+      "blockClass":"txtMeet"
     },
     "children":[
-      "image#imgMeet"
+      "rich-text#txtMeet",
+      "rich-text#txtMeetDesc"
     ]
   },
 
-  "image#imgMeet":{
+  "rich-text#txtMeetDesc":{
     "props":{
-      "blockClass":"imageHB",
-      "src":"assets/banner.png"
+      "blockClass":"txtMeetDesc",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam ex ante, in vehicula velit hendrerit vel. Cras euismod, ex et imperdiet consequat, nibh augue tempus purus, in blandit ligula orci ac magna. Curabitur sit amet tempor tortor. Integer quis arcu elit. Donec tristique placerat justo eu pretium. Nunc luctus, neque vitae gravida tincidunt, arcu justo mattis mi, nec imperdiet augue mauris sit amet risus. Vestibulum ultricies sapien eu eros ullamcorper, eu efficitur lectus pretium. Donec neque diam, molestie a fermentum in, faucibus non lectus. Suspendisse in sem a lorem tincidunt condimentum. Phasellus porta suscipit malesuada. Integer tincidunt lorem nec enim aliquam, et sodales velit cursus. Sed tincidunt magna id sodales commodo. Vestibulum rhoncus, sem quis feugiat dignissim, neque orci lobortis metus, ac laoreet nulla odio non ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse fermentum eros id justo congue, sit amet sodales enim elementum. Phasellus semper arcu a dictum sagittis."
     }
   },
+
+  "rich-text#txtMeet":{
+    "props":{
+      "blockClass":"textMeet",
+      "text":"### Aquameritos"
+    }
+  },
+  
   "tab-content.item#home2": {
    "props": {
      "tabId": "home2"
@@ -413,8 +439,7 @@
     },
     "children":[
       "flex-layout.row#description",
-      "product-specification-group#table",
-      "longDescription"
+      "product-specification-group#table"
     ]
   },
 
@@ -460,7 +485,7 @@
       "textPosition": "CENTER",
       "textAlignment": "CENTER",
       "blockClass": "relatedText",
-      "text": "Comlementa tu compra"
+      "text": "Recomendaciónes solo para ti"
     }
   },
   "flex-layout.row#specifications-title": {
@@ -512,6 +537,7 @@
     },
     "children": [
       "flex-layout.row#product-image",
+      "flex-layout.row#highlight-wish",
       "product-bookmark",
       "product-specification-badges"
     ]
@@ -527,7 +553,9 @@
   },
 
   "flex-layout.col#stack": {
-    "children": ["stack-layout"],
+    "children": [
+      "stack-layout"
+    ],
     "props": {
       "blockClass": "right",
       "width": "70%",
@@ -535,15 +563,18 @@
     }
   },
   "flex-layout.row#product-image": {
-    "children": ["product-images"]
+    "children": [
+      "product-images"
+    ]
   },
   "product-images": {
     "props": {
+      "showNavigationArrows":true,
+      "displayThumbnailsArrows": true,
       "aspectRatio": {
         "desktop": "auto",
         "phone": "16:9"
-      },
-      "displayThumbnailsArrows": true
+      }
     }
   },
   "flex-layout.col#right-col": {
@@ -560,18 +591,53 @@
       // "flex-layout.row#price",
       
       "flex-layout.row#product-price",
+      "product-specification-group",
       // "flex-layout.col#list-price-savings",
       // "flex-layout.col#selling-price",
 
       // "product-installments",
+      "flex-layout.row#description",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
+      "shipping-simulator",
       "share#default"
     ]
   },
+
+  // "product-specification-group": {
+  //   "children": [
+  //     "product-specification-text#shortDescription"
+  //   ]
+  // },
+
+  // "product-specification-text#shortDescription": {
+  //   "props": {
+  //     "message": "Descripción corta",
+  //     "filter":{
+  //       "specificationGroups":"Descripción corta",
+  //       "type":"show"
+  //     }
+  //   },
+  //   "children":[
+  //     "product-specification#shortDescription"
+  //   ]
+  // },
+
+
+
+  // "product-specification#shortDescription": {
+  //   "children": [
+  //     "product-specification-values#shortDescription"
+  //   ]
+  // },
+
+
+
+
+
   "flex-layout.row#id": {
     "props": {
       "blockClass": "id"

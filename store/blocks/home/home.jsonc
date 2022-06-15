@@ -18,7 +18,7 @@
       "flex-layout.row#shelf-recomendaciones",
       "flex-layout.row#rowGifcard",
       "flex-layout.row#taniaInfo",
-      "flex-layout.row#infoPagos-master",
+      // "flex-layout.row#infoPagos-master",
       "flex-layout.row#metodosDePago",
       "flex-layout.row#newsletter-home",
       "back-to-top-button",
@@ -165,7 +165,7 @@
   "rich-text#recomendadosTitulo": {
     "props": {
       "blockClass": "recomendadosTitulo",
-      "text": "Nuestras Recomendaciones!!!"
+      "text": "Lo más top"
     }
   },
 
@@ -215,7 +215,7 @@
       "fullWidth": true,
       "width": "100%",
       "blockClass": "texto-categoria",
-      "text": "Categorias"
+      "text": "Distroller Fámili"
     }
   },
   "flex-layout.row#category": {
@@ -259,7 +259,7 @@
   "rich-text#boton1": {
     "props": {
       "blockClass": "botonText1",
-      "text": "[Comprar](/neonatos)"
+      "text": "[VER MÁS](/neonatos)"
     }
   },
 
@@ -303,7 +303,7 @@
   "rich-text#boton2": {
     "props": {
       "blockClass": "botonText2",
-      "text": "[Comprar](/chamoy-y-amiguis)"
+      "text": "[VER MÁS](/chamoy-y-amiguis)"
     }
   },
   "image#cat2": {
@@ -346,7 +346,7 @@
   "rich-text#boton3": {
     "props": {
       "blockClass": "botonText3",
-      "text": "[Comprar](/chikiti-pun-taun)"
+      "text": "[VER MÁS](/chikiti-pun-taun)"
     }
   },
   "image#cat3": {
@@ -389,7 +389,7 @@
   "rich-text#boton4": {
     "props": {
       "blockClass": "botonText4",
-      "text": "[Comprar](/mexican-paguer)"
+      "text": "[VER MÁS](/mexican-paguer)"
     }
   },
   "image#cat4": {
@@ -432,7 +432,7 @@
   "rich-text#boton5": {
     "props": {
       "blockClass": "botonText5",
-      "text": "[Comprar](/virgencita-plis)"
+      "text": "[VER MÁS](/virgencita-plis)"
     }
   },
   "image#cat5": {
@@ -455,33 +455,92 @@
       "blockClass": "master-inforPagos"
     },
     "children": [
-      "flex-layout.col#icono1",
-      "flex-layout.col#texto1",
-      "flex-layout.col#icono2",
-      "flex-layout.col#texto2",
-      "flex-layout.col#icono3",
+      // "image#icono1",
+      // "flex-layout.col#texto1",
+      // "image#icono2",
+      // "flex-layout.col#texto2",
+      // "image#icono3",
+      // "flex-layout.col#texto3"
+
+
+      // "flex-layout.col#icono1",
+      // "flex-layout.col#texto1",
+      // "flex-layout.col#icono2",
+      // "flex-layout.col#texto2",
+      // "flex-layout.col#icono3",
+      // "flex-layout.col#texto3"//,
+
+      "flex-layout.col#colFoot1",
+      "flex-layout.col#colFoot2",
+      "flex-layout.col#colFoot3"
+
+      // "flex-layout.col#spacer"
+      
+    ]
+  },
+
+  "flex-layout.col#colFoot1":{
+    "props":{
+      "width":"23%",
+      "blockClass":"colFoot1"
+    },
+    "children":[
+      "image#icono1",
+      "flex-layout.col#texto1"
+    ]
+  },
+
+  "flex-layout.col#colFoot2":{
+    "props":{
+      "width":"23%",
+      "blockClass":"colFoot2"
+    },
+    "children":[
+      "image#icono2",
+      "flex-layout.col#texto2"
+    ]
+  },
+
+
+  "flex-layout.col#colFoot3":{
+    "props":{
+      "width":"23%",
+      "blockClass":"colFoot3"
+    },
+    "children":[
+      "image#icono3",
       "flex-layout.col#texto3"
     ]
+  },
+
+
+  "flex-layout.col#spacer":{
+    "props":{
+      "blockClass":"spacer",
+      "width":"39%"
+    }
   },
   ///////////////////////////////////////////////////////////////////////////////// 1
   "flex-layout.col#icono1": {
     "props": {
-      "width": "7%",
-      "horizontalAlign": "right",
+      // "width": "10%",
+      "horizontalAlign": "left",
       "blockClass": "icono1"
     },
     "children": ["image#icono1"]
   },
   "image#icono1": {
     "props": {
+      
+      "horizontalAlign": "left",
       "blockClass": "icono1",
-      "src": "assets/tarjetaDesktop.svg"
+      "src": "assets/f1.png"
     }
   },
   "flex-layout.col#texto1": {
     "props": {
-      "width": "15%",//20
-      "horizontalAlign": "center",
+      // "width": "10%",//20
+      "horizontalAlign": "left",
       "blockClass": "texto1"
     },
     "children": ["rich-text#texto1"]
@@ -502,8 +561,8 @@
   },
   "flex-layout.col#icono2": {
     "props": {
-      "width": "7%",
-      "horizontalAlign": "right",
+      // "width": "10%",
+      "horizontalAlign": "left",
       "blockClass": "icono2"
     },
     "children": ["image#icono2"]
@@ -511,13 +570,13 @@
   "image#icono2": {
     "props": {
       "blockClass": "icono2",
-      "src": "assets/seguroDesktop.svg"
+      "src": "assets/f3.png"
     }
   },
   "flex-layout.col#texto2": {
     "props": {
-      "width": "15%",//20
-      "horizontalAlign": "center",
+      // "width": "10%",//20
+      "horizontalAlign": "left",
       "blockClass": "texto2"
     },
     "children": ["rich-text#texto2"]
@@ -526,8 +585,8 @@
   /////////////////////////////////////////////////////////////////////////////////// 3
   "flex-layout.col#icono3": {
     "props": {
-      "width": "7%",
-      "horizontalAlign": "right",
+      // "width": "10%",
+      "horizontalAlign": "left",
       "blockClass": "icono3"
     },
     "children": ["image#icono3"]
@@ -535,13 +594,14 @@
   "image#icono3": {
     "props": {
       "blockClass": "icono3",
-      "src": "assets/porcentajeDesktop.svg"
+      "src": "assets/f5.png"
     }
   },
   "flex-layout.col#texto3": {
     "props": {
-      "width": "23%",
-      "blockClass": "texto3"
+      // "width": "10%",
+      "blockClass": "texto3"//,
+      // "horizontalAlign":"left"
     },
     "children": ["rich-text#texto3"]
   },
@@ -581,17 +641,36 @@
       "flex-layout.row#title-top",
       "flex-layout.row#shelf-top",
       "flex-layout.row#taniaInfo-mobile",
-      "flex-layout.row#info-pago1-img",
-      "flex-layout.row#info-pago1",
-      "flex-layout.row#info-pago2-img",
-      "flex-layout.row#info-pago2",
-      "flex-layout.row#info-pago3-img",
-      "flex-layout.row#info-pago3",
+      // "flex-layout.row#info-pago1-img",
+      // "flex-layout.row#info-pago1",
+      // "flex-layout.row#info-pago2-img",
+      // "flex-layout.row#info-pago2",
+      // "flex-layout.row#info-pago3-img",
+      // "flex-layout.row#info-pago3",
       "slider-layout#formasDePago",
+      "flex-layout.row#textoBottom",
       "flex-layout.row#newsletter-mobile",
       "back-to-top-button"
     ]
   },
+
+  "flex-layout.row#textoBottom":{
+    "props":{
+      "blockClass":"bottom",
+      "horizontalAlign":"center"
+    },
+    "children":[
+      "rich-text#bottom"
+    ]
+  },
+  "rich-text#bottom":{
+    "props":{
+      "blockClass":"bottomText",
+      "text":"Suscríbete pa' estar enteradísim@ de lo más nuevo de Distroller"
+    }
+  },
+
+
   "flex-layout.row#enviosMexico":{
     "props":{
       "blockClass":"enviosMexico"
@@ -1108,21 +1187,21 @@
   "rich-text#newsletter-text": {
     "props": {
       "blockClass": "labelNewsLetter",
-      "text": "Some nice copy\n for your NEWSLETTER"
+      "text": "Suscríbete pa' estar enteradísim@\nde lo más nuevo de Distroller"
     }
   },
   "newsletter-input-email": {
     "props": {
 
       "blockClass": "emailNewsLetter",
-      "placeholderText": "     your email"
+      "placeholderText": "Pon tu e-mail y obtén un cupón por 15% de descuento"
     }
   },
   "newsletter-submit": {
     "props": {
       "width": "33%",
       "blockClass": "buttonNewsLetter",
-      "submitButtonLabel": "SUBSCRIBE"
+      "submitButtonLabel": "SUBSCRIBIRME"
     }
   },
 
@@ -1192,7 +1271,7 @@
     },
     "children": [
       "flex-layout.col#paypal",
-      "flex-layout.col#estafeta",
+      // "flex-layout.col#estafeta",
       "flex-layout.col#mastercard",
       "flex-layout.col#visa",
       "flex-layout.col#american",
@@ -1204,8 +1283,8 @@
   "flex-layout.col#paypal": {
     "props": {
       "blockClass": "paypal",
-      "marginLeft": 5,
-      "marginRight": 5
+      "marginLeft": 3,
+      "marginRight": 3
     },
     "children": ["image#paypal"]
   },
@@ -1218,8 +1297,8 @@
   "flex-layout.col#estafeta": {
     "props": {
       "blockClass": "estafeta",
-      "marginLeft": 5,
-      "marginRight": 5
+      "marginLeft": 3,
+      "marginRight": 3
     },
     "children": ["image#estafeta"]
   },
@@ -1232,8 +1311,8 @@
   "flex-layout.col#mastercard": {
     "props": {
       "blockClass": "mastercard",
-      "marginLeft": 5,
-      "marginRight": 5
+      "marginLeft": 3,
+      "marginRight": 3
     },
     "children": ["image#mastercard"]
   },
@@ -1246,8 +1325,8 @@
   "flex-layout.col#visa": {
     "props": {
       "blockClass": "visa",
-      "marginLeft": 5,
-      "marginRight": 5
+      "marginLeft": 3,
+      "marginRight": 3
     },
     "children": ["image#visa"]
   },
@@ -1261,8 +1340,8 @@
   "flex-layout.col#american": {
     "props": {
       "blockClass": "american",
-      "marginLeft": 5,
-      "marginRight": 5
+      "marginLeft": 3,
+      "marginRight": 3
     },
     "children": ["image#american"]
   },
@@ -1275,8 +1354,8 @@
   "flex-layout.col#oxxo": {
     "props": {
       "blockClass": "oxxo",
-      "marginLeft": 5,
-      "marginRight": 5
+      "marginLeft": 3,
+      "marginRight": 3
     },
     "children": ["image#oxxo"]
   },
@@ -1289,8 +1368,8 @@
   "flex-layout.col#mercado": {
     "props": {
       "blockClass": "mercado",
-      "marginLeft": 5,
-      "marginRight": 5
+      "marginLeft": 3,
+      "marginRight": 3
     },
     "children": ["image#mercado"]
   },
@@ -1303,7 +1382,9 @@
   ///mobile nwlttr
 
   "flex-layout.row#newsletter-mobile": {
-    "children": ["newsletter-form#mobile"],
+    "children": [
+      "newsletter-form#mobile"
+    ],
     "props": {
       "blockClass": "nl-mobile"
     }
@@ -1323,10 +1404,10 @@
       "blockClass": "nl-mobile-mailButton"
     },
     "children": [
-      "footer-spacer#mobile",
+      // "footer-spacer#mobile",
       "flex-layout.col#newsletter-email-col-mobile",
-      "flex-layout.col#newsletter-submit-col-mobile",
-      "footer-spacer#mobile"
+      "flex-layout.col#newsletter-submit-col-mobile"//,
+      // "footer-spacer#mobile"
     ]
   },
   "footer-spacer#mobile": {
@@ -1357,24 +1438,28 @@
       "width": "40%",
       "blockClass": "mail-mobile"
     },
-    "children": ["newsletter-input-email#mobile"]
+    "children": [
+      "newsletter-input-email#mobile"
+    ]
   },
   "flex-layout.row#texto-nl-mobile": {
     "props": {},
-    "children": ["rich-text#newsletter-text#mobile"]
+    "children": [
+      // "rich-text#newsletter-text#mobile"
+    ]
   },
 
   ///nl mobile
   "rich-text#newsletter-text#mobile": {
     "props": {
       "blockClass": "labelNewsLetter-mobile",
-      "text": "Some nice copy for your NEWSLETTER"
+      "text": "Suscríbete pa' estar enteradísim@ de lo más nuevo de Distroller"
     }
   },
   "newsletter-input-email#mobile": {
     "props": {
       "blockClass": "emailNewsLetter-mobile",
-      "placeholderText": "     your email"
+      "placeholderText": "Pon tu e-mail y obtén un cupón por 15% de descuento"
     }
   },
   "newsletter-submit#mobile": {
@@ -1401,7 +1486,7 @@
     },
     "children": [
       "image#1",
-      "image#2",
+      // "image#2",
       "image#3",
       "image#4",
       "image#5",
