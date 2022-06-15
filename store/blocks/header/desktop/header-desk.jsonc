@@ -437,12 +437,9 @@
     },
     "flex-layout.row#search-bar": {
         "children": [
-            "flex-layout.col#spacer",
-            "flex-layout.col#spacer",
-            "flex-layout.col#spacer",
-            "flex-layout.col#spacer",
+            "flex-layout.col#spacer-header",
             "flex-layout.col#desk-searchBar",
-            "flex-layout.col#spacer",
+            "flex-layout.col#spacer-header",
             "flex-layout.col#desk-login",
             "flex-layout.col#desk-sucursales",
             "flex-layout.col#desk-minicart"
@@ -455,6 +452,11 @@
             "blockClass": "row-searchBar"
             // "fullWidth": true
         }
+    },
+    "flex-layout.col#spacer-header": {
+      "props": {
+        "width": "grow"
+      }
     },
     "flex-layout.col#desk-searchBar": {
         "children": [
