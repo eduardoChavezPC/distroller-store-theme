@@ -16,26 +16,6 @@
       "blockClass": "gridLayout"
     }
   },
-  "flex-layout.col#buttton-wish":{
-    "children":[
-      "flex-layout.col#wish"
-      // "add-to-list-btn"
-    ],
-    "props":{
-      "blockClass": "btn-wishlist-container",
-      "horizontalAlign": "center",
-      "preserveLayoutOnMobile":true
-    }
-  },
-  "flex-layout.col#wish":{
-    "children":[
-      "add-to-list-btn"
-    ],
-    "props":{
-      "width":"16%",
-      "blockClass":"wishlist-icon"
-    }
-  },
   "flex-layout.row#product-summary-description":{
     "children":["product-summary-description"],
     "props":{"blockClass":"desc-row"}
@@ -52,6 +32,9 @@
     "children": [
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights#collection"
+      // "flex-layout.row#wishbtn"
+      // "flex-layout.row#wishbtn"
+
       // "flex-layout.row#highlight-wish"
 
       // "flex-layout.col#spacer",
@@ -60,6 +43,28 @@
       // "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
+
+  "flex-layout.row#wishbtn":{
+    "children":[
+      "flex-layout.col#wishbtn"
+    ],"props":{
+      "fullWidth": true,
+      "horizontalAlign":"right"
+    }
+  },
+
+  "flex-layout.col#wishbtn":{
+    "children":[
+      "add-to-list-btn"
+    ],"props":{
+      "horizontalAlign":"right"
+    }
+  },
+
+
+
+
+
   "flex-layout.row#highlight-wish": {
     "children": [
       // "vtex.product-highlights@2.x:product-highlights#collection",
@@ -76,6 +81,11 @@
       "blockClass": "row-slider"
     }
   },
+
+
+
+
+
   "flex-layout.col#highlight": {
     "children": [
       "vtex.product-highlights@2.x:product-highlights#collection"

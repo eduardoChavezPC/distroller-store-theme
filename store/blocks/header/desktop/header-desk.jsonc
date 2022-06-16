@@ -196,7 +196,7 @@
         "props": {
             "src": "assets/icons-notificationbar/icon-tiktok.svg",
             "link": {
-                "url": "https://www.tiktok.com/"
+                "url": "https://www.tiktok.com/@distrolleroficial?lang=es"
             },
             "maxHeight": 20,
             "blockClass": "icon-notBar"
@@ -230,7 +230,7 @@
         "props": {
             "src": "assets/icons-notificationbar/icon-spotify.svg",
             "link": {
-                "url": "https://www.spotify.com/"
+                "url": "https://open.spotify.com/artist/0tXUJeSaYStaOHUetQMhSA"
             },
             "maxHeight": 24,
             "blockClass": "icon-notBar"

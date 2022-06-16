@@ -206,7 +206,7 @@
   z-index: 1000;
 }
 /* desktop bar  */
-@media (min-width: 1025px) {
+@media (min-width: 1026px) {
   :global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-pais)
   :global(.vtex-rich-text-0-x-paragraph--txtNotBar) {
     font-size: 0px; 
@@ -708,9 +708,9 @@
   color: #FFFFFF;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   :global(.vtex-rich-text-0-x-paragraph--txtNotBar) {
-    /* font-size: 0px !important; */
+    font-size: 14px !important;
     height: 24px;
     margin: 0px !important;
     /* padding: 27px 0px 0px 5px !important; */
@@ -755,7 +755,7 @@
     border: 1px solid white;
     height: 40px;
     width: 102%;
-}
+  }
 }
 
 /* Template Facturación - INICIO */
@@ -1234,6 +1234,11 @@
   text-decoration: underline;
   text-decoration-color: #E42990;
 }
+:global(.vtex-flex-layout-0-x-flexColChild--titleWishlist)
+:global(.vtex-rich-text-0-x-heading-level-3) {
+  font-family: 'Billy';
+  font-size: 24px;
+}
 
 /* Ventana flotante*/
 :global(.vtex-modal__modal) :global(.vtex-styleguide-9-x-scrollBar) {
@@ -1443,6 +1448,7 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--redes-mobile-footer)
   :global(.vtex-rich-text-0-x-paragraph) {
+  font-family: 'RobotoRegular';
   font-size: 16px;
   font-weight: 600;
 }
@@ -4217,6 +4223,7 @@ border-radius: 5px;
 
 :global(.vtex-store-form-0-x-formSubmitButton--botonEnviar)
 :global(.vtex-button){
+  font-family: 'RobotoRegular';
   width: 289px;
   height: 38px;
   background-color: #8E3392;

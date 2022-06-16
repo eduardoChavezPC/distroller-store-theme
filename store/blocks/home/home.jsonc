@@ -1465,7 +1465,7 @@
   "newsletter-submit#mobile": {
     "props": {
       "blockClass": "buttonNewsLetter-mobile",
-      "submitButtonLabel": "SUSCRIBE"
+      "submitButtonLabel": "SUSCRIBIRME"
     }
   },
   "back-to-top-button": {

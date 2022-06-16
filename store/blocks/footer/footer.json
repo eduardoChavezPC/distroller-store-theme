@@ -50,125 +50,6 @@
       "flex-layout.col#twitter-NotBar"
     ]
   },
-  "flex-layout.col#facebook-NotBar": {
-    "children": [
-        "image#facebook-NotBar"
-    ], "props": {
-        "verticalAlign": "middle"
-    }
-},
-  "image#facebook-NotBar": {
-    "props": {
-        "src": "assets/icons-notificationbar/icon-facebook.svg",
-        "link": {
-            "url": "https://www.facebook.com/distroller"
-        },
-        "maxHeight": 24,
-        "blockClass": "icon-notBar"
-    }
-},
-"flex-layout.col#instagram-NotBar": {
-    "children": [
-        "image#instagram-NotBar"
-    ], "props": {
-        "verticalAlign": "middle"
-    }
-},
-"image#instagram-NotBar": {
-    "props": {
-        "src": "assets/icons-notificationbar/icon-instagram.svg",
-        "link": {
-            "url": "https://www.instagram.com/distrollergram"
-        },
-        "maxHeight": 20,
-        "blockClass": "icon-notBar"
-    }
-},
-"flex-layout.col#youtube-NotBar": {
-    "children": [
-        "image#youtube-NotBar"
-    ], "props": {
-        "verticalAlign": "middle"
-    }
-},
-"image#youtube-NotBar": {
-    "props": {
-        "src": "assets/icons-notificationbar/icon-youtube.svg",
-        "link": {
-            "url": "https://www.youtube.com/user/distrollertube"
-        },
-        
-        "blockClass": "icon-notBar"
-    }
-},
-"flex-layout.col#tiktok-NotBar": {
-    "children": [
-        "image#tiktok-NotBar"
-    ], "props": {
-        "verticalAlign": "middle"
-    }
-},
-"image#tiktok-NotBar": {
-    "props": {
-        "src": "assets/icons-notificationbar/icon-tiktok.svg",
-        "link": {
-            "url": "https://www.tiktok.com/"
-        },
-        "maxHeight": 20,
-        "blockClass": "icon-notBar"
-    }
-},
-"flex-layout.col#pinteres-NotBar": {
-    "children": [
-        "image#pinteres-NotBar"
-    ], "props": {
-        "verticalAlign": "middle"
-    }
-},
-"image#pinteres-NotBar": {
-    "props": {
-        "src": "assets/icons-notificationbar/icon-pinteres.svg",
-        "link": {
-            "url": "https://www.pinterest.com.mx/distroller"
-        },
-        "maxHeight": 24,
-        "blockClass": "icon-notBar"
-    }
-},
-"flex-layout.col#spotify-NotBar": {
-    "children": [
-        "image#spotify-NotBar"
-    ], "props": {
-        "verticalAlign": "middle"
-    }
-},
-"image#spotify-NotBar": {
-    "props": {
-        "src": "assets/icons-notificationbar/icon-spotify.svg",
-        "link": {
-            "url": "https://www.spotify.com/"
-        },
-        "maxHeight": 24,
-        "blockClass": "icon-notBar"
-    }
-},
-"flex-layout.col#twitter-NotBar": {
-    "children": [
-        "image#twitter-NotBar"
-    ], "props": {
-        "verticalAlign": "middle"
-    }
-},
-"image#twitter-NotBar": {
-    "props": {
-        "src": "assets/icons-notificationbar/icon-twitter.svg",
-        "link": {
-            "url": "https://twitter.com/distroller"
-        },
-        "maxHeight": 19,
-        "blockClass": "icon-notBar"
-    }
-},
 
   "flex-layout.row#tituloRedes":{
     "props":{
@@ -417,7 +298,7 @@
       
       "src":"assets/Vector-1.svg",
       "link":{
-        "url":"https://open.spotify.com/"
+        "url":"https://open.spotify.com/artist/0tXUJeSaYStaOHUetQMhSA"
       }
     }
   },
@@ -425,7 +306,7 @@
     "props":{
       "src":"assets/Vector-2.svg",
       "link":{
-        "url":"https://www.pinterest.com.mx/distroller/"
+        "url":"https://www.pinterest.com.mx/distroller"
       }
     }
   },
@@ -433,7 +314,7 @@
     "props":{
       "src":"assets/Vector-3.svg",
       "link":{
-        "url":"https://www.tiktok.com/"
+        "url":"https://www.tiktok.com/@distrolleroficial?lang=es"
       }
     }
   },
