@@ -5,7 +5,8 @@
       "context": {
         // "skusFilter": "ALL",
         "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 50
       }
     }
   },

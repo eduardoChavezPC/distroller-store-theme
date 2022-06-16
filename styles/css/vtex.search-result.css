@@ -359,3 +359,8 @@
     color: #8E3392;
   }
 }
+
+:global(.vtex-search-result-3-x-buttonShowMore--layout)
+:global(.vtex-button) {
+  margin-bottom: 10px;
+}

@@ -1230,9 +1230,16 @@
 }
 
 /* Favoritos / Wishlist */
+:global(.vtex-flex-layout-0-x-flexRow--row-wishlist) {
+  padding-top: 30px;
+}
 :global(.vtex-store-link-0-x-label--wishlist-return-link) {
   text-decoration: underline;
   text-decoration-color: #E42990;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--titleWishlist)
+:global(.vtex-rich-text-0-x-container) {
+  justify-content: center;
 }
 :global(.vtex-flex-layout-0-x-flexColChild--titleWishlist)
 :global(.vtex-rich-text-0-x-heading-level-3) {
