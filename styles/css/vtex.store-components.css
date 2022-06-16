@@ -2551,6 +2551,7 @@
   position: fixed;
   top: 65%;
   right: 1%;
+  z-index: 99;
   /* margin-top: -100px; */
 }
 
@@ -3215,7 +3216,12 @@ border-radius: 5px;
 :global(.vtex-store-components-3-x-productImagesContainer--carousel)
 :global(.vtex-store-components-3-x-carouselGaleryCursor)
 :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer)
-:global(.vtex-store-components-3-x-swiperCaretNext){
+:global(.vtex-store-components-3-x-swiperCaretNext),
+:global(.vtex-flex-layout-0-x-flexRowContent--product-main-mobile)
+:global(.vtex-store-components-3-x-productImagesContainer--carousel)
+:global(.vtex-store-components-3-x-carouselGaleryCursor)
+:global(.vtex-store-components-3-x-productImagesGallerySwiperContainer)
+:global(.vtex-store-components-3-x-swiperCaretPrev){
   display: none;
 }
 
@@ -4439,7 +4445,8 @@ border-radius: 5px;
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-row)
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
 :global(.vtex-menu-2-x-menuContainerNav--verticalMenu2){
-  padding-left: 35%;
+  /* padding-left: 35%; */
+  margin-left: 50%;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-row)
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
@@ -5799,4 +5806,61 @@ border-radius: 5px;
 :global(.vtex-store-components-3-x-container){
   width: 90%;
   margin-left: 5%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--redesFooter){
+  z-index: 1;
+}
+
+:global(.vtex-menu-2-x-menuContainer--verticalMenu1)
+:global(.vtex-menu-2-x-menuItem){
+  width: 75%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-main-mobile)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  padding-bottom: 0px!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-main-mobile)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+:global(.vtex-wish-list-1-x-wishlistIconContainer){
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  z-index: 2;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-main-mobile)
+:global(.vtex-store-components-3-x-productImagesContainer--carouse)
+:global(.vtex-store-components-3-x-carouselGaleryCursor)
+:global(.vtex-store-components-3-x-caretIcon){
+  display: none;
+}
+
+:global(.vtex-stack-layout-0-x-stackItem--product--row-slider){
+  z-index: auto!important;
+}
+
+:global(.vtex-store-components-3-x-gradientBaseTop){
+  background: white!important;
+  height: 0px;
+}
+
+:global(.vtex-store-components-3-x-gradientBaseBottom){
+  background: white!important;
+}
+
+
+:global(.vtex-store-link-0-x-link--wishlist-return-link){
+  text-decoration: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--right)
+:global(.vtex-store-components-3-x-carouselGaleryThumbs)
+:global(.vtex-store-components-3-x-figure)
+:global(.vtex-store-components-3-x-thumbImg){
+
 }

@@ -20,7 +20,7 @@
       "flex-layout.row#taniaInfo",
       // "flex-layout.row#infoPagos-master",
       "flex-layout.row#metodosDePago",
-      "flex-layout.row#newsletter-home",
+      // "flex-layout.row#newsletter-home",
       "back-to-top-button",
       // "back-to-top-button"
       "image#whatsapp"
@@ -649,7 +649,7 @@
       // "flex-layout.row#info-pago3",
       "slider-layout#formasDePago",
       "flex-layout.row#textoBottom",
-      "flex-layout.row#newsletter-mobile",
+      // "flex-layout.row#newsletter-mobile",
       "back-to-top-button"
     ]
   },

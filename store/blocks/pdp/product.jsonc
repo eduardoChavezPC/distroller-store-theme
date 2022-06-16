@@ -29,7 +29,7 @@
       "flex-layout.row#menu2",
       "flex-layout.row#menu3",
       "flex-layout.row#recomendaciones-mobile",
-      "flex-layout.row#shelf",
+      "flex-layout.row#shelf"//,
       // "flex-layout.row#product-name",
       // "flex-layout.row#id",
       // "flex-layout.row#stars",
@@ -44,7 +44,7 @@
       // "product-questions-and-answers",
       // "flex-layout.row#textRelated",
       // "flex-layout.row#shelf",
-      "flex-layout.row#newsletter-mobile"
+      // "flex-layout.row#newsletter-mobile"
     ]
   },
 
@@ -78,7 +78,9 @@
       "paddingBottom": 7,
       "blockClass": "product-main-mobile"
     },
-    "children": ["product-images#mobile"//,
+    "children": [
+      "flex-layout.row#highlight-wish",
+      "product-images#mobile"
       // "flex-layout.col#right-col-mobile"
       ]
   },
@@ -317,8 +319,8 @@
       "tab-layout#home",
       "product-questions-and-answers",
       "flex-layout.row#textRelated",
-      "flex-layout.row#shelf",
-      "flex-layout.row#newsletter-home"
+      "flex-layout.row#shelf"//,
+      // "flex-layout.row#newsletter-home"
     ]
   },
   "tab-layout#home":{
