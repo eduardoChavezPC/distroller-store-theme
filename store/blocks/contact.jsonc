@@ -386,7 +386,7 @@
       "rich-text#contactForm",
       "form#contacto"
     ],"props":{
-        "widht":"70%",
+        // "width":"70%",
         "blockClass":"colform",
         "paddingLeft":10,
         "paddingRight":10

@@ -76,11 +76,21 @@
 :global(.vtex-button__label) {
   padding: 0px !important;
 }
-:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-wish-list-1-x-wishlistIcon) {
+
+:global(.vtex-search-result-3-x-searchResultContainer)
+:global(.vtex-wish-list-1-x-wishlistIconContainer)
+:global(.vtex-button)
+:global(.vtex-button__label)
+:global(.vtex-wish-list-1-x-wishlistIcon),
+:global(.vtex-product-summary-2-x-clearLink--gridLayout)
+:global(.vtex-wish-list-1-x-wishlistIconContainer)
+:global(.vtex-button)
+:global(.vtex-button__label)
+:global(.vtex-wish-list-1-x-wishlistIcon){
   content: url(assets/home/icon-wish.svg);
   background-repeat: no-repeat;
   padding: 0px;
-  z-index: 999;
+  z-index: 998;
 }
 
 :global(.vtex-product-summary-2-x-container) :global(.vtex-product-summary-2-x-element) {

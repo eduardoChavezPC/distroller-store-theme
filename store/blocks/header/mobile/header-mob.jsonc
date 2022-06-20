@@ -15,9 +15,9 @@
     "children": [
       "drawer",
       // "flex-layout.col#pais",
-      "flex-layout.col#spacer",
+      "flex-layout.col#spacer-header",
       "logo#header",
-      "flex-layout.col#spacer",
+      "flex-layout.col#spacer-header",
       "login",
       "minicart.v2"
     ],
