@@ -1237,9 +1237,17 @@
   text-decoration: underline;
   text-decoration-color: #E42990;
 }
-:global(.vtex-flex-layout-0-x-flexColChild--titleWishlist)
-:global(.vtex-rich-text-0-x-container) {
-  justify-content: center;
+@media (min-width: 640px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--titleWishlist)
+  :global(.vtex-rich-text-0-x-container) {
+    margin-left: -30px;
+  }
+}
+@media (max-width: 639px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--titleWishlist)
+  :global(.vtex-rich-text-0-x-container) {
+    justify-content: center;
+  }
 }
 :global(.vtex-flex-layout-0-x-flexColChild--titleWishlist)
 :global(.vtex-rich-text-0-x-heading-level-3) {
