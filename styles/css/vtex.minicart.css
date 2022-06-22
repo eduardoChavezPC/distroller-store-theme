@@ -255,7 +255,7 @@
 }
 :global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-minicart)
 :global(.vtex-button)::after {
-  content: "Mi carrito";
+  content: "Ver mi carrito";
   font-style: normal;
 }
 /* Button checkout orderform */
@@ -275,7 +275,7 @@
 }
 :global(.vtex-minicart-2-x-minicartCheckoutButton--checkout-orderform)
 :global(.vtex-button)::after {
-  content: "Pagar";
+  content: "Comprar";
   font-style: normal;
   color: #e42990;
 }

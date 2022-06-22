@@ -28,8 +28,8 @@
       "type": "internal",
       "href": "#",
       "noFollow": true,
-      "tagTitle": "Conoce el Personaje",
-      "text": "Conoce el Personaje"
+      "tagTitle": "Conóceme",
+      "text": "Conóceme"
     }
   },
   "blocks": ["vtex.menu@2.x:submenu.accordion#conoce"]

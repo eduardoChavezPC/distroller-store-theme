@@ -15,10 +15,11 @@
       "flex-layout.row#product-breadcrumb-mobile",
       "flex-layout.row#product-main-mobile",
       "flex-layout.row#product-name-mobile",
+      "flex-layout.row#descriptionMobile",
       "flex-layout.row#id-mobile",
       "flex-layout.row#stars-mobile",
       "flex-layout.row#product-price-mobile",
-      "flex-layout.row#descriptionMobile",
+      
       "flex-layout.row#cantidad-compartir",
       // "product-price#product-details-mobile",
       "sku-selector",

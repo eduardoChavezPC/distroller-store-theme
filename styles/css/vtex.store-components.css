@@ -1543,7 +1543,7 @@
     /* min-width: 215px; */
   font-family: "robotoBold";
   font-weight: 700;
-  letter-spacing: 0.09em;
+  text-align: center;
 }
 
 :global(.vtex-store-newsletter-1-x-emailInputContainer--emailNewsLetter-mobile)
@@ -1589,7 +1589,7 @@
   margin-bottom: -2%;
   font-weight: 400;
   font-size: 14px;
-  font-family: 'robotoLight';
+  font-family: 'robotoRegular';
 }
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrusel-metodosPago) {
   margin-bottom: 20%;
@@ -2010,14 +2010,20 @@
 :global(.vtex-rich-text-0-x-paragraph--categoryText2),
 :global(.vtex-rich-text-0-x-paragraph--categoryText3),
 :global(.vtex-rich-text-0-x-paragraph--categoryText4),
-:global(.vtex-rich-text-0-x-paragraph--categoryText5) {
+:global(.vtex-rich-text-0-x-paragraph--categoryText5),
+:global(.vtex-rich-text-0-x-paragraph--categoryText6),
+:global(.vtex-rich-text-0-x-paragraph--categoryText7),
+:global(.vtex-rich-text-0-x-paragraph--categoryText8) {
   text-align: center;
 }
 :global(.vtex-rich-text-0-x-heading--categoryText1),
 :global(.vtex-rich-text-0-x-heading--categoryText2),
 :global(.vtex-rich-text-0-x-heading--categoryText3),
 :global(.vtex-rich-text-0-x-heading--categoryText4),
-:global(.vtex-rich-text-0-x-heading--categoryText5) {
+:global(.vtex-rich-text-0-x-heading--categoryText5),
+:global(.vtex-rich-text-0-x-heading--categoryText6),
+:global(.vtex-rich-text-0-x-heading--categoryText7),
+:global(.vtex-rich-text-0-x-heading--categoryText8) {
   color: #ffffff;
   white-space: nowrap;
   font-family: "billyL";
@@ -2028,7 +2034,10 @@
 :global(.vtex-rich-text-0-x-paragraph--categoryText2),
 :global(.vtex-rich-text-0-x-paragraph--categoryText3),
 :global(.vtex-rich-text-0-x-paragraph--categoryText4),
-:global(.vtex-rich-text-0-x-paragraph--categoryText5) {
+:global(.vtex-rich-text-0-x-paragraph--categoryText5),
+:global(.vtex-rich-text-0-x-paragraph--categoryText6),
+:global(.vtex-rich-text-0-x-paragraph--categoryText7),
+:global(.vtex-rich-text-0-x-paragraph--categoryText8) {
   font-size: 24px;
   color: #000000;
   font-family: "Billy";
@@ -2043,21 +2052,30 @@
 :global(.vtex-rich-text-0-x-headingLevel3--categoryText2),
 :global(.vtex-rich-text-0-x-headingLevel3--categoryText3),
 :global(.vtex-rich-text-0-x-headingLevel3--categoryText4),
-:global(.vtex-rich-text-0-x-headingLevel3--categoryText5) {
+:global(.vtex-rich-text-0-x-headingLevel3--categoryText5),
+:global(.vtex-rich-text-0-x-headingLevel3--categoryText6),
+:global(.vtex-rich-text-0-x-headingLevel3--categoryText7),
+:global(.vtex-rich-text-0-x-headingLevel3--categoryText8) {
   margin-bottom: 10px;
 }
 :global(.vtex-rich-text-0-x-paragraph--categoryText1),
 :global(.vtex-rich-text-0-x-paragraph--categoryText2),
 :global(.vtex-rich-text-0-x-paragraph--categoryText3),
 :global(.vtex-rich-text-0-x-paragraph--categoryText4),
-:global(.vtex-rich-text-0-x-paragraph--categoryText5) {
+:global(.vtex-rich-text-0-x-paragraph--categoryText5),
+:global(.vtex-rich-text-0-x-paragraph--categoryText6),
+:global(.vtex-rich-text-0-x-paragraph--categoryText7),
+:global(.vtex-rich-text-0-x-paragraph--categoryText8) {
   margin-top: 0px !important;
 }
 :global(.vtex-rich-text-0-x-wrapper--botonText1),
 :global(.vtex-rich-text-0-x-wrapper--botonText2),
 :global(.vtex-rich-text-0-x-wrapper--botonText3),
 :global(.vtex-rich-text-0-x-wrapper--botonText4),
-:global(.vtex-rich-text-0-x-wrapper--botonText5) {
+:global(.vtex-rich-text-0-x-wrapper--botonText5),
+:global(.vtex-rich-text-0-x-wrapper--botonText6),
+:global(.vtex-rich-text-0-x-wrapper--botonText7),
+:global(.vtex-rich-text-0-x-wrapper--botonText8) {
   background-color: #e42990;
   max-width: 268px;
   border-radius: 5px;
@@ -2069,7 +2087,10 @@
 :global(.vtex-rich-text-0-x-paragraph--botonText2),
 :global(.vtex-rich-text-0-x-paragraph--botonText3),
 :global(.vtex-rich-text-0-x-paragraph--botonText4),
-:global(.vtex-rich-text-0-x-paragraph--botonText5) {
+:global(.vtex-rich-text-0-x-paragraph--botonText5),
+:global(.vtex-rich-text-0-x-paragraph--botonText6),
+:global(.vtex-rich-text-0-x-paragraph--botonText7),
+:global(.vtex-rich-text-0-x-paragraph--botonText8) {
   display: flex;
   justify-content: center;
   margin-top: 7px;
@@ -2083,7 +2104,10 @@
 :global(.vtex-rich-text-0-x-link--botonText2),
 :global(.vtex-rich-text-0-x-link--botonText3),
 :global(.vtex-rich-text-0-x-link--botonText4),
-:global(.vtex-rich-text-0-x-link--botonText5) {
+:global(.vtex-rich-text-0-x-link--botonText5),
+:global(.vtex-rich-text-0-x-link--botonText6),
+:global(.vtex-rich-text-0-x-link--botonText7),
+:global(.vtex-rich-text-0-x-link--botonText8) {
   text-decoration: none;
   color: #ffffff;
   /* padding: 8px 107px 7px 107px; */
@@ -2101,7 +2125,10 @@
   :global(.vtex-rich-text-0-x-link--botonText2),
   :global(.vtex-rich-text-0-x-link--botonText3),
   :global(.vtex-rich-text-0-x-link--botonText4),
-  :global(.vtex-rich-text-0-x-link--botonText5) {
+  :global(.vtex-rich-text-0-x-link--botonText5),
+  :global(.vtex-rich-text-0-x-link--botonText6),
+  :global(.vtex-rich-text-0-x-link--botonText7),
+  :global(.vtex-rich-text-0-x-link--botonText8) {
     text-decoration: none;
     color: #ffffff;
     /* padding: 8px 107px 7px 107px; */
@@ -2116,7 +2143,10 @@
 :global(.vtex-rich-text-0-x-container--botonText2),
 :global(.vtex-rich-text-0-x-container--botonText3),
 :global(.vtex-rich-text-0-x-container--botonText4),
-:global(.vtex-rich-text-0-x-container--botonText5) {
+:global(.vtex-rich-text-0-x-container--botonText5),
+:global(.vtex-rich-text-0-x-container--botonText6),
+:global(.vtex-rich-text-0-x-container--botonText7),
+:global(.vtex-rich-text-0-x-container--botonText8) {
   display: flex;
   justify-content: center;
 }
@@ -2126,7 +2156,10 @@
 :global(.vtex-rich-text-0-x-paragraph--textCatMobile2),
 :global(.vtex-rich-text-0-x-paragraph--textCatMobile3),
 :global(.vtex-rich-text-0-x-paragraph--textCatMobile4),
-:global(.vtex-rich-text-0-x-paragraph--textCatMobile5) {
+:global(.vtex-rich-text-0-x-paragraph--textCatMobile5),
+:global(.vtex-rich-text-0-x-paragraph--textCatMobile6),
+:global(.vtex-rich-text-0-x-paragraph--textCatMobile7),
+:global(.vtex-rich-text-0-x-paragraph--textCatMobile8){
   font-size: 24px;
   font-weight: 400;
   color: #000000;
@@ -2137,9 +2170,14 @@
 :global(.vtex-flex-layout-0-x-flexCol--catMobile2),
 :global(.vtex-flex-layout-0-x-flexCol--catMobile3),
 :global(.vtex-flex-layout-0-x-flexCol--catMobile4),
-:global(.vtex-flex-layout-0-x-flexCol--catMobile5) {
+:global(.vtex-flex-layout-0-x-flexCol--catMobile5),
+:global(.vtex-flex-layout-0-x-flexCol--catMobile6),
+:global(.vtex-flex-layout-0-x-flexCol--catMobile7),
+:global(.vtex-flex-layout-0-x-flexCol--catMobile8) {
   padding-bottom: 20%;
   margin-bottom: 15%;
+  padding-top: 20%;
+  margin-top: 15%;
 }
 :global(.vtex-slider-layout-0-x-paginationDot--carrusel-categorias) {
   background-color: #f58831;
@@ -2985,7 +3023,7 @@ border-radius: 5px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--cantidad-compartir-row){
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--buyButtonMobile)
@@ -3140,7 +3178,8 @@ border-radius: 5px;
 :global(.vtex-product-identifier-0-x-product-identifier--productReference){
   margin-bottom: 0px;
   padding-bottom: 0px;
-  padding-top: 10%;
+  /* padding-top: 10%; */
+  margin-top: -5%;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--cantidad-compartir-row){
@@ -3278,7 +3317,7 @@ border-radius: 5px;
 :global(.vtex-flex-layout-0-x-flexRowContent--row-product-price-mobile),
 :global(.vtex-flex-layout-0-x-flexRowContent--cantidad-compartir-row) {
   max-width: 312px;
-  margin: 20px auto;
+  /* margin: 20px auto; */
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--conoce-mobile),
@@ -5887,4 +5926,68 @@ border-radius: 5px;
 :global(.vtex-flex-layout-0-x-flexRowContent--product-main-mobile)
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
   display: contents;
+}
+
+/* modificacion fuente precio v. mobile */
+:global(.vtex-flex-layout-0-x-flexRow--row-product-price-mobile)
+:global(.vtex-flex-layout-0-x-flexColChild--selling-price)
+:global(.vtex-product-price-1-x-currencyContainer){
+  font-family: 'robotoRegular';
+  font-size: 28px;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--rowListTab)
+:global(.vtex-button__label){
+  font-size: 20px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--txtMeetDesc){
+  font-size: 24px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--redesTitulo){
+  font-family: 'robotoRegular'!important;
+}
+/* rework v mobile */
+
+
+@media (max-width: 442px) {
+  :global(.vtex-slider-layout-0-x-sliderTrack--carrusel-categorias){
+    display: flex;
+    /* justify-content: space-evenly; */
+  }
+  :global(.vtex-slider-layout-0-x-sliderTrack--carrusel-categorias)
+  :global(.vtex-slider-layout-0-x-slide--carrusel-categorias){
+    max-width: 100%;
+  }
+}
+
+:global(.vtex-store-footer-2-x-footerLayout--footer-mobile)
+:global(.vtex-flex-layout-0-x-flexRow--bottom)
+:global(.vtex-store-components-3-x-container){
+  background-color: white;
+}
+
+:global(.vtex-store-form-0-x-formSubmitButton--botonEnviar)
+:global(.vtex-button__label){
+  font-size: 12px;
+}
+
+:global(.vtex-slider-layout-0-x-slide--carrusel-categorias){
+  margin: 0px;
+}
+
+:global(.vtex-slider-layout-0-x-slide--carrusel-categorias)
+:global(.vtex-store-components-3-x-container){
+  padding: 0px;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--carrusel-categorias){
+  padding-bottom: 7%;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--text-facturacion)
+:global(.vtex-rich-text-0-x-paragraph--text-facturacion){
+  font-family: 'robotoRegular';
+  font-size: 16px;
 }

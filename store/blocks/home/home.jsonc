@@ -648,7 +648,7 @@
       // "flex-layout.row#info-pago3-img",
       // "flex-layout.row#info-pago3",
       "slider-layout#formasDePago",
-      "flex-layout.row#textoBottom",
+      
       // "flex-layout.row#newsletter-mobile",
       "back-to-top-button"
     ]
@@ -892,7 +892,10 @@
       "flex-layout.row#rowCat2",
       "flex-layout.row#rowCat3",
       "flex-layout.row#rowCat4",
-      "flex-layout.row#rowCat5"
+      "flex-layout.row#rowCat5",
+      "flex-layout.row#rowCat6",
+      "flex-layout.row#rowCat7",
+      "flex-layout.row#rowCat8"
     ]
   },
   //1
@@ -1050,6 +1053,68 @@
       "text": "Title"
     }
   },
+  //6
+  "flex-layout.row#rowCat6": {
+    "props": {
+      "blockClass": "rowCat6"
+    },
+    "children": ["flex-layout.col#categoriamobile6"]
+  },
+  "flex-layout.col#categoriamobile6": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "catMobile6"
+    },
+    "children": ["image#catmobile6", "rich-text#catmobile6"]
+  },
+  "image#catmobile6": {
+    "props": {
+      "link": {
+        "url": "/virgencita-plis"
+      },
+      "maxHeight": "216px",
+      "maxWidth": "198px",
+      "blockClass": "imgCAtMobile6",
+      "src": "assets/tania.png"
+    }
+  },
+  "rich-text#catmobile6": {
+    "props": {
+      "blockClass": "textCatMobile6",
+      "text": "Title"
+    }
+  },
+  //7
+  "flex-layout.row#rowCat7": {
+    "props": {
+      "blockClass": "rowCat5"
+    },
+    "children": ["flex-layout.col#categoriamobile7"]
+  },
+  "flex-layout.col#categoriamobile7": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "catMobile7"
+    },
+    "children": ["image#catmobile7", "rich-text#catmobile7"]
+  },
+  "image#catmobile7": {
+    "props": {
+      "link": {
+        "url": "/virgencita-plis"
+      },
+      "maxHeight": "216px",
+      "maxWidth": "198px",
+      "blockClass": "imgCAtMobile7",
+      "src": "assets/tania.png"
+    }
+  },
+  "rich-text#catmobile7": {
+    "props": {
+      "blockClass": "textCatMobile7",
+      "text": "Title"
+    }
+  },
 
   "flex-layout.row#info-pago1-img": {
     "props": {
@@ -1071,6 +1136,63 @@
     "children": ["rich-text#pago1"]
   },
   "rich-text#pago1": {
+    "props": {
+      "blockClass": "info-pago-1-txt",
+      "text": "Ofertas exclusivas en linea"
+    }
+  },
+  //7
+  "flex-layout.row#rowCat8": {
+    "props": {
+      "blockClass": "rowCat8"
+    },
+    "children": ["flex-layout.col#categoriamobile8"]
+  },
+  "flex-layout.col#categoriamobile8": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "catMobile7"
+    },
+    "children": ["image#catmobile8", "rich-text#catmobile8"]
+  },
+  "image#catmobile8": {
+    "props": {
+      "link": {
+        "url": "/virgencita-plis"
+      },
+      "maxHeight": "216px",
+      "maxWidth": "198px",
+      "blockClass": "imgCAtMobile7",
+      "src": "assets/tania.png"
+    }
+  },
+  "rich-text#catmobile8": {
+    "props": {
+      "blockClass": "textCatMobile8",
+      "text": "Title"
+    }
+  },
+
+  "flex-layout.row#info-pago8-img": {
+    "props": {
+      "blockClass": "info-pago-1-rowimg"
+    },
+    "children": ["image#pago8"]
+  },
+  "image#pago8": {
+    "props": {
+      "blockClass": "info-pago-1-img",
+      "src": "assets/porcentaje.svg"
+    }
+  },
+  "flex-layout.row#info-pago8": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "info-pago-1-rowtxt"
+    },
+    "children": ["rich-text#pago8"]
+  },
+  "rich-text#pago8": {
     "props": {
       "blockClass": "info-pago-1-txt",
       "text": "Ofertas exclusivas en linea"
