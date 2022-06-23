@@ -220,6 +220,7 @@
   content: url("assets/icons-notificationbar/flag-mexico.svg");
   position: relative;
   top: 7px;
+  padding: 7px;
 }
 :global(.vtex-overlay-layout-0-x-trigger--overlay-trigger-pais)
 :global(.vtex-rich-text-0-x-paragraph--txtNotBar)::after {
@@ -2993,7 +2994,7 @@ border-radius: 5px;
 
 :global(.vtex-rich-text-0-x-paragraph--recomendaciones-mobile){
   font-family: Billy;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   color: #E42990;
 }
@@ -5423,6 +5424,8 @@ border-radius: 5px;
 :global(.vtex-rich-text-0-x-paragraph--textoValores3),
 :global(.vtex-rich-text-0-x-paragraph--textoValores4){
   color: #FFFFFF;
+  font-family: 'robotoRegular';
+  font-size: 16px;
 }
 
 :global(.vtex-rich-text-0-x-container--tituloAbout),
@@ -5990,4 +5993,25 @@ border-radius: 5px;
 :global(.vtex-rich-text-0-x-paragraph--text-facturacion){
   font-family: 'robotoRegular';
   font-size: 16px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows--shelf){
+  display: none;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf){
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--formEscribenos)
+:global(.vtex-textarea__label),
+:global(.vtex-flex-layout-0-x-flexColChild--colform)
+:global(.vtex-textarea__label){
+  font-family: 'robotoRegular';
+  font-size: 16px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel3--tituloMisionVision){
+  margin-bottom: 10px!important;
 }

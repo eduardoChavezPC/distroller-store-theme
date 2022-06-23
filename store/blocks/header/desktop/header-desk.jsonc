@@ -34,7 +34,7 @@
     },
     "rich-text#txtPais": {
         "props": {
-            "text": "Cambiar de pais",
+            "text": "Cambiar país",
             "blockClass": "txtNotBar"
         }
       },
