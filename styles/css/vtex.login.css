@@ -7,11 +7,14 @@
 :global(.vtex-login-2-x-googleOptionBtn) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-oauthLabel),
 :global(.vtex-login-2-x-googleOptionBtn) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-oauthLabel) :global(.vtex-login-2-x-oauthProvider)
 :global(.vtex-login-2-x-facebookOptionBtn) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-oauthLabel),
-:global(.vtex-login-2-x-facebookOptionBtn) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-oauthLabel) :global(.vtex-login-2-x-oauthProvider) {
+:global(.vtex-login-2-x-facebookOptionBtn) :global(.vtex-button) :global(.vtex-button__label) :global(.vtex-login-2-x-oauthLabel) :global(.vtex-login-2-x-oauthProvider),
+:global(.vtex-account) :global(.vtex-my-account-1-x-userInfo) :global(.vtex-my-account-1-x-userGreeting) {
     font-family: 'RobotoRegular';
 }
 /* ----------------- Font Family Fin ----------------------- */
-
+:global(.vtex-account) :global(.vtex-my-account-1-x-userInfo) :global(.vtex-my-account-1-x-userGreeting) {
+    font-size: 20px;
+}
 :global(.vtex-login-2-x-contentAlwaysWithOptions) {
     margin-top: 20px;
     margin-bottom: 20px;
