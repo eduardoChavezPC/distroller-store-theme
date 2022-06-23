@@ -363,4 +363,9 @@
 :global(.vtex-search-result-3-x-buttonShowMore--layout)
 :global(.vtex-button) {
   margin-bottom: 10px;
+  font-family: 'RobotoRegular';
+}
+
+:global(.vtex-search-result-3-x-orderByOptionsContainer) {
+  z-index: 998;
 }

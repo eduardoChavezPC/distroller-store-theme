@@ -90,7 +90,7 @@
   content: url(assets/home/icon-wish.svg);
   background-repeat: no-repeat;
   padding: 0px;
-  z-index: 998;
+  z-index: 997;
 }
 
 :global(.vtex-product-summary-2-x-container) :global(.vtex-product-summary-2-x-element) {
