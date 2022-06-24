@@ -104,7 +104,7 @@
     font-family: 'Billy';
     font-style: normal;
     font-weight: normal;
-    font-size: 34px;
+    font-size: 34px !important;
     line-height: 34px;
     color: #FFFFFF;
 
@@ -150,7 +150,7 @@
 :global(.vtex-rich-text-0-x-paragraph--text-slider-mob-searchResult) {
   margin-top: 0px;
   font-family: 'Billy';
-  font-size: 20px;
+  font-size: 20px !important;
   line-height: 20px;
   color: #8E3392;
 }
