@@ -2615,9 +2615,11 @@
 /* PDP DESKTOP */
 :global(.vtex-store-components-3-x-productBrand--quickview){
   color: #8E3392;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   font-family: 'Billy';
+  text-align: center;
+  display: flex;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--buttonPDP)
 :global(.vtex-button){
@@ -2671,6 +2673,7 @@
   line-height: 14px;
   text-transform: uppercase;
   color: #000000;
+  font-family: 'robotoRegular';
 }
 :global(.vtex-flex-layout-0-x-flexCol--right){
   padding-left: 63px;
@@ -2833,7 +2836,7 @@ border-radius: 5px;
 
 :global(.vtex-store-components-3-x-productDescriptionText){
   color: #000000;
-  font-family: 'Billy';
+  font-family: 'robotoRegular';
   font-size: 15px;
 }
 :global(.vtex-flex-layout-0-x-flexColChild--productSpecificationValue){
@@ -4748,8 +4751,9 @@ border-radius: 5px;
 :global(.vtex-input)
 :global(.vtex-input__label)::after{
   font-size: 16px;
-  content: 'Envio \A Ingresa tu CP para saber cuándo llegará tu producto';
+  content: 'Envío \A Ingresa tu CP para saber cuándo llegará tu producto';
   white-space: pre-wrap;
+  font-family: 'robotoRegular';
 }
 
 :global(.vtex-address-form__postalCode-forgottenURL){
@@ -4908,7 +4912,7 @@ border-radius: 5px;
   justify-content: center;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--textMision){
-  height: 22rem;
+  height: 26rem;
 }
 :global(.vtex-store-components-3-x-imageElement--imgMision){
   margin-top: -7%;
@@ -5700,7 +5704,7 @@ border-radius: 5px;
   font-family: 'Billy';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 17.1030px!important;
   line-height: 20px;
   text-align: start;
 }
@@ -6064,4 +6068,14 @@ border-radius: 5px;
 :global(.vtex-rich-text-0-x-heading--tituloStroreLocator){
   margin-top: 69px;
   margin-bottom: 48px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel3--mision),
+:global(.vtex-rich-text-0-x-headingLevel3--vision){
+  font-family: 'Billy'!important;
+  font-size: 34px!important;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer){
+  font-family: 'Billy';
 }
