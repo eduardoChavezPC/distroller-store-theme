@@ -1836,6 +1836,16 @@
   display: contents !important;
   color: #000000;
 }
+:global(.vtex-rich-text-0-x-container--about) :global(.vtex-rich-text-0-x-paragraph--about),
+:global(.vtex-rich-text-0-x-container--mision) :global(.vtex-rich-text-0-x-heading--mision),
+:global(.vtex-rich-text-0-x-container--mision) :global(.vtex-rich-text-0-x-paragraph--mision),
+:global(.vtex-rich-text-0-x-container--rowVal1) :global(.vtex-rich-text-0-x-paragraph--rowVal1),
+:global(.vtex-rich-text-0-x-container--rowVal2) :global(.vtex-rich-text-0-x-paragraph--rowVal2),
+:global(.vtex-rich-text-0-x-container--rowVal3) :global(.vtex-rich-text-0-x-paragraph--rowVal3),
+:global(.vtex-rich-text-0-x-container--rowVal4) :global(.vtex-rich-text-0-x-paragraph--rowVal4),
+:global(.vtex-rich-text-0-x-container--compromisoText) :global(.vtex-rich-text-0-x-paragraph--compromisoText) {
+  font-family: 'RobotoRegular';
+}
 :global(.vtex-flex-layout-0-x-flexRowContent--textAbout),
 :global(.vtex-flex-layout-0-x-flexRowContent--textMision) {
   /* margin-right: 4%;
