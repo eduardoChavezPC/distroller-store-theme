@@ -2620,6 +2620,11 @@
   font-family: 'Billy';
   text-align: center;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--buttonPDP)
 :global(.vtex-button){
@@ -6078,4 +6083,14 @@ border-radius: 5px;
 
 :global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer){
   font-family: 'Billy';
+}
+
+:global(.vtex-numeric-stepper__input){
+  font-size: 16px;
+  font-family: 'robotoRegular';
+}
+
+:global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer)
+.t-heading-5{
+  font-size: 20px;
 }
