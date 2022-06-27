@@ -17,7 +17,8 @@
       "vtex.menu@2.x:menu#menuVertical1",
       "vtex.menu@2.x:menu#menuVertical2",
       "flex-layout.col#redesFooter",
-      "flex-layout.col#imagen"
+      "flex-layout.row#footerImagen"
+      
     ],
     "props": {
       "blockClass": "menu-row",
@@ -166,7 +167,6 @@
       "flex-layout.row#paisesMobile",
       "flex-layout.row#2-footer-mobile",
       "flex-layout.row#3-footer-mobile",
-      "flex-layout.row#4-footer-mobile",
       "flex-layout.row#5-footer-mobile"
     ]
   },

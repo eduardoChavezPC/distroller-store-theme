@@ -4952,6 +4952,8 @@ border-radius: 5px;
   padding-right: 0%;
   margin-top: 5px!important;
   margin-bottom: 24px;
+  font-size: 16px;
+  font-family: robotoRegular;
 }
 
 :global(.vtex-rich-text-0-x-container--compromisoText){
@@ -6022,4 +6024,29 @@ border-radius: 5px;
 
 :global(.vtex-rich-text-0-x-headingLevel3--tituloMisionVision){
   margin-bottom: 10px!important;
+}
+
+:global(.vtex-rich-text-0-x-container--tituloStroreLocator){
+  display: contents;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--stroreLocator)
+:global(.vtex-store-components-3-x-container){
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+
+:global(.vtex-store-footer-2-x-footerLayout--footer-mobile)
+:global(.vtex-flex-layout-0-x-flexRow--redes-mobile-footer){
+  padding-top: 15%;
+}
+
+
+:global(.vtex-store-footer-2-x-footerLayout--footer-mobile)
+:global(.vtex-flex-layout-0-x-flexRow--imagenesRedes){
+  padding-bottom: 15%;
+}
+:global(.vtex-rich-text-0-x-link--mailContactanos){
+  font-family: 'robotoRegular';
 }
