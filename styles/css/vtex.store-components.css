@@ -6060,3 +6060,8 @@ border-radius: 5px;
 :global(.vtex-rich-text-0-x-link--mailContactanos){
   font-family: 'robotoRegular';
 }
+
+:global(.vtex-rich-text-0-x-heading--tituloStroreLocator){
+  margin-top: 69px;
+  margin-bottom: 48px;
+}
