@@ -109,7 +109,7 @@
   align-items: flex-end;
   color: #000000;
 }
-:global(.vtex-product-summary-2-x-description) {
+:global(.vtex-flex-layout-0-x-flexRowContent--desc-row) :global(.vtex-flex--customShortDescription) {
   font-family: 'RobotoRegular';
   font-style: normal;
   font-weight: normal;
@@ -118,6 +118,7 @@
   display: flex;
   align-items: flex-end;
   color: #000000;  
+  text-align: center;
 }
 :global(.vtex-product-price-1-x-listPriceValue--summary) {
   font-family: 'RobotoRegular';
@@ -192,6 +193,7 @@
   }
   :global(.vtex-flex-layout-0-x-flexRowContent--preciobase) {
     justify-content: center;
+    margin-top: 20px;
   }
   :global(.vtex-search-result-3-x-totalProducts--layout) {
     padding: 0px;
