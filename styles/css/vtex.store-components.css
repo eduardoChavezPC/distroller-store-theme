@@ -6090,7 +6090,15 @@ border-radius: 5px;
   font-family: 'robotoRegular';
 }
 
-:global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer)
-.t-heading-5{
+:global(.vtex-store-components-3-x-productImageTag){
+  padding-bottom: 10%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--product-name-mobile)
+:global(.vtex-store-components-3-x-container){
+  padding-top: 5%;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer){
   font-size: 20px;
 }
