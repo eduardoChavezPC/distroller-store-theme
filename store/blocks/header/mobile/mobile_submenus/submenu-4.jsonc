@@ -9,11 +9,37 @@
         "type": "internal",
         "href": "",
         "noFollow": false,
-        "tagTitle": "Accesorios para ti",
-        "text": "Accesorios para ti"
+        "tagTitle": "Ropa y Accesorios para ti",
+        "text": "Ropa y Accesorios para ti"
       },
       "blockClass": "mob-menu-prin-header"
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile_menu-4"
+  ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#mobile_menu-4": {
+    "props": {
+      "width": "auto",
+      "blockClass": "mobile-submenu-4"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile_menu-4"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_menu-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#bolsasYCarteras",
+            "menu-item#joyeria",
+            "menu-item#trajesDeBano",
+            "menu-item#utilesEscolares",
+            "menu-item#cuidadoPersonal",
+            "menu-item#virgencitaPlis"
+    ]
   }
 
 

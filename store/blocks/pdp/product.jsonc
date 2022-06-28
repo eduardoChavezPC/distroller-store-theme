@@ -400,7 +400,8 @@
     },
     "children":[
       "rich-text#txtMeet",
-      "rich-text#txtMeetDesc"
+      // "rich-text#txtMeetDesc"
+      "flex-layout.row#description"
     ]
   },
 
@@ -507,6 +508,7 @@
   },
   "flex-layout.row#description": {
     "props": {
+      "blockClass":"productDescriptionPDP",
       "marginBottom": 7
     },
     "children": ["product-description"]
@@ -592,14 +594,15 @@
       "flex-layout.row#stars",
       "sku-selector",
       // "flex-layout.row#price",
-      
+      //short descripcion
       "flex-layout.row#product-price",
       "product-specification-group",
+      "shortDescription",
       // "flex-layout.col#list-price-savings",
       // "flex-layout.col#selling-price",
 
       // "product-installments",
-      "flex-layout.row#description",
+      
       "product-quantity",
       "product-assembly-options",
       "product-gifts",

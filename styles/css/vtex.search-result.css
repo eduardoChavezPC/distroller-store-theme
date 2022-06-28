@@ -369,3 +369,6 @@
 :global(.vtex-search-result-3-x-orderByOptionsContainer) {
   z-index: 998;
 } 
+:global(.vtex-flex-layout-0-x-flexRow--desc-row){
+  height: 100%!important;
+}

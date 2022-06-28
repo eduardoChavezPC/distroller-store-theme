@@ -17,7 +17,7 @@
     }
   },
   "flex-layout.row#product-summary-description":{
-    "children":["product-summary-description"],
+    "children":["shortDescription"],
     "props":{"blockClass":"desc-row"}
   },
   "flex-layout.row#productRating": {

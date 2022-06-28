@@ -1,7 +1,7 @@
 {
     "menu-item#chamoyAmiguis": {
         "props": {
-            "id": "menu-item-channel",
+            "id": "menu-item-productos2",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -9,101 +9,195 @@
                 "type": "internal",
                 "href": "",
                 "noFollow": false,
-                "tagTitle": "Chamoy y amiguis",
-                "text": "Chamoy y amiguis"
-            },
-            "blockClass": "menu-prin-header"
-        }
-    },
-
-
-
-
-
-
-
-
-    "menu-item#personajes": {
-        "props": {
-            "id": "menu-item-personajes",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "",
-                "noFollow": false,
-                "tagTitle": "Personajes",
-                "text": "Personajes"
+                "tagTitle": "Chamoy Amiguis",
+                "text": "Chamoy Amiguis"
             },
             "blockClass": "menu-prin-header"
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#personajes"
+            "vtex.menu@2.x:submenu#product2"
         ]
     },
-    "vtex.menu@2.x:submenu#personajes": {
+    "vtex.menu@2.x:submenu#product2": {
         "props": {
             "width": "auto",
             "blockClass": "cont-submenu-desktop"
         },
         "children": [
-            "vtex.menu@2.x:menu#personajes"
+            // "flex-layout.row#producto-img"
+            "vtex.menu@2.x:menu#producto2",
+            "vtex.menu@2.x:menu#image-product2"
         ]
     },
-    "vtex.menu@2.x:menu#personajes": {
+
+    "vtex.menu@2.x:menu#producto2": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "col-desk-menu-items"
+        },
+        "children": [
+            "menu-item#chamoyEdicionEspecial",
+            "menu-item#amiguisdeChamoy",
+            "menu-item#teenTokers",
+            "menu-item#pikolines",
+            "menu-item#bobozidades",
+            "menu-item#plusDecorativo",
+            "menu-item#miniBags"
+        ]
+    },
+
+    "menu-item#chamoyEdicionEspecial": {
+        "props": {
+            "id": "menu-item-producto-1-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Chamoy edición especial",
+                "text": "Chamoy edición especial"
+            }
+        }
+    },
+    "menu-item#amiguisdeChamoy": {
+        "props": {
+            "id": "menu-item-producto-2-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Amiguis de Chamoy",
+                "text": "Amiguis de Chamoy"
+            }
+        }
+    },
+    "menu-item#teenTokers": {
+        "props": {
+            "id": "menu-item-producto-3-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Teen Tokers",
+                "text": "Teen Tokers"
+            }
+        }
+    },
+    "menu-item#pikolines": {
+        "props": {
+            "id": "menu-item-producto-4-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Pikolines",
+                "text": "Pikolines"
+            }
+        }
+    },
+    "menu-item#bobozidades": {
+        "props": {
+            "id": "menu-item-producto-5-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Bobozidades",
+                "text": "Bobozidades"
+            }
+        }
+    },
+    "menu-item#plusDecorativo": {
+        "props": {
+            "id": "menu-item-producto-6-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Plus decorativo",
+                "text": "Plus decorativo"
+            }
+        }
+    },
+    "menu-item#miniBags": {
+        "props": {
+            "id": "menu-item-producto-7-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Mini Bags",
+                "text": "Mini Bags"
+            }
+        }
+    },
+
+
+
+    "vtex.menu@2.x:menu#image-product2": {
         "props": {
             "orientation": "vertical"
         },
         "children": [
-            "menu-item#personaje-1",
-            "menu-item#personaje-2",
-            "menu-item#personaje-3"
+            "menu-item#banerProductos2"
         ]
     },
-    "menu-item#personaje-1": {
+
+    
+    
+    "flex-layout.row#producto-img2": {
+        "children": [
+            "vtex.menu@2.x:menu#producto2",
+            "vtex.menu@2.x:menu#image-product2"
+        ],
         "props": {
-            "id": "menu-item-personaje-1",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "",
-                "noFollow": false,
-                "tagTitle": "Personaje 1",
-                "text": "Personaje 1"
-            }
+            "width": "auto",
+            "blockClass": "row-cont-items-image2"
         }
     },
-    "menu-item#personaje-2": {
+
+    "menu-item#banerProductos2": {
         "props": {
-            "id": "menu-item-personaje-2",
+            "id": "menu-item-producto-2",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
                 "href": "",
-                "noFollow": false,
-                "tagTitle": "Personaje 2",
-                "text": "Personaje 2"
+                "noFollow": false
             }
-        }
+        },
+        "children":[
+            "image#banerProductos2"
+        ]
     },
-    "menu-item#personaje-3": {
+
+    "image#banerProductos2": {
         "props": {
-            "id": "menu-item-personaje-3",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "",
-                "noFollow": false,
-                "tagTitle": "Personaje 3",
-                "text": "Personaje 3"
-            }
+            "minWidth": "280px",
+            "minHeight": "180px",
+            "src": "assets/header/img-prueba-header.png"
         }
     }
 }

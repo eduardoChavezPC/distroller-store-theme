@@ -1406,8 +1406,8 @@
 
 :global(.vtex-menu-2-x-accordionIcon--isOpen),
 :global(.vtex-menu-2-x-accordionIcon--isClosed) {
-  position: absolute;
-  right: 7%;
+  position: relative;
+  right: -7%;
   margin: 0;
 }
 
@@ -2663,6 +2663,7 @@
   font-weight: 600;
   font-size: 14px;
   color: #000000;
+  margin-top: 5%;
 }
 .productImageTag--main{
   width: 100px;
@@ -5914,7 +5915,7 @@ border-radius: 5px;
   width: 24px;
   position: absolute;
   right: 10%;
-  top: 50%;
+  /* top: 50%; */
   z-index: 2;
 }
 
@@ -6101,4 +6102,42 @@ border-radius: 5px;
 
 :global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer){
   font-size: 20px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--specs)
+:global(.vtex-flex-layout-0-x-flexRowContent--productDescriptionPDP)
+:global(.vtex-store-components-3-x-productDescriptionText),
+:global(.vtex-flex-layout-0-x-flexRowContent--productDescriptionPDP)
+:global(.vtex-store-components-3-x-productDescriptionTitle){
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--productDescriptionPDP)
+:global(.vtex-store-components-3-x-productDescriptionText){
+  padding: 1%;
+  font-family: 'Billy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-flex--customShortDescription){
+  font-family: 'robotoRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--selling-price){
+  margin-bottom: 10%;
+}
+
+:global(.vtex-menu-2-x-menuItem--mob-menu-prin-header--isOpen)
+:global(.vtex-menu-2-x-submenuAccordion){
+  padding-left: 15%;
 }

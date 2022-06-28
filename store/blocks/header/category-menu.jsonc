@@ -10,16 +10,16 @@
       // Accesorios para ti
       // Outlet
       // Diversión
-
       "menu-item#bebesNeonatos",
       "menu-item#chamoyAmiguis",
       "menu-item#chikiPunTaun",
-      "menu-item#accesorios",
+      "menu-item#ropaYAccesoriosParaTi",
       "menu-item#outlet",
+      "menu-item#personajes"
       // "menu-item#productos",
       // "menu-item#personajes",
       // "menu-item#channel",
-      "menu-item#diversion"
+      // "menu-item#diversion"
       // "menu-item#juegos"
       // "menu-item#distrollerizate"
     ]

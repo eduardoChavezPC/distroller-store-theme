@@ -13,10 +13,32 @@
         "text": "Chiki Pun Taun"
       },
       "blockClass": "mob-menu-prin-header"
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile_menu-3"
+  ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#mobile_menu-3": {
+    "props": {
+      "width": "auto",
+      "blockClass": "mobile-submenu-3"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile_menu-3"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_menu-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#chikibrijes",
+            "menu-item#chikihadas",
+            "menu-item#monstruoAntipesadillas",
+            "menu-item#ratonPerez"
+    ]
   }
-
-
 
 
 

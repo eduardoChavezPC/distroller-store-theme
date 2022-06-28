@@ -9,12 +9,41 @@
         "type": "internal",
         "href": "",
         "noFollow": false,
-        "tagTitle": "Chamoy y amiguis",
-        "text": "Chamoy y amiguis"
+        "tagTitle": "Chamoy Amiguis",
+        "text": "Chamoy Amiguis"
       },
       "blockClass": "mob-menu-prin-header"
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile_menu-2"
+  ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#mobile_menu-2": {
+    "props": {
+      "width": "auto",
+      "blockClass": "mobile-submenu-2"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile_menu-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_menu-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#chamoyEdicionEspecial",
+      "menu-item#amiguisdeChamoy",
+      "menu-item#teenTokers",
+      "menu-item#pikolines",
+      "menu-item#bobozidades",
+      "menu-item#plusDecorativo",
+      "menu-item#miniBags"
+    ]
   }
+
+
 
 
 

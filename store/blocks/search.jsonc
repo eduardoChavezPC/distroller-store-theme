@@ -6,7 +6,7 @@
         // "skusFilter": "ALL",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
-        "maxItemsPerPage": 50
+        "maxItemsPerPage": 48
       }
     }
   },

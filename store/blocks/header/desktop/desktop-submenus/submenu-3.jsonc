@@ -1,7 +1,7 @@
 {
     "menu-item#chikiPunTaun": {
         "props": {
-            "id": "menu-item-channel",
+            "id": "menu-item-productos3",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -13,16 +13,39 @@
                 "text": "Chiki Pun Taun"
             },
             "blockClass": "menu-prin-header"
-        }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#product3"
+        ]
+    },
+    "vtex.menu@2.x:submenu#product3": {
+        "props": {
+            "width": "auto",
+            "blockClass": "cont-submenu-desktop"
+        },
+        "children": [
+            // "flex-layout.row#producto-img"
+            "vtex.menu@2.x:menu#producto3",
+            "vtex.menu@2.x:menu#image-product3"
+        ]
     },
 
-
-
-
-
-    "menu-item#channel": {
+    "vtex.menu@2.x:menu#producto3": {
         "props": {
-            "id": "menu-item-channel",
+            "orientation": "vertical",
+            "blockClass": "col-desk-menu-items"
+        },
+        "children": [
+            "menu-item#chikibrijes",
+            "menu-item#chikihadas",
+            "menu-item#monstruoAntipesadillas",
+            "menu-item#ratonPerez"
+        ]
+    },
+
+    "menu-item#chikibrijes": {
+        "props": {
+            "id": "menu-item-producto-1-3",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -30,10 +53,104 @@
                 "type": "internal",
                 "href": "",
                 "noFollow": false,
-                "tagTitle": "Distroller Channel",
-                "text": "Distroller Channel"
-            },
-            "blockClass": "menu-prin-header"
+                "tagTitle": "Chikibrijes",
+                "text": "Chikibrijes"
+            }
+        }
+    },
+    "menu-item#chikihadas": {
+        "props": {
+            "id": "menu-item-producto-2-3",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Chikihadas",
+                "text": "Chikihadas"
+            }
+        }
+    },
+    "menu-item#monstruoAntipesadillas": {
+        "props": {
+            "id": "menu-item-producto-3-3",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Monstruo antipesadillas",
+                "text": "Monstruo antipesadillas"
+            }
+        }
+    },
+    "menu-item#ratonPerez": {
+        "props": {
+            "id": "menu-item-producto-4-3",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "Ratón Pérez",
+                "text": "Ratón Pérez"
+            }
+        }
+    },
+
+
+
+
+    "vtex.menu@2.x:menu#image-product3": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#banerProductos3"
+        ]
+    },
+
+    
+    
+    "flex-layout.row#producto-img3": {
+        "children": [
+            "vtex.menu@2.x:menu#producto3",
+            "vtex.menu@2.x:menu#image-product3"
+        ],
+        "props": {
+            "width": "auto",
+            "blockClass": "row-cont-items-image3"
+        }
+    },
+
+    "menu-item#banerProductos3": {
+        "props": {
+            "id": "menu-item-producto-3",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false
+            }
+        },
+        "children":[
+            "image#banerProductos3"
+        ]
+    },
+
+    "image#banerProductos3": {
+        "props": {
+            "minWidth": "280px",
+            "minHeight": "180px",
+            "src": "assets/header/img-prueba-header.png"
         }
     }
 }
