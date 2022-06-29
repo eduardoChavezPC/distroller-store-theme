@@ -6136,8 +6136,16 @@ border-radius: 5px;
 :global(.vtex-flex-layout-0-x-flexColChild--selling-price){
   margin-bottom: 10%;
 }
-
+:global(.vtex-menu-2-x-menuItem--mob-menu-prin-header--isClosed)
+:global(.vtex-menu-2-x-submenuAccordion),
 :global(.vtex-menu-2-x-menuItem--mob-menu-prin-header--isOpen)
 :global(.vtex-menu-2-x-submenuAccordion){
   padding-left: 15%;
+}
+/* hover header desktop */
+:global(.vtex-menu-2-x-styledLinkContent--menu-prin-header):hover{
+  color:#FFFFFF;
+}
+:global(.vtex-menu-2-x-styledLinkContainer--menu-prin-header):hover{
+  background-color: #F58831;
 }

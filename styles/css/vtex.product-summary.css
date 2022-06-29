@@ -97,7 +97,7 @@
   padding: 10px;
 }
 :global(.vtex-product-summary-2-x-nameContainer) {
-  height: 100%;
+  min-height: 104px;
 }
 :global(.vtex-product-summary-2-x-productBrand) {
   font-family: 'Billy';
@@ -109,6 +109,7 @@
   align-items: flex-end;
   color: #000000;
 }
+
 :global(.vtex-flex-layout-0-x-flexRowContent--desc-row) :global(.vtex-flex--customShortDescription) {
   font-family: 'RobotoRegular';
   font-style: normal;
@@ -118,7 +119,6 @@
   display: flex;
   align-items: flex-end;
   color: #000000;  
-  text-align: center;
 }
 :global(.vtex-product-price-1-x-listPriceValue--summary) {
   font-family: 'RobotoRegular';
@@ -183,11 +183,12 @@
   }
 
   :global(.vtex-product-summary-2-x-nameContainer) {
-    height: 100%;  
+    height: 100%;
+    justify-content: center;
   }
 
   :global(.vtex-product-summary-2-x-brandName),
-  :global(.vtex-product-summary-2-x-description),
+  :global(.vtex-flex-layout-0-x-flexRowContent--desc-row) :global(.vtex-flex--customShortDescription),
   :global(.vtex-product-price-1-x-listPrice--summary) {
     text-align: center;
   }
