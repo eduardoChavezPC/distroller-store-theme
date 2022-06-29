@@ -1,6 +1,7 @@
 {
   "store.custom#personajes-prin-page": {
     "children": [
+      "flex-layout.row#perosnajes-prin-titulo",
       "flex-layout.row#personaje-prin-row-container"
     ]
   },
@@ -14,17 +15,89 @@
     }
   },
 
-
+  "flex-layout.row#perosnajes-prin-titulo":{
+    "props":{
+      "blockClass":"row-prin-personaje"
+    },
+    "children":[
+      "flex-layout.col#perosnajes-prin-titulo"
+    ]
+  },
 
   "flex-layout.col#personajes-prin-col-filtro": {
     "children": [
-      "flex-layout.row#personajes-prin-filtro-neonatos"
+      "flex-layout.row#personajes-prin-filtro-neonatos",
+      "flex-layout.row#personajes-prin-filtro-virgencita",
+      "flex-layout.row#personajes-prin-filtro-chikitiPunTaun",
+      "flex-layout.row#personajes-prin-filtro-chamoyAmiguis",
+      "flex-layout.row#personajes-prin-filtro-mexicanPaguer"
     ],
     "props": {
       "width": "22%",
-      "blockClass": "personajes-indiv-col-img"
+      "blockClass": "personajes-indiv-col-img-a"
     }
   },
+
+  //chamoyAmiguis
+  "flex-layout.row#personajes-prin-filtro-mexicanPaguer": {
+    "children": [
+      // imagen
+      "rich-text#personajes-prin-filtro-mexicanPaguer"
+    ]
+  },
+  
+  "rich-text#personajes-prin-filtro-mexicanPaguer":{
+    "props":{
+      "text":"[Mexican Pagüer](/)",
+      "blockClass":["personajes-prin-filtro", "personajes-prin-filtro-mexicanPaguer"]
+    }
+  },
+
+  //chamoyAmiguis
+  "flex-layout.row#personajes-prin-filtro-chamoyAmiguis": {
+    "children": [
+      // imagen
+      "rich-text#personajes-prin-filtro-chamoyAmiguis"
+    ]
+  },
+  
+  "rich-text#personajes-prin-filtro-chamoyAmiguis":{
+    "props":{
+      "text":"[Chamoy y Amiguis](/)",
+      "blockClass":["personajes-prin-filtro", "personajes-prin-filtro-chamoyAmiguis"]
+    }
+  },
+
+  //chikitiPunTaun
+  "flex-layout.row#personajes-prin-filtro-chikitiPunTaun": {
+    "children": [
+      // imagen
+      "rich-text#personajes-prin-filtro-chikitiPunTaun"
+    ]
+  },
+  
+  "rich-text#personajes-prin-filtro-chikitiPunTaun":{
+    "props":{
+      "text":"[Chikiti Pun Taun](/)",
+      "blockClass":["personajes-prin-filtro", "personajes-prin-filtro-chikitiPunTaun"]
+    }
+  },
+
+  //virgencita
+  "flex-layout.row#personajes-prin-filtro-virgencita": {
+    "children": [
+      // imagen
+      "rich-text#personajes-prin-filtro-virgencita"
+    ]
+  },
+  
+  "rich-text#personajes-prin-filtro-virgencita":{
+    "props":{
+      "text":"[Virgencita](/)",
+      "blockClass":["personajes-prin-filtro", "personajes-prin-filtro-virgencita"]
+    }
+  },
+  //neonato
   "flex-layout.row#personajes-prin-filtro-neonatos": {
     "children": [
       // imagen
@@ -43,15 +116,33 @@
 
   "flex-layout.col#personajes-prin-col-content": {
     "children": [
-      "rich-text#nombre-personaje-indiv",
-      "rich-text#info-personaje-indiv",
-      "rich-text#ver-product-personaje-indiv"
+      
+      "rich-text#nombre-personaje-indiv"
+      // "rich-text#info-personaje-indiv",
+      // "rich-text#ver-product-personaje-indiv"
     ],
     "props": {
       "width": "68%",
-      "blockClass": "personajes-indiv-col-txt"
+      "blockClass": "personajes-indiv-col-txt-a"
     }
   },
+
+  "flex-layout.col#perosnajes-prin-titulo":{
+    "props":{
+      "blockClass":"personajes-indiv-titulo"
+    },
+    "children":[
+      "rich-text#personaje-indiv-titulo"
+    ]
+  },
+
+  "rich-text#personaje-indiv-titulo":{
+    "props":{
+      "blockClass":"personajes-indiv-titulo",
+      "text":"## Personajes"
+    }
+  },
+
   "rich-text#nombre-personaje-indiv":{
     "props":{
       "text":"NombrePersonaje",

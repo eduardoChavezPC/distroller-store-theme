@@ -6163,7 +6163,6 @@ border-radius: 5px;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img) {
-  
   background-color: #00B6E9;
 }
 :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img) {
@@ -6209,4 +6208,8 @@ border-radius: 5px;
   text-decoration: none;
   background-color: #E42990;
   padding: 10px 180px;
+}
+
+:global(.vtex-rich-text-0-x-container--personajes-indiv-titulo){
+  display: block;
 }
