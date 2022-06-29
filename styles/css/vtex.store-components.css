@@ -6149,3 +6149,64 @@ border-radius: 5px;
 :global(.vtex-menu-2-x-styledLinkContainer--menu-prin-header):hover{
   background-color: #F58831;
 }
+
+
+/* Template personajes */
+
+/* Template personajes individuales */
+:global(.vtex-flex-layout-0-x-flexRowContent--personaje-indiv-row-info) {
+  /* background-color: #00B6E9; */
+  margin: 65px 0px 53px 0px;
+  justify-content: right;
+  /* width: 90%;
+  margin-left: 10%; */
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img) {
+  
+  background-color: #00B6E9;
+}
+:global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img) {
+  height: 100% !important;
+  position: relative;
+  left: -50%;
+  top: 0%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-txt) {
+  background-color: #00B6E9;
+}
+:global(.vtex-rich-text-0-x-paragraph--nombre-personaje-indiv) {
+  font-family: 'BillyBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #F7F7F7;
+  margin: 41px 0px 0px 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--info-personaje-indiv) {
+  font-family: 'Billy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #F7F7F7;
+  padding-right: 20px;
+  margin: 20px 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--ver-product-personaje-indiv) {
+  margin: 20px 0px;
+}
+:global(.vtex-rich-text-0-x-link--ver-product-personaje-indiv) {
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #E42990;
+  padding: 10px 180px;
+}

@@ -1,0 +1,73 @@
+{
+  "store.custom#personajes-prin-page": {
+    "children": [
+      "flex-layout.row#personaje-prin-row-container"
+    ]
+  },
+  "flex-layout.row#personaje-prin-row-container": {
+    "children": [
+      "flex-layout.col#personajes-prin-col-filtro",
+      "flex-layout.col#personajes-prin-col-content"
+    ],
+    "props": {
+      "blockClass": "personaje-indiv-row-info"
+    }
+  },
+
+
+
+  "flex-layout.col#personajes-prin-col-filtro": {
+    "children": [
+      "flex-layout.row#personajes-prin-filtro-neonatos"
+    ],
+    "props": {
+      "width": "22%",
+      "blockClass": "personajes-indiv-col-img"
+    }
+  },
+  "flex-layout.row#personajes-prin-filtro-neonatos": {
+    "children": [
+      // imagen
+      "rich-text#personajes-prin-filtro-neonatos"
+    ]
+  },
+  
+  "rich-text#personajes-prin-filtro-neonatos":{
+    "props":{
+      "text":"[Neonatos](/)",
+      "blockClass":["personajes-prin-filtro", "personajes-prin-filtro-neonatos"]
+    }
+  },
+
+
+
+  "flex-layout.col#personajes-prin-col-content": {
+    "children": [
+      "rich-text#nombre-personaje-indiv",
+      "rich-text#info-personaje-indiv",
+      "rich-text#ver-product-personaje-indiv"
+    ],
+    "props": {
+      "width": "68%",
+      "blockClass": "personajes-indiv-col-txt"
+    }
+  },
+  "rich-text#nombre-personaje-indiv":{
+    "props":{
+      "text":"NombrePersonaje",
+      "blockClass":"nombre-personaje-indiv"
+    }
+  },
+  "rich-text#info-personaje-indiv":{
+    "props":{
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum augue nec eleifend euismod. Cras viverra vestibulum elit vitae accumsan. Duis aliquet massa a venenatis varius. Nulla facilisi. Morbi molestie nec massa eget bibendum. Vestibulum accumsan eu lorem sed venenatis. Suspendisse arcu ante, porttitor tempus dignissim ac, scelerisque sit amet tellus. Suspendisse accumsan odio sed justo venenatis, id molestie lectus dapibus. Integer magna dui, pharetra sit amet semper nec, maximus id metus. Pellentesque mollis quis nisl vel facilisis. Curabitur ornare a leo nec pellentesque. Fusce blandit sapien quis ante placerat, eu aliquet justo viverra. Ut in dapibus arcu. Etiam sapien turpis, condimentum in volutpat nec, rhoncus a enim.",
+      "blockClass":"info-personaje-indiv"
+    }
+  },
+  "rich-text#ver-product-personaje-indiv":{
+    "props":{
+      "text":"[Ver Producto](/)",
+      "blockClass":"ver-product-personaje-indiv"
+    }
+  }
+}

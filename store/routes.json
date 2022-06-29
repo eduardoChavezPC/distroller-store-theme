@@ -25,5 +25,11 @@
   },
   "store.storelocator":{
     "path": "/tiendas"
+  },
+  "store.custom#personajes-indiv-page":{
+    "path": "/personajes-indiv-page"
+  },
+  "store.custom#personajes-prin-page":{
+    "path": "/personajes-prin-page"
   }
 }
