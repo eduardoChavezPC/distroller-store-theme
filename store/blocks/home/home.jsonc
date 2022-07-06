@@ -237,7 +237,7 @@
       "blockClass": "cat1"
     },
     "children": [
-      "image#cat1"//,
+      "image#cat1-1"//,
       // "rich-text#categoryText1",
       // "flex-layout.row#button1"
     ]
@@ -263,7 +263,14 @@
     }
   },
 
-  "image#cat1": {
+  // "image#cat1": {
+  //   "props": {
+  //     "blockClass": "categoryImg1",
+  //     "src": "assets/home/categoria1.jpg"
+  //   }
+  // },
+
+  "image#cat1-1": {
     "props": {
       "blockClass": "categoryImg1",
       "src": "assets/home/categoria1.jpg"
