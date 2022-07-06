@@ -675,10 +675,7 @@
 :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-hideDecorators) {
   font-family: 'RobotoRegular';
   border-radius: 0px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
   color: #C4C4C4;
 }
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--searchBar-mobile) 
@@ -5944,9 +5941,9 @@ border-radius: 5px;
   text-decoration: none;
 }
 
-:global(.vtex-search-result-3-x-galleryItem--normal){
+/* :global(.vtex-search-result-3-x-galleryItem--normal){
   max-width: 300px!important;
-}
+} */
 
 :global(.vtex-search-result-3-x-searchResultContainer)
 :global(.vtex-flex-layout-0-x-flexRow--search-result)
@@ -6026,7 +6023,7 @@ border-radius: 5px;
 }
 
 :global(.vtex-slider-layout-0-x-sliderArrows--shelf){
-  display: none;
+  /* display: none; */
 }
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf){
@@ -6154,22 +6151,10 @@ border-radius: 5px;
 /* Template personajes */
 
 /* Template personajes individuales */
-:global(.vtex-flex-layout-0-x-flexRowContent--personaje-indiv-row-info) {
-  /* background-color: #00B6E9; */
-  margin: 65px 0px 53px 0px;
-  justify-content: right;
-  /* width: 90%;
-  margin-left: 10%; */
-}
+
 
 :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img) {
   background-color: #00B6E9;
-}
-:global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img) {
-  height: 100% !important;
-  position: relative;
-  left: -50%;
-  top: 0%;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-txt) {
@@ -6207,9 +6192,349 @@ border-radius: 5px;
   color: #FFFFFF;
   text-decoration: none;
   background-color: #E42990;
-  padding: 10px 180px;
+  padding: 10px 140px;
 }
 
 :global(.vtex-rich-text-0-x-container--personajes-indiv-titulo){
   display: block;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--card-indiv-personaje){
+  display: flex;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--card-indiv-personaje)
+:global(.vtex-rich-text-0-x-wrapper){
+  text-align: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--card-indiv-personaje)
+:global(.vtex-rich-text-0-x-headingLevel3){
+  color: #E42990;
+  font-family: 'Billy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 0px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--boton-indiv-personaje){
+  background: #F58831;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-txt-a){
+  /* padding-right: 15%; */
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--card-indiv-personaje)
+:global(.vtex-store-components-3-x-imageElement--personaje-indiv){
+  margin-top: -13%;
+  width: 161px;
+}
+:global(.vtex-rich-text-0-x-container--boton-indiv-personaje){
+  display: block;
+}
+:global(.vtex-flex-layout-0-x-flexRow--boton-indiv-personaje){
+  width: 100%;
+  /* background-color: #F58831; */
+}
+:global(.vtex-rich-text-0-x-paragraph--boton-indiv-personaje){
+  /* padding: 10px; */
+}
+:global(.vtex-rich-text-0-x-link--personajes-prin-filtro){
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Billy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+:global(.vtex-rich-text-0-x-container--personajes-prin-filtro){
+  /* background-color: #8E3392; */
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a)
+:global(.vtex-store-components-3-x-imageElement--personaje-indiva){
+  width: 137px;
+  position: absolute;
+  margin-top: -2em;
+  margin-left: -5em;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a){
+  background-color:#8E3392;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  white-space: nowrap;
+  border-radius: 10px;
+  width: 257px;
+  height: 55px!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 40%!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a)
+:global(.vtex-flex-layout-0-x-flexRowContent){
+  display: flex;
+  align-items: flex-start;
+  /* padding-right: 17%; */
+}
+:global(.vtex-rich-text-0-x-link--personajes-prin-filtro-neonatos):hover{
+  /* background-color: #00B6E9; */
+}
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a):hover{
+  background-color: #00B6E9;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--personaje-indiv-row-info)
+:global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-img-a)
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a){
+  height: 55px!important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--personaje-indiv-row-info)
+:global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-img-a)
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a)
+:global(.vtex-flex-layout-0-x-flexRowContent){
+  display: flex;
+  align-items: flex-start;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a)
+:global(.vtex-store-components-3-x-imageElement--personaje-indiv){
+  margin-left: -62%;
+  margin-top: -35%;
+  /* height: 137px!important; */
+  max-width: 130px!important;
+}
+
+:global(.vtex-rich-text-0-x-link--personajes-prin-filtro-neonatos){
+  padding-left: 0%;
+  padding-right: 60%;
+  padding-top: 14%;
+  padding-bottom: 14%;
+}
+:global(.vtex-rich-text-0-x-wrapper--personajes-prin-filtro-neonatos){
+  width: 100%!important;
+}
+
+:global(.vtex-rich-text-0-x-link--personajes-prin-filtro-virgencita){
+  padding-left: 0%;
+  padding-right: 50%;
+  padding-top: 14%;
+  padding-bottom: 14%;
+}
+
+:global(.vtex-rich-text-0-x-link--personajes-prin-filtro-chikitiPunTaun){
+  padding-left: 0%;
+  padding-right: 15%;
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+:global(.vtex-rich-text-0-x-link--personajes-prin-filtro-chamoyAmiguis){
+  padding-left: 0%;
+  padding-right: 7%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+:global(.vtex-rich-text-0-x-link--personajes-prin-filtro-mexicanPaguer){
+  padding-left: 0%;
+  padding-right: 16%;
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+
+:global(.vtex-rich-text-0-x-container--boton-indiv-personaje){
+  width: 90%!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--card-indiv-personaje)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+:global(.vtex-flex-layout-0-x-flexCol--card-indiv-personaje)
+{
+  margin-top: 12%;
+  margin-right: 6%;
+  margin-bottom: 0%;
+  margin-left: 6%;
+  background: rgba(250, 250, 250, 0.8);
+  /* background-color: #00B6E9; */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--card-indiv-personaje)
+:global(.vtex-rich-text-0-x-wrapper--persoanje-indiv)
+:global(.vtex-rich-text-0-x-paragraph--persoanje-indiv){
+  font-family: 'BillyL';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  display: grid;
+  margin-top: 10%;
+  padding-left: 10%;
+  width: 90%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--boton-indiv-personaje):hover{
+  background-color: #E42990;
+  border-radius: 5px;
+}
+:global(.vtex-rich-text-0-x-link--boton-indiv-personaje){
+  text-decoration: none;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  font-family: 'robotoRegular';
+  padding-left: 36%;
+  padding-right: 36%;
+  display: grid;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--personaje-indiv-row-info){
+  width: 95%;
+  /* padding-left: 5%; */
+}
+
+:global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img) {
+  /* height: 100% !important; */
+  height: calc(100% + 100px);
+  position: relative;
+  /* left: -50%; */
+  top: -12%;
+  display: flex;
+  margin-left: -70%;
+  max-width: fit-content!important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--personaje-indiv-row-info) {
+  /* background-color: #00B6E9; */
+  /* padding: 65px 0px 53px 0px; */
+  justify-content: right;
+  /* width: 90%;
+  margin-left: 10%; */
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--personaje-indiv-row-info)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  /* margin-bottom: 6%; */
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--card-indiv-personaje){
+  /* padding-top: 5%; */
+  padding-bottom: 8%;
+}
+
+
+:global(.vtex-rich-text-0-x-container--personajes-prin-filtro){
+  /* background-color: #8E3392; */
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--personajesIndiv){
+  display: flex;
+  /* justify-content: right; */
+  /* width: 95%; */
+  padding-left: 10%;
+}
+:global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-img-a){
+  padding-left: 10%;
+}
+:global(.vtex-flex-layout-0-x-flexRow--personaje-indiv-row-info)
+:global(.vtex-store-components-3-x-container){
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 90%;
+}
+:global(.vtex-flex-layout-0-x-flexRow--personaje-indiv-row-info){
+  padding: 6em 0 6em 0;
+}
+
+:global(.vtex-rich-text-0-x-container--masPersonajes),
+:global(.vtex-rich-text-0-x-container--recomendaciones){
+  display: block;
+}
+:global(.vtex-rich-text-0-x-headingLevel2--masPersonajes),
+:global(.vtex-rich-text-0-x-headingLevel2--recomendaciones){
+  color: #8E3392!important;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexRow--personajesEspec) */
+:global(.vtex-flex-layout-0-x-flexRow--shelf)
+:global(.vtex-store-components-3-x-container),
+:global(.vtex-flex-layout-0-x-flexRow--personajesEspec)
+:global(.vtex-store-components-3-x-container){
+  margin-left: 5%;
+  width: 90%;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--masPersonajes){
+  margin-top: -20px;
+}
+
+@media (max-width:1025px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--personaje-indiv-row-info){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-img-a){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a){
+    background-color:#8E3392;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    white-space: nowrap;
+    border-radius: 10px;
+    width: 257px;
+    height: 55px!important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-txt-a){
+    grid-template-columns: repeat(2, 1fr)!important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--personajesIndiv){
+    display: grid!important;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-txt-a){
+  padding: 8%
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-txt-a){
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-txt-a){
+  /* background-color: rgba(250, 250, 250, 0.8); */
+  background-color: #00B6E9;
 }

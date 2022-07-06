@@ -520,6 +520,12 @@
       "width":"39%"
     }
   },
+  "flex-layout.col#spacerPersonaje":{
+    "props":{
+      "blockClass":"spacerPersonaje"
+      // "width":"33%"
+    }
+  },
   ///////////////////////////////////////////////////////////////////////////////// 1
   "flex-layout.col#icono1": {
     "props": {
@@ -1349,9 +1355,10 @@
   },
   "slider-layout#demo-products": {
     "props": {
+      "showNavigationArrows":"always",
       "showPaginationDots":"mobileOnly",
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 2,
         "phone": 2
       },

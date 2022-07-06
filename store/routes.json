@@ -31,5 +31,8 @@
   },
   "store.custom#personajes-prin-page":{
     "path": "/personajes-prin-page"
+  },
+  "store.custom#personajes-especi-page":{
+    "path": "/personajes-especi-page"
   }
 }
