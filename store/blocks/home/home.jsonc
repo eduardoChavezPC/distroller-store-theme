@@ -237,9 +237,9 @@
       "blockClass": "cat1"
     },
     "children": [
-      "image#cat1",
-      "rich-text#categoryText1",
-      "flex-layout.row#button1"
+      "image#cat1"//,
+      // "rich-text#categoryText1",
+      // "flex-layout.row#button1"
     ]
   },
 
@@ -266,7 +266,7 @@
   "image#cat1": {
     "props": {
       "blockClass": "categoryImg1",
-      "src": "assets/neonatos.svg"
+      "src": "assets/home/categoria1.jpg"
     }
   },
   "rich-text#categoryText1": {
@@ -282,9 +282,9 @@
       "blockClass": "cat2"
     },
     "children": [
-      "image#cat2",
-      "rich-text#categoryText2",
-      "flex-layout.row#button2"
+      "image#cat2"//,
+      // "rich-text#categoryText2",
+      // "flex-layout.row#button2"
     ]
   },
 
@@ -309,7 +309,7 @@
   "image#cat2": {
     "props": {
       "blockClass": "categoryImg2",
-      "src": "assets/chamoy.svg"
+      "src": "assets/home/categoria2.jpg"
     }
   },
   "rich-text#categoryText2": {
@@ -325,9 +325,9 @@
       "blockClass": "cat3"
     },
     "children": [
-      "image#cat3",
-      "rich-text#categoryText3",
-      "flex-layout.row#button3"
+      "image#cat3"//,
+      // "rich-text#categoryText3",
+      // "flex-layout.row#button3"
     ]
   },
 
@@ -352,7 +352,7 @@
   "image#cat3": {
     "props": {
       "blockClass": "categoryImg3",
-      "src": "assets/chikiti.svg"
+      "src": "assets/home/categoria3.jpg"
     }
   },
   "rich-text#categoryText3": {
@@ -368,9 +368,9 @@
       "blockClass": "cat4"
     },
     "children": [
-      "image#cat4",
-      "rich-text#categoryText4",
-      "flex-layout.row#button4"
+      "image#cat4"//,
+      // "rich-text#categoryText4",
+      // "flex-layout.row#button4"
     ]
   },
 
@@ -395,7 +395,7 @@
   "image#cat4": {
     "props": {
       "blockClass": "categoryImg4",
-      "src": "assets/mexican.svg"
+      "src": "assets/home/categoria4.jpg"
     }
   },
   "rich-text#categoryText4": {
@@ -411,9 +411,9 @@
       "blockClass": "cat5"
     },
     "children": [
-      "image#cat5",
-      "rich-text#categoryText5",
-      "flex-layout.row#button5"
+      "image#cat5"//,
+      // "rich-text#categoryText5",
+      // "flex-layout.row#button5"
     ]
   },
 
@@ -438,7 +438,7 @@
   "image#cat5": {
     "props": {
       "blockClass": "categoryImg5",
-      "src": "assets/virgencita.svg"
+      "src": "assets/home/categoria5.jpg"
     }
   },
   "rich-text#categoryText5": {
@@ -1405,9 +1405,26 @@
       "flex-layout.col#visa",
       "flex-layout.col#american",
       "flex-layout.col#oxxo",
-      "flex-layout.col#mercado"
+      "flex-layout.col#mercado",
+      "flex-layout.col#kueskiPay"
     ]
   },
+
+  "flex-layout.col#kueskiPay": {
+      "props": {
+          "blockClass": "kueskiPay",
+            "marginLeft": 3,
+            "marginRight": 3
+          },
+          "children": ["image#kueskiPay"]
+        },
+
+        "image#kueskiPay": {
+           "props": {
+       "src": "assets/KueskiPay.svg"
+           }
+        },
+    
 
   "flex-layout.col#paypal": {
     "props": {
@@ -1620,7 +1637,8 @@
       "image#4",
       "image#5",
       "image#6",
-      "image#7"
+      "image#7",
+      "image#8"
     ]
   },
   "image#1": {
@@ -1656,6 +1674,11 @@
   "image#7": {
     "props": {
       "src": "assets/mercado.svg"
+    }
+  },
+  "image#8": {
+    "props": {
+      "src": "assets/KueskiPay.svg"
     }
   }
 }

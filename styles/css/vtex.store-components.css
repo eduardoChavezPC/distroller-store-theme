@@ -2006,7 +2006,7 @@
   margin-bottom: 8px;
 }
 
-:global(.vtex-flex-layout-0-x-flexCol--cat1) {
+/* :global(.vtex-flex-layout-0-x-flexCol--cat1) {
   background-color: #f58831;
 }
 :global(.vtex-flex-layout-0-x-flexCol--cat2) {
@@ -2020,6 +2020,22 @@
 }
 :global(.vtex-flex-layout-0-x-flexCol--cat5) {
   background-color: #8e3392;
+} */
+
+:global(.vtex-flex-layout-0-x-flexColChild--cat1),
+:global(.vtex-flex-layout-0-x-flexColChild--cat2),
+:global(.vtex-flex-layout-0-x-flexColChild--cat3),
+:global(.vtex-flex-layout-0-x-flexColChild--cat4),
+:global(.vtex-flex-layout-0-x-flexColChild--cat5) {
+  width: 100%;
+}
+:global(.vtex-store-components-3-x-imageElement--categoryImg1),
+:global(.vtex-store-components-3-x-imageElement--categoryImg2),
+:global(.vtex-store-components-3-x-imageElement--categoryImg3),
+:global(.vtex-store-components-3-x-imageElement--categoryImg4),
+:global(.vtex-store-components-3-x-imageElement--categoryImg5) {
+  height: 100%;
+  width: 100%;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--categoryText1),
@@ -6166,7 +6182,10 @@ border-radius: 5px;
   font-weight: 700;
   font-size: 48px;
   color: #F7F7F7;
-  margin: 41px 0px 0px 0px;
+  /* margin: 41px 0px 0px 0px; */
+  margin-bottom: 0px;
+  margin-top: 0px;
+  /* text-align: center; */
 }
 
 :global(.vtex-rich-text-0-x-paragraph--info-personaje-indiv) {
@@ -6469,7 +6488,7 @@ border-radius: 5px;
   width: 90%;
 }
 :global(.vtex-flex-layout-0-x-flexRow--personaje-indiv-row-info){
-  padding: 6em 0 6em 0;
+  margin: 6em 0 6em 0;
 }
 
 :global(.vtex-rich-text-0-x-container--masPersonajes),
@@ -6486,7 +6505,7 @@ border-radius: 5px;
 :global(.vtex-store-components-3-x-container),
 :global(.vtex-flex-layout-0-x-flexRow--personajesEspec)
 :global(.vtex-store-components-3-x-container){
-  margin-left: 5%;
+  /* margin-left: 5%; */
   width: 90%;
 }
 
@@ -6509,8 +6528,8 @@ border-radius: 5px;
   
   :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a){
     background-color:#8E3392;
-    margin-top: 12%;
-    margin-bottom: 12%;
+    margin-top: 20%;
+    margin-bottom: 20%;
     white-space: nowrap;
     border-radius: 10px;
     width: 257px;
@@ -6522,9 +6541,176 @@ border-radius: 5px;
   }
   :global(.vtex-flex-layout-0-x-flexRowContent--personajesIndiv){
     display: grid!important;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--personaje-indiv-row-info)
+  :global(.vtex-store-components-3-x-container){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--card-indiv-personaje)
+  :global(.vtex-store-components-3-x-imageElement--personaje-indiv){
+    margin-top: -30%;
+    width: 161px;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-txt-a){
+    padding: 35% 5% 0% 5%!important;
+    /* height: 120%!important; */
+  }
+
+  :global(.vtex-rich-text-0-x-link--boton-indiv-personaje){
+    white-space: nowrap;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--card-indiv-personaje)
+  :global(.vtex-rich-text-0-x-wrapper--persoanje-indiv)
+  :global(.vtex-rich-text-0-x-paragraph--persoanje-indiv){
+    font-family: 'BillyL';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    display: grid;
+    margin-top: 10%;
+    padding-left: 10%;
+    width: 90%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--boton-indiv-personaje){
+    margin-top: 15%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--boton-indiv-personaje)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    padding: 10% 0%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--personaje-indiv-row-info)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100%!important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--personaje-indiv-row-info){
+    background-color: #00B6E9;
+    margin: 6em 1em 6em 1em!important;
+  }
+
+  :global(.vtex-rich-text-0-x-container--ver-product-personaje-indiv),
+  :global(.vtex-rich-text-0-x-container--nombre-personaje-indiv){
+    display: contents;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--nombre-personaje-indiv) {
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  :global(.vtex-rich-text-0-x-link--ver-product-personaje-indiv){
+    padding: 10px 88px;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--ver-product-personaje-indiv){
+    text-align: center;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--info-personaje-indiv){
+    padding-right: 0px!important;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--info-personaje-indiv){
+    text-align: center;
+  }
+
+  :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img) {
+    height: calc(110px + 100px)!important;
+    position: relative!important;
+    top: -12%!important;
+    display: flex!important;
+    max-width: fit-content!important;
+    margin-left: 0%!important;
+    margin-top: -8%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img){
+    display: flex;
+    justify-content: center;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--personajesIndiv){
+    padding-left: 0px!important;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-img){
+
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--personajesIndiv)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-img-a){
+    margin-left: 7%;
+  }
+
+
+
+
+
+
+}
+/* media */
+
+@media (max-width:522px) {
+  :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img) {
+    height: calc(110px + 100px)!important;
+    position: relative!important;
+    top: -12%!important;
+    display: flex!important;
+    max-width: fit-content!important;
+    margin-left: 0%!important;
+    margin-top: -18%;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a){
+    background-color:#8E3392;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    white-space: nowrap;
+    border-radius: 10px;
+    width: 257px;
+    height: 55px!important;
+  }
+}
+@media (max-width:640px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a){
+    background-color:#8E3392;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    white-space: nowrap;
+    border-radius: 10px;
+    width: 257px;
+    height: 55px!important;
   }
 }
 
+@media (max-width:1200px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--personajesIndiv)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    /* width: 30%!important; */
+  }
+}
 :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-txt-a){
   padding: 8%
 }
@@ -6534,7 +6720,14 @@ border-radius: 5px;
   grid-template-columns: repeat(3, 1fr);
 }
 
-:global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-txt-a){
-  /* background-color: rgba(250, 250, 250, 0.8); */
-  background-color: #00B6E9;
+:global(.vtex-flex-layout-0-x-flexCol--card-indiv-personaje){
+  background-color: rgba(250, 250, 250, 0.8);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--personajesEspec)
+:global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-txt-a){
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
 }

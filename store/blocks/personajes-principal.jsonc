@@ -11,7 +11,7 @@
       "flex-layout.col#personajes-prin-col-content"
     ],
     "props": {
-      "blockClass": "personaje-indiv-row-info"
+      "blockClass": "personajesIndiv"
     }
   },
 
@@ -254,7 +254,7 @@
     "rich-text#personaje-indiv29":{
       "props":{
         "blockClass":"persoanje-indiv",
-        "text":"### Nombre\nlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+        "text":"### Nombre\nlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
       }
     },
     "image#personaje-indiv29":{
@@ -1403,7 +1403,7 @@
 
   "rich-text#nombre-personaje-indiv":{
     "props":{
-      "text":"NombrePersonaje",
+      "text":"Nombre Personaje",
       "blockClass":"nombre-personaje-indiv"
     }
   },
