@@ -30,8 +30,8 @@
 
   "stack-layout#prodsum": {
     "children": [
-      "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection"
+      "product-summary-image#shelf"//,
+      // "vtex.product-highlights@2.x:product-highlights#collection"
       // "flex-layout.row#wishbtn"
       // "flex-layout.row#wishbtn"
 
