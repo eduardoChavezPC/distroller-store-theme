@@ -6731,3 +6731,30 @@ border-radius: 5px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
 }
+
+:global(.vtex-rich-text-0-x-link--boton-indiv-personaje){
+  white-space: nowrap;
+}
+
+@media (max-width:1200px) {
+    :global(.vtex-rich-text-0-x-paragraph--info-personaje-indiv){
+      font-size: 17px!important;
+    }
+    :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
+      margin-left: -96%;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--personajesIndiv){
+      padding-left: 4%;
+    }
+    :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a){
+      /* margin-top: 13%; */
+      margin-bottom: 13%;
+    }
+    :global(.vtex-flex-layout-0-x-flexCol--personajes-indiv-col-img-a){
+      padding-left: 5%;
+    }
+}
+
+:global(.vtex-rich-text-0-x-container--bottomText){
+  padding-top: 5%;
+}
