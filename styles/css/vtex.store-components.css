@@ -2438,8 +2438,10 @@
 
 /* GIFTCARD DESKTOP */
 :global(.vtex-store-components-3-x-infoCardContainer--infoCard-giftCard) {
-  height: 537px;
-  width: 939px;
+  /* height: 537px; */
+  height: 100%;
+  /* width: 939px; */
+  width: 100%;
 }
 
 :global(.vtex-store-components-3-x-infoCardCallActionContainer--infoCard-giftCard)
@@ -4574,6 +4576,8 @@ border-radius: 5px;
 :global(.vtex-store-components-3-x-container){
   padding-top: 18px;
   padding-bottom: 18px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 :global(.vtex-rich-text-0-x-container--texto-categoria){
   background-color: #8E3392;
@@ -4588,6 +4592,8 @@ border-radius: 5px;
 :global(.vtex-store-components-3-x-container){
   padding-top: 18px;
   padding-bottom: 18px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 :global(.vtex-rich-text-0-x-container--recomendadosTitulo){
@@ -6757,4 +6763,23 @@ border-radius: 5px;
 
 :global(.vtex-rich-text-0-x-container--bottomText){
   padding-top: 5%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--taniaInfo){
+  padding-top: 3%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--giftCard-2)
+:global(.vtex-product-summary-2-x-container--gridLayout)
+:global(.vtex-product-summary-2-x-element--gridLayout){
+  /* padding-top: 0px !important;
+  /* padding-right: 21px !important; */
+  padding-bottom: 0px !important;
+  /*padding-left: 63px !important; */
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--infoCard-giftCard){
+  background-size: contain!important;
+  background-color: #fc5c34;
+  background-position: bottom!important;
 }
