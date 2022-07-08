@@ -30,17 +30,7 @@
 
   "stack-layout#prodsum": {
     "children": [
-      "product-summary-image#shelf"//,
-      // "vtex.product-highlights@2.x:product-highlights#collection"
-      // "flex-layout.row#wishbtn"
-      // "flex-layout.row#wishbtn"
-
-      // "flex-layout.row#highlight-wish"
-
-      // "flex-layout.col#spacer",
-      // "add-to-list-btn"
-
-      // "modal-trigger#quickview" // Check quickview.jsonc
+      "product-summary-image#shelf"
     ]
   },
 
@@ -141,7 +131,6 @@
       "blockClass": "preciobase"
     },
     "children": [
-      "product-price-savings#summary",
       "product-selling-price#summary"
     ]
   },

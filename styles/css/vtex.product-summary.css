@@ -97,7 +97,11 @@
   padding: 10px;
 }
 :global(.vtex-product-summary-2-x-nameContainer) {
-  min-height: 104px;
+  min-height: 84px;
+}
+:global(.vtex-product-summary-2-x-nameContainer--summaryListDesktop),
+:global(.vtex-product-summary-2-x-nameContainer--summaryListMobile) {
+  min-height: 0px;
 }
 :global(.vtex-product-summary-2-x-productBrand) {
   font-family: 'Billy';

@@ -62,10 +62,11 @@
       "preventVerticalStretch": true
     },
     "children": [
-      "vtex.store-components:product-brand#summaryListDesktop",
+      // "vtex.store-components:product-brand#summaryListDesktop",
       "product-summary-name#summaryListDesktop",
       "flex-layout.row#productRating",
-      "flex-layout.row#productSpecifications"
+      // "flex-layout.row#productSpecifications"
+      "flex-layout.row#product-summary-description"
     ]
   },
   "flex-layout.row#productSpecifications": {
@@ -92,7 +93,8 @@
     "children": [
       "flex-layout.row#savingsSummaryListDesktop",
       "flex-layout.col#priceSummaryListDesktop",
-      "flex-layout.row#buyButtonsSummaryListDesktop"
+      "flex-layout.row#row-add-btn"
+      // "flex-layout.row#buyButtonsSummaryListDesktop"
     ]
   },
   "flex-layout.row#buyButtonsSummaryListDesktop": {
@@ -131,8 +133,8 @@
   "stack-layout#summaryListDesktop": {
     "children": [
       "product-summary-image#summaryListDesktop",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "add-to-list-btn"
+      // "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
   "product-summary-image#summaryListDesktop": {
@@ -158,7 +160,6 @@
   "stack-layout#summaryListMobile": {
     "children": [
       "product-summary-image#summaryListMobile",
-      "vtex.product-highlights@2.x:product-highlights#collection",
       "add-to-list-btn"
       // "modal-trigger#quickview" // Check quickview.jsonc
     ]
@@ -179,7 +180,8 @@
     },
     "children": [
       "flex-layout.col#summaryUpDetailsListMobile",
-      "flex-layout.col#summaryDownDetailsListMobile"
+      "flex-layout.col#summaryDownDetailsListMobile",
+      "flex-layout.row#row-add-btn"
     ]
   },
   "flex-layout.col#summaryUpDetailsListMobile": {
@@ -188,8 +190,9 @@
       "blockClass": "summaryUpDetailsListMobile"
     },
     "children": [
-      "vtex.store-components:product-brand#summaryListMobile",
+      // "vtex.store-components:product-brand#summaryListMobile",
       "product-summary-name#summaryListMobile",
+      "flex-layout.row#product-summary-description",
       "product-rating-inline"
     ]
   },

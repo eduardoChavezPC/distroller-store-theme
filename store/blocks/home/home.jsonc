@@ -21,9 +21,9 @@
       // "flex-layout.row#infoPagos-master",
       "flex-layout.row#metodosDePago",
       // "flex-layout.row#newsletter-home",
-      "back-to-top-button",
+      "back-to-top-button"
       // "back-to-top-button"
-      "image#whatsapp"
+      // "image#whatsapp"
     ]
   },
   "image#whatsapp":{
