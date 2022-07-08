@@ -2439,7 +2439,7 @@
 /* GIFTCARD DESKTOP */
 :global(.vtex-store-components-3-x-infoCardContainer--infoCard-giftCard) {
   /* height: 537px; */
-  height: 100%;
+  height: calc(100% - 10px);
   /* width: 939px; */
   width: 100%;
 }
@@ -6774,7 +6774,7 @@ border-radius: 5px;
 :global(.vtex-product-summary-2-x-element--gridLayout){
   /* padding-top: 0px !important;
   /* padding-right: 21px !important; */
-  padding-bottom: 0px !important;
+  /* padding-bottom: 0px !important; */
   /*padding-left: 63px !important; */
 }
 

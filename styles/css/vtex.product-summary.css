@@ -180,6 +180,10 @@
   color: #FFFFFF;
 }
 
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--producto) {
+  padding-bottom: 10px;
+}
+
 /* Mobile */
 @media (max-width:1025px) {
   :global(.vtex-product-summary-2-x-container--gridLayout) :global(.vtex-product-highlights-2-x-productHighlightWrapper--collection) {
