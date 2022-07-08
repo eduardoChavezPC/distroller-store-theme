@@ -597,7 +597,7 @@
       //short descripcion
       "flex-layout.row#product-price",
       "product-specification-group",
-      "shortDescription",
+      "shortDescriptionPDP",
       // "flex-layout.col#list-price-savings",
       // "flex-layout.col#selling-price",
 
