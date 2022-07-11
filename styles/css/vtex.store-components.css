@@ -1981,13 +1981,17 @@
   display: flex;
   justify-content: center;
 }
+:global(.vtex-rich-text-0-x-headingLevel1--texto-categoria),
 :global(.vtex-rich-text-0-x-paragraph--texto-categoria) {
   font-weight: bold;
   font-size: 48px;
   color: #FFFFFF;
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 00px;
   font-family: "BillyBold";
+}
+:global(.vtex-rich-text-0-x-headingLevel1--texto-categoria) {
+  margin-top: 8px;
 }
 
 :global(.vtex-rich-text-0-x-container--texto-categoria-mobile) {
@@ -2340,6 +2344,7 @@
   display: flex;
   justify-content: center;
 }
+:global(.vtex-rich-text-0-x-headingLevel1--recomendadosTitulo),
 :global(.vtex-rich-text-0-x-paragraph--recomendadosTitulo) {
   color: #FFFFFF;
   font-size: 48px;
@@ -2349,6 +2354,9 @@
   letter-spacing: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+:global(.vtex-rich-text-0-x-headingLevel1--recomendadosTitulo) {
+  margin-top: 8px;
 }
 
 /* LO MAS NUEVO MOBILE */
@@ -2636,7 +2644,7 @@
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   align-content: center;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -3011,6 +3019,11 @@ border-radius: 5px;
 :global(.vtex-product-price-1-x-listPrice){
   text-decoration: line-through;
 }
+:global(.vtex-product-summary-2-x-container--gridLayout)
+:global(.vtex-product-price-1-x-listPrice--summary) {
+  margin: 9px 0px 9px 0px;
+}
+
 :global(.vtex-reviews-and-ratings-2-x-writeReviewButton){
   padding-left: 0.5rem;
   color: #E42990!important;
