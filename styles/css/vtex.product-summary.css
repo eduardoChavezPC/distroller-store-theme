@@ -86,6 +86,11 @@
 :global(.vtex-wish-list-1-x-wishlistIconContainer)
 :global(.vtex-button)
 :global(.vtex-button__label)
+:global(.vtex-wish-list-1-x-wishlistIcon),
+:global(.vtex-stack-layout-0-x-stackItem--product)
+:global(.vtex-wish-list-1-x-wishlistIconContainer)
+:global(.vtex-button)
+:global(.vtex-button__label)
 :global(.vtex-wish-list-1-x-wishlistIcon){
   content: url(assets/home/icon-wish.svg);
   background-repeat: no-repeat;
