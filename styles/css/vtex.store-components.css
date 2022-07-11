@@ -3350,7 +3350,7 @@ border-radius: 5px;
 :global(.vtex-menu-2-x-menuItem--conoce-mobile)
 :global(.vtex-menu-2-x-submenuAccordion){
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-evenly;
   padding-top: 3%;
 }
@@ -6845,4 +6845,9 @@ border-radius: 5px;
 :global(.vtex-flex-layout-0-x-flexRow--txtMeet)
 :global(.vtex-store-components-3-x-productDescriptionTitle){
   display: none;
+}
+
+:global(.vtex-menu-2-x-menuItem--conoce-mobile)
+:global(.vtex-menu-2-x-submenuAccordion){
+  height: 25em;
 }
