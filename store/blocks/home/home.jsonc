@@ -41,7 +41,8 @@
       "blockClass":"promoInfo"
     },
     "children":[
-      "slider-layout#promoInfo"
+      "info-card#homeDesktop"
+      // "slider-layout#promoInfo"
     ]
   },
   "flex-layout.row#taniaInfo":{
@@ -165,7 +166,8 @@
   "rich-text#recomendadosTitulo": {
     "props": {
       "blockClass": "recomendadosTitulo",
-      "text": "Lo más top"
+      "text": "# Lo más top",
+      "font": "t-heading-1"
     }
   },
 
@@ -215,7 +217,8 @@
       "fullWidth": true,
       "width": "100%",
       "blockClass": "texto-categoria",
-      "text": "Distroller Fámili"
+      "text": "# Distroller Fámili",
+      "font": "t-heading-1"
     }
   },
   "flex-layout.row#category": {

@@ -362,7 +362,7 @@
 
 :global(.vtex-search-result-3-x-buttonShowMore--layout)
 :global(.vtex-button) {
-  margin-bottom: 10px;
+  margin: 80px 0px;
   font-family: 'RobotoRegular';
 }
 
