@@ -92,7 +92,8 @@
       "blockClass":"txtMeet"
     },
     "children":[
-      "rich-text#conocepdpMobile"
+      // "rich-text#conocepdpMobile"
+      "product-description"
     ]
 },
 
