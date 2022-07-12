@@ -644,11 +644,51 @@
   //     "back-to-top-button"
   //   ]
   // },
+  "flex-layout.row#row-banner-mobile": {
+    "children": [
+      "flex-layout.col#col-banner-mobile"
+    ],
+    "props": {
+      "blockClass": "bannerMobile"
+    }
+  },
+  "flex-layout.col#col-banner-mobile": {
+    "children": [
+      // "info-card#homeMobile",
+      "image#img-banner-mobile",
+      "rich-text#button-banner-mobile"
+    ],
+    "props": {
+      "blockClass": "bannerMobile"
+    }
+  },
+  "image#img-banner-mobile": {
+    "props": {
+      "link": {
+        "url": "/"
+      },
+      "width": "100%",
+      "blockClass": "",
+      "src": "assets/sliderMobile.svg"
+    }
+  },
+  "rich-text#button-banner-mobile": {
+    "props": {
+      "text":"[Comprar](/sale)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "buttonBannerMobile"
+    }
+  },
   "responsive-layout.mobile": {
     "children": [
       "__fold__.experimentalLazyAssets",
       // "flex-layout.row#enviosMexico",
-      "flex-layout.row#promoInfo-mobile",
+      // "flex-layout.row#promoInfo-mobile",
+      "flex-layout.row#row-banner-mobile",
+      // "rich-text#botonPrueba",
+      // "flex-layout.row#prueba",
+
       "flex-layout.row#title-category-mobile",
       "slider-layout#categoriasSlider",
       "flex-layout.row#title-newest",
@@ -880,7 +920,7 @@
   "info-card#homeMobile": {
     "props": {
       "id": "sliderMobile1",
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "textPosition": "center",
       "textAlignment": "center",
       // "width": "100%",

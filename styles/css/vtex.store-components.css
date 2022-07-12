@@ -2322,7 +2322,7 @@
 }
 
 :global(.vtex-store-components-3-x-infoCardContainer--sliderHomeMobile-1){
-  min-height: 250px;
+  /* min-height: 250px; */
 }
 :global(.vtex-slider-layout-0-x-paginationDotsContainer--carouselMobile) {
   /* bottom: -32px; */
@@ -6876,4 +6876,30 @@ border-radius: 5px;
 :global(.vtex-flex--customShortDescription){
   /* font-size: 13px; */
   padding-top: 10%;
+}
+
+/* Cambios banner mobile */
+:global(.vtex-flex-layout-0-x-flexRow--bannerMobile)
+:global(.vtex-store-components-3-x-container):first-child {
+  padding: 0px 0px 16px 0px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--bannerMobile):last-child {
+  height: 0 !important;
+}
+:global(.vtex-rich-text-0-x-container--buttonBannerMobile) {
+  position: relative;
+  top: -45px;
+}
+:global(.vtex-rich-text-0-x-paragraph--buttonBannerMobile) {
+  margin: 0px 0px 16px 0px;
+}
+:global(.vtex-rich-text-0-x-link--buttonBannerMobile) {
+  font-family: 'RobotoRegular';
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+
+  padding: 10px 12px;
+  background: #E42990;
+  border-radius: 5px;
 }
