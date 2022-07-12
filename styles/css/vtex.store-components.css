@@ -6851,3 +6851,29 @@ border-radius: 5px;
 :global(.vtex-menu-2-x-submenuAccordion){
   height: 25em;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-name-mobile)
+:global(.vtex-store-components-3-x-productBrand--quickview){
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-menu-2-x-menuItem--specs-mobile)
+:global(.vtex-menu-2-x-submenuAccordion)
+:global(.vtex-menu-2-x-menuContainerNav){
+  padding-top: 5%;
+}
+
+:global(.vtex-search-result-3-x-gallery--grid)
+:global(.vtex-product-summary-2-x-containerNormal--gridLayout)
+:global(.vtex-product-summary-2-x-nameWrapper)
+:global(.vtex-product-summary-2-x-brandNamed){
+  font-size: 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desc-row)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+:global(.vtex-flex--customShortDescription){
+  /* font-size: 13px; */
+  padding-top: 10%;
+}
