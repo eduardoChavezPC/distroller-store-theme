@@ -6814,7 +6814,7 @@ border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 5%;
+  /* padding-left: 5%; */
   padding-bottom: 10%;
   font-family: 'robotoRegular';
   font-style: normal;
@@ -6823,6 +6823,14 @@ border-radius: 5px;
   line-height: 16px;
   display: flex;
   align-items: center;
+  width: 90%;
+}
+@media (max-width: 1025px) {
+  :global(.vtex-flex--customShortDescriptionPDP){
+    padding-left: 7%;
+    padding-right: 2%;
+    width: 91%;
+  }
 }
 
 :global(.vtex-menu-2-x-menuItem--conoce-mobile)
