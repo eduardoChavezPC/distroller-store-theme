@@ -6903,3 +6903,29 @@ border-radius: 5px;
   background: #E42990;
   border-radius: 5px;
 }
+
+
+/* Arrows product summary shelf */
+@media (max-width: 770px) {
+  :global(.vtex-slider-layout-0-x-sliderArrows--shelf)
+  /* :global(.vtex-slider-layout-0-x-caretIcon--shelf) */ {
+    margin: 4px 0;
+    padding: 1px 0px;
+  }
+}
+
+/* Juegos */
+/*Media query para modo horizontal*/
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+/*usar el selector que tengan para el iframe*/ 
+  :global(.vtex-iframe-0-x-container--ksi-mision-especial) {
+    transform: scale(0.7);
+  }
+}
+/*media query para ajustar en modo retrato Este solo aplica para ksimision espacial*/
+@media (max-width:414px) and (orientation: portrait){
+  /*usar el selector que tengan para el iframe*/
+  :global(.vtex-iframe-0-x-container--ksi-mision-especial) {
+    transform:scaleY(0.4);
+  }
+}
