@@ -491,7 +491,8 @@
   font-family: 'RobotoRegular' !important;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px !important;
+  /* font-size: 16px !important; */
+  font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
 }
@@ -6936,4 +6937,43 @@ border-radius: 5px;
   :global(.vtex-iframe-0-x-container--ksi-mision-especial) {
     transform:scaleY(0.4);
   }
+}
+
+@media (max-width: 1220px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-row)
+  :global(.vtex-store-components-3-x-imageElement--imagFooter){
+    margin-right: 0px!important;
+    width: 75%;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--texto1)
+  :global(.vtex-rich-text-0-x-paragraph) {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "robotoRegular";
+}
+:global(.vtex-flex-layout-0-x-flexColChild--texto2)
+  :global(.vtex-rich-text-0-x-paragraph) {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "robotoRegular";
+}
+:global(.vtex-flex-layout-0-x-flexColChild--texto3)
+  :global(.vtex-rich-text-0-x-paragraph) {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: "robotoRegular";
+}
+:global(.vtex-menu-2-x-styledLinkContent--menu-prin-header),
+:global(.vtex-menu-2-x-styledLinkContent--menu-juegos),
+:global(.vtex-menu-2-x-styledLinkContent--menu-distrollerizate) {
+  font-family: 'RobotoRegular' !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px !important;
+  line-height: 19px;
+  color: #FFFFFF;
+}
 }
