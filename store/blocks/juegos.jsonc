@@ -1,5 +1,8 @@
 {
   "store.custom#juegos": {
+    "parent": { 
+      "header": "header#static"
+    },
     "children": [
       "flex-layout.row#script-juegos"
     ]

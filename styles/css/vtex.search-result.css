@@ -372,3 +372,51 @@
 :global(.vtex-flex-layout-0-x-flexRow--desc-row){
   height: 100%!important;
 }
+
+
+/* Search Result - Imagenes de categorías */
+:global(.vtex-store-components-3-x-imageElement--cat-imgs-searchResult) {
+  background-color: #E42990;
+}
+
+@media (min-width: 1026px){
+  :global(.vtex-store-components-3-x-imageElement--cat-imgs-searchResult) {
+    max-height: 320px;
+    max-width: 317px;
+  }
+  :global(.vtex-store-components-3-x-imageElement--cat-imgs-searchResult):hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    /* background-color: #8E3392; */
+    max-height: 320px;
+    max-width: 317px;
+  }
+}
+@media (max-width: 1025px){
+  :global(.vtex-store-components-3-x-imageElement--cat-imgs-searchResult):hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    /* background-color: #8E3392; */
+  }
+}
+:global(.vtex-slider-layout-0-x-slide--cat-imgs-searchResult) {
+  margin: 0px 12px;
+}
+@media (max-width: 1025px) {
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer--cat-imgs-searchResult) {
+    top: 100%;
+  }
+  :global(.vtex-slider-layout-0-x-paginationDot--cat-imgs-searchResult) {
+    background-color: #F58831;
+    height: 15px!important;
+    width: 15px!important;
+  }
+  :global(.vtex-slider-layout-0-x-paginationDot--cat-imgs-searchResult--isActive) {
+    height: 15px!important;
+    width: 15px!important;
+  }
+
+  :global(.vtex-store-components-3-x-imageElementLink--desk-searchResult-item) {
+    background-color: #8E3392;
+  }
+}

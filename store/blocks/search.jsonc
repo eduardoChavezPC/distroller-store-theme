@@ -100,8 +100,10 @@
           "mobileImage": "assets/search-result/banner-mobile.svg"
         }
       ]
-    }
+    },
+    "title": "List-Context"
   },
+
   "slider-layout#images-shearchResult": {
     "props": {
       "itemsPerPage": {
@@ -130,10 +132,48 @@
 
   "flex-layout.row#desk-slider-searchResult": {
     "children": [
-      "slider-layout#desk-slider-searchResult"
+      "list-context.image-list#cat-imgs"
     ],
     "props": {
       "blockClass": "desk-slider-searchResult"
+    }
+  },
+  "list-context.image-list#cat-imgs": {
+    "children": ["slider-layout#images-cats"],
+    "props": {
+      "height": 320,
+      "blockClass": "banner-searchResult",
+      "images": [
+        {
+          "image": "assets/search-result/chamoyPlushDecorativoSinfondo.png",
+          "mobileImage": "assets/search-result/cat-ejemplo.jpg"
+        },
+        {
+          "image": "assets/search-result/Emoshionato-Ropa-Desk.png",
+          "mobileImage": "assets/search-result/Emoshionato-Ropa-Mob1.png"
+        },
+        {
+          "image": "assets/search-result/prueba-removebg-preview.png",
+          "mobileImage": "assets/search-result/cat-ejemplo.jpg"
+        }
+        // {
+        //   "image": "assets/search-result/chamoyPlushDecorativoSinfondo.png",
+        //   "mobileImage": "assets/search-result/cat-ejemplo.jpg"
+        // }
+      ]
+    },
+    "title": "List-Context-cats"
+  },
+  "slider-layout#images-cats": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "cat-imgs-searchResult"
     }
   },
 // ------------------------------------------------- Slider Desktop Inicio -------------------------------------------------
@@ -509,7 +549,8 @@
   
   "flex-layout.row#mob-slider-searchResult": {
     "children": [
-      "slider-layout#mob-slider-searchResult"
+      // "slider-layout#mob-slider-searchResult"
+      "list-context.image-list#cat-imgs"
     ],
     "props": {
       "blockClass": "mob-slider-searchResult"

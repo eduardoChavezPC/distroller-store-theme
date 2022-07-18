@@ -234,15 +234,23 @@
     ]
   },
   //1
+  "flex-layout.row#categoria1": {
+    "children": [
+      "flex-layout.col#categoria1"
+    ],
+    "props": {
+      "blockClass": ["row-cat", "row-cat1"]
+    }
+  },
   "flex-layout.col#categoria1": {
     "props": {
       "horizontalAlign": "center",
       "blockClass": "cat1"
     },
     "children": [
-      "image#cat1-1"//,
-      // "rich-text#categoryText1",
-      // "flex-layout.row#button1"
+      "image#cat1-1",
+      // "rich-text#categoryText1"
+      "flex-layout.row#button1"
     ]
   },
 
@@ -276,7 +284,10 @@
   "image#cat1-1": {
     "props": {
       "blockClass": "categoryImg1",
-      "src": "assets/home/categoria1.jpg"
+      "src": "assets/home/banner_neonatos.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
   "rich-text#categoryText1": {
@@ -286,15 +297,23 @@
     }
   },
   //2
+  "flex-layout.row#categoria2": {
+    "children": [
+      "flex-layout.col#categoria2"
+    ],
+    "props": {
+      "blockClass": ["row-cat", "row-cat2"]
+    }
+  },
   "flex-layout.col#categoria2": {
     "props": {
       "horizontalAlign": "center",
       "blockClass": "cat2"
     },
     "children": [
-      "image#cat2"//,
+      "image#cat2",
       // "rich-text#categoryText2",
-      // "flex-layout.row#button2"
+      "flex-layout.row#button2"
     ]
   },
 
@@ -319,7 +338,10 @@
   "image#cat2": {
     "props": {
       "blockClass": "categoryImg2",
-      "src": "assets/home/categoria2.jpg"
+      "src": "assets/home/banner_chamoy.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
   "rich-text#categoryText2": {
@@ -329,15 +351,23 @@
     }
   },
   //3
+  "flex-layout.row#categoria3": {
+    "children": [
+      "flex-layout.col#categoria3"
+    ],
+    "props": {
+      "blockClass": ["row-cat", "row-cat3"]
+    }
+  },
   "flex-layout.col#categoria3": {
     "props": {
       "horizontalAlign": "center",
       "blockClass": "cat3"
     },
     "children": [
-      "image#cat3"//,
+      "image#cat3",
       // "rich-text#categoryText3",
-      // "flex-layout.row#button3"
+      "flex-layout.row#button3"
     ]
   },
 
@@ -362,7 +392,10 @@
   "image#cat3": {
     "props": {
       "blockClass": "categoryImg3",
-      "src": "assets/home/categoria3.jpg"
+      "src": "assets/home/banner_chikiti.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
   "rich-text#categoryText3": {
@@ -372,15 +405,23 @@
     }
   },
   //4
+  "flex-layout.row#categoria4": {
+    "children": [
+      "flex-layout.col#categoria4"
+    ],
+    "props": {
+      "blockClass": ["row-cat", "row-cat4"]
+    }
+  },
   "flex-layout.col#categoria4": {
     "props": {
       "horizontalAlign": "center",
       "blockClass": "cat4"
     },
     "children": [
-      "image#cat4"//,
+      "image#cat4",
       // "rich-text#categoryText4",
-      // "flex-layout.row#button4"
+      "flex-layout.row#button4"
     ]
   },
 
@@ -405,7 +446,10 @@
   "image#cat4": {
     "props": {
       "blockClass": "categoryImg4",
-      "src": "assets/home/categoria4.jpg"
+      "src": "assets/home/banner_accesorios.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
   "rich-text#categoryText4": {
@@ -415,15 +459,23 @@
     }
   },
   //5
+  "flex-layout.row#categoria5": {
+    "children": [
+      "flex-layout.col#categoria5"
+    ],
+    "props": {
+      "blockClass": ["row-cat", "row-cat5"]
+    }
+  },
   "flex-layout.col#categoria5": {
     "props": {
       "horizontalAlign": "center",
       "blockClass": "cat5"
     },
     "children": [
-      "image#cat5"//,
+      "image#cat5",
       // "rich-text#categoryText5",
-      // "flex-layout.row#button5"
+      "flex-layout.row#button5"
     ]
   },
 
@@ -448,7 +500,10 @@
   "image#cat5": {
     "props": {
       "blockClass": "categoryImg5",
-      "src": "assets/home/categoria5.jpg"
+      "src": "assets/home/banner_ofertas.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
   "rich-text#categoryText5": {
@@ -690,7 +745,9 @@
       // "flex-layout.row#prueba",
 
       "flex-layout.row#title-category-mobile",
-      "slider-layout#categoriasSlider",
+      // "slider-layout#categoriasSlider",
+      // "flex-layout.row#category",
+      "slider-layout#bannersCategorias",
       "flex-layout.row#title-newest",
       "flex-layout.row#shelf-newest",
       "flex-layout.row#promoBanner",
@@ -952,6 +1009,28 @@
       "flex-layout.row#rowCat6",
       "flex-layout.row#rowCat7",
       "flex-layout.row#rowCat8"
+    ]
+  },
+  "slider-layout#bannersCategorias": {
+    "props": {
+      "centerMode": "center",
+      // "fullWidth":true,
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "infinite": true,
+      "blockClass": "slider-categorias"
+    },
+    "children": [
+      "flex-layout.row#categoria1",
+      "flex-layout.row#categoria2",
+      "flex-layout.row#categoria3",
+      "flex-layout.row#categoria4",
+      "flex-layout.row#categoria5"
     ]
   },
   //1
