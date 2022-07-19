@@ -269,8 +269,9 @@
   },
   "rich-text#boton1": {
     "props": {
-      "blockClass": "botonText1",
-      "text": "[VER MÁS](/neonatos)"
+      "blockClass": ["buttonBannerCat", "buttonBannerCat1"],
+      // "blockClass": "botonText1",
+      "text": "[VER NEONATOS](/neonatos)"
     }
   },
 
@@ -286,7 +287,7 @@
       "blockClass": "categoryImg1",
       "src": "assets/home/banner_neonatos.jpg",
       "link":{
-        "url":"/"
+        "url":"/neonatos"
       }
     }
   },
@@ -331,8 +332,9 @@
   },
   "rich-text#boton2": {
     "props": {
-      "blockClass": "botonText2",
-      "text": "[VER MÁS](/chamoy-y-amiguis)"
+      "blockClass": ["buttonBannerCat", "buttonBannerCat2"],
+      // "blockClass": "botonText2",
+      "text": "[VER CHAMOY Y AMIGUIS](/chamoy-y-amiguis)"
     }
   },
   "image#cat2": {
@@ -340,7 +342,7 @@
       "blockClass": "categoryImg2",
       "src": "assets/home/banner_chamoy.jpg",
       "link":{
-        "url":"/"
+        "url":"/chamoy-y-amiguis"
       }
     }
   },
@@ -385,8 +387,9 @@
   },
   "rich-text#boton3": {
     "props": {
-      "blockClass": "botonText3",
-      "text": "[VER MÁS](/chikiti-pun-taun)"
+      "blockClass": ["buttonBannerCat", "buttonBannerCat3"],
+      // "blockClass": "botonText3",
+      "text": "[VER CHIKITI PUN TAUN](/chikiti-pun-taun)"
     }
   },
   "image#cat3": {
@@ -394,7 +397,7 @@
       "blockClass": "categoryImg3",
       "src": "assets/home/banner_chikiti.jpg",
       "link":{
-        "url":"/"
+        "url":"/chikiti-pun-taun"
       }
     }
   },
@@ -439,8 +442,9 @@
   },
   "rich-text#boton4": {
     "props": {
-      "blockClass": "botonText4",
-      "text": "[VER MÁS](/mexican-paguer)"
+      "blockClass": ["buttonBannerCat", "buttonBannerCat4"],
+      // "blockClass": "botonText4",
+      "text": "[VER ACCESORIOS](/ropa-y-accesorios-para-ti)"
     }
   },
   "image#cat4": {
@@ -448,7 +452,7 @@
       "blockClass": "categoryImg4",
       "src": "assets/home/banner_accesorios.jpg",
       "link":{
-        "url":"/"
+        "url":"/ropa-y-accesorios-para-ti"
       }
     }
   },
@@ -493,8 +497,9 @@
   },
   "rich-text#boton5": {
     "props": {
-      "blockClass": "botonText5",
-      "text": "[VER MÁS](/virgencita-plis)"
+      "blockClass": ["buttonBannerCat", "buttonBannerCat5"],
+      // "blockClass": "botonText5",
+      "text": "[VER OFERTAS](/ofertas)"
     }
   },
   "image#cat5": {
@@ -502,7 +507,7 @@
       "blockClass": "categoryImg5",
       "src": "assets/home/banner_ofertas.jpg",
       "link":{
-        "url":"/"
+        "url":"/ofertas"
       }
     }
   },

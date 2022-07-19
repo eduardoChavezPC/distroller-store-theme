@@ -5896,14 +5896,6 @@ border-radius: 5px;
   display: flex;
   justify-content: unset;
 }
-
-@media (max-width: 1200px) {
-  :global(.vtex-menu-2-x-menuContainer--verticalMenu2)
-  :global(.vtex-menu-2-x-menuItem--isClosed)
-  :global(.vtex-menu-2-x-styledLinkContent){
-    font-size: 12px;
-  } 
-}
 :global(.vtex-flex-layout-0-x-flexColChild--texto2)
 :global(.vtex-rich-text-0-x-wrapper){
   padding-right: 10px;
@@ -7040,4 +7032,77 @@ border-radius: 5px;
 }
 :global(.vtex-slider-layout-0-x-paginationDotsContainer--slider-categorias) {
   top: 100%;
+}
+
+/* Button banner cat - home */
+:global(.vtex-rich-text-0-x-wrapper--buttonBannerCat) {
+  position: relative;
+  top: -45px;
+  background-color: #ffffff;
+  max-width: 268px;
+  border: 1px solid #bcbcbc;
+  /* height: 36px; */
+}
+:global(.vtex-rich-text-0-x-paragraph--buttonBannerCat) {
+  display: flex;
+  justify-content: center;
+  margin: 6px 0 6px 0;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "robotoRegular";
+}
+
+:global(.vtex-rich-text-0-x-link--buttonBannerCat) {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+@media (min-width: 1400px) {
+  :global(.vtex-rich-text-0-x-link--buttonBannerCat) {
+    width: 268px !important;
+  }
+}
+@media (min-width: 1026px) {
+  :global(.vtex-rich-text-0-x-link--buttonBannerCat) {
+    width: 205px;
+  }
+}
+@media (max-width: 1025px) {
+  :global(.vtex-rich-text-0-x-link--buttonBannerCat) {
+    min-width: 100px;
+    width: 201px !important;
+  }
+}
+@media (max-width: 814px) {
+  :global(.vtex-rich-text-0-x-link--buttonBannerCat) {
+    width: 180px !important;
+  }
+}
+@media (max-width: 740px) {
+  :global(.vtex-rich-text-0-x-link--buttonBannerCat) {
+    width: 150px!important;
+    font-size: 13px;
+  }
+}
+@media (max-width: 639px) {
+  :global(.vtex-rich-text-0-x-link--buttonBannerCat) {
+    width: 201px !important;
+    font-size: 12px;
+  }
+}
+@media (max-width: 615px) {
+  :global(.vtex-rich-text-0-x-link--buttonBannerCat) {
+    width: 161px!important;
+  }
+}
+@media (max-width: 490px) {
+  :global(.vtex-rich-text-0-x-link--buttonBannerCat) {
+    width: 138px!important;
+  }
+}
+:global(.vtex-rich-text-0-x-container--buttonBannerCat) {
+  display: flex;
+  justify-content: center;
+  height: 0px;
 }
