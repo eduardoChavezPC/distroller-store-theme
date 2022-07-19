@@ -1021,13 +1021,17 @@
       "centerMode": "center",
       // "fullWidth":true,
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 3,
         "phone": 2
       },
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "mobileOnly",
-      "infinite": true,
+      "autoplay":{
+        "timeout":4000,
+        "stopOnHover":true
+      },
+      // "infinite": true,
       "blockClass": "slider-categorias"
     },
     "children": [
@@ -1072,7 +1076,8 @@
   //2
   "flex-layout.row#rowCat2": {
     "props": {
-      "blockClass": "rowCat2"
+      "blockClass": "rowCat2",
+      "fullWidth": true
     },
     "children": ["flex-layout.col#categoriamobile2"]
   },
