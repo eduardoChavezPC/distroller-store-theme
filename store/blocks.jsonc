@@ -40,9 +40,7 @@
   },
 
   "store.not-found#search": {
-    "blocks": [
-      "flex-layout.row#searchbread",
-      "flex-layout.row#desk-slider-searchResult","rich-text#not-found"]
+    "blocks": ["rich-text#not-found"]
   },
 
   "rich-text#not-found": {
