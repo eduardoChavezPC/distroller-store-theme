@@ -145,15 +145,19 @@
       "blockClass": "banner-searchResult",
       "images": [
         {
-          "image": "assets/search-result/chamoyPlushDecorativoSinfondo.png",
+          "image": "assets/search-result/cat-ejemplo.jpg",
           "mobileImage": "assets/search-result/cat-ejemplo.jpg"
         },
         {
-          "image": "assets/search-result/Emoshionato-Ropa-Desk.png",
-          "mobileImage": "assets/search-result/Emoshionato-Ropa-Mob1.png"
+          "image": "assets/search-result/cat-ejemplo.jpg",
+          "mobileImage": "assets/search-result/cat-ejemplo.jpg"
         },
         {
-          "image": "assets/search-result/prueba-removebg-preview.png",
+          "image": "assets/search-result/cat-ejemplo.jpg",
+          "mobileImage": "assets/search-result/cat-ejemplo.jpg"
+        },
+        {
+          "image": "assets/search-result/cat-ejemplo.jpg",
           "mobileImage": "assets/search-result/cat-ejemplo.jpg"
         }
         // {
@@ -848,7 +852,11 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#desk-slider-searchResult",
+      "flex-layout.row#notfound"
+    ]
   },
 
   "flex-layout.row#notfound": {
