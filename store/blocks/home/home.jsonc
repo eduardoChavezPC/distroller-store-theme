@@ -269,9 +269,9 @@
   },
   "rich-text#boton1": {
     "props": {
-      "blockClass": ["buttonBannerCat", "buttonBannerCat1"],
-      // "blockClass": "botonText1",
-      "text": "[VER NEONATOS](/neonatos)"
+      // "blockClass": ["buttonBannerCat", "buttonBannerCat1"],
+      "blockClass": "botonText1",
+      "text": "[VER MÁS](/neonatos)"
     }
   },
 
@@ -332,9 +332,9 @@
   },
   "rich-text#boton2": {
     "props": {
-      "blockClass": ["buttonBannerCat", "buttonBannerCat2"],
-      // "blockClass": "botonText2",
-      "text": "[VER CHAMOY Y AMIGUIS](/chamoy-y-amiguis)"
+      // "blockClass": ["buttonBannerCat", "buttonBannerCat2"],
+      "blockClass": "botonText2",
+      "text": "[VER MÁS](/chamoy-y-amiguis)"
     }
   },
   "image#cat2": {
@@ -387,9 +387,9 @@
   },
   "rich-text#boton3": {
     "props": {
-      "blockClass": ["buttonBannerCat", "buttonBannerCat3"],
-      // "blockClass": "botonText3",
-      "text": "[VER CHIKITI PUN TAUN](/chikiti-pun-taun)"
+      // "blockClass": ["buttonBannerCat", "buttonBannerCat3"],
+      "blockClass": "botonText3",
+      "text": "[VER MÁS](/chikiti-pun-taun)"
     }
   },
   "image#cat3": {
@@ -442,9 +442,9 @@
   },
   "rich-text#boton4": {
     "props": {
-      "blockClass": ["buttonBannerCat", "buttonBannerCat4"],
-      // "blockClass": "botonText4",
-      "text": "[VER ACCESORIOS](/ropa-y-accesorios-para-ti)"
+      // "blockClass": ["buttonBannerCat", "buttonBannerCat4"],
+      "blockClass": "botonText4",
+      "text": "[VER MÁS](/ropa-y-accesorios-para-ti)"
     }
   },
   "image#cat4": {
@@ -497,9 +497,9 @@
   },
   "rich-text#boton5": {
     "props": {
-      "blockClass": ["buttonBannerCat", "buttonBannerCat5"],
-      // "blockClass": "botonText5",
-      "text": "[VER OFERTAS](/ofertas)"
+      // "blockClass": ["buttonBannerCat", "buttonBannerCat5"],
+      "blockClass": "botonText5",
+      "text": "[VER MÁS](/ofertas)"
     }
   },
   "image#cat5": {
