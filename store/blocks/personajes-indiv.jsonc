@@ -2,7 +2,8 @@
   "store.custom#personajes-indiv-page": {
     "children": [
       "flex-layout.row#personaje-indiv-row-info",
-      "flex-layout.row#personajes"
+      "flex-layout.row#personajes",
+      "removeCards"
     ]
   },
 
@@ -40,7 +41,8 @@
     "props": {
       "width": "68%",
       "blockClass": "personajes-indiv-col-txt-a"
-    }
+    },
+    "title": "col-personajes"
   },
 
   "flex-layout.row#personaje-indiv-row-info": {

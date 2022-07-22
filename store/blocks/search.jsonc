@@ -145,20 +145,20 @@
       "blockClass": "banner-searchResult",
       "images": [
         {
-          "image": "assets/search-result/cat-ejemplo.jpg",
-          "mobileImage": "assets/search-result/cat-ejemplo.jpg"
+          "image": "assets/search-result/cat-ejemplo2.jpg",
+          "mobileImage": "assets/search-result/cat-ejemplo2.jpg"
         },
         {
-          "image": "assets/search-result/cat-ejemplo.jpg",
-          "mobileImage": "assets/search-result/cat-ejemplo.jpg"
+          "image": "assets/search-result/cat-ejemplo2.jpg",
+          "mobileImage": "assets/search-result/cat-ejemplo2.jpg"
         },
         {
-          "image": "assets/search-result/cat-ejemplo.jpg",
-          "mobileImage": "assets/search-result/cat-ejemplo.jpg"
+          "image": "assets/search-result/cat-ejemplo2.jpg",
+          "mobileImage": "assets/search-result/cat-ejemplo2.jpg"
         },
         {
-          "image": "assets/search-result/cat-ejemplo.jpg",
-          "mobileImage": "assets/search-result/cat-ejemplo.jpg"
+          "image": "assets/search-result/cat-ejemplo2.jpg",
+          "mobileImage": "assets/search-result/cat-ejemplo2.jpg"
         }
         // {
         //   "image": "assets/search-result/chamoyPlushDecorativoSinfondo.png",

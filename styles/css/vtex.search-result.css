@@ -376,13 +376,14 @@
 
 /* Search Result - Imagenes de categorías */
 :global(.vtex-store-components-3-x-imageElement--cat-imgs-searchResult) {
-  background-color: #E42990;
+  /* background-color: #E42990; */
 }
 
 @media (min-width: 1026px){
   :global(.vtex-store-components-3-x-imageElement--cat-imgs-searchResult) {
     max-height: 320px;
     max-width: 317px;
+    padding: 16px 0px;
   }
   :global(.vtex-store-components-3-x-imageElement--cat-imgs-searchResult):hover {
     transform: scale(1.1);
