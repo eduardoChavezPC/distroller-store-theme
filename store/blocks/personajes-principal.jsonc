@@ -2,7 +2,8 @@
   "store.custom#personajes-prin-page": {
     "children": [
       "flex-layout.row#perosnajes-prin-titulo",
-      "flex-layout.row#personaje-prin-row-container"
+      "flex-layout.row#personaje-prin-row-container",
+      "removeCards"
     ]
   },
   "flex-layout.row#personaje-prin-row-container": {
