@@ -60,7 +60,7 @@
   
   "rich-text#personajes-prin-filtro-mexicanPaguer":{
     "props":{
-      "text":"[Mexican Pagüer](/)",
+      "text":"[Mexican Pagüer](/personaje-mexican-paguer)",
       "blockClass":["personajes-prin-filtro", "personajes-prin-filtro-mexicanPaguer"]
     }
   },
@@ -85,7 +85,7 @@
   
   "rich-text#personajes-prin-filtro-chamoyAmiguis":{
     "props":{
-      "text":"[Chamoy y Amiguis](/)",
+      "text":"[Chamoy y Amiguis](/personaje-chamoy-y-amiguis)",
       "blockClass":["personajes-prin-filtro", "personajes-prin-filtro-chamoyAmiguis"]
     }
   },
@@ -110,7 +110,7 @@
   
   "rich-text#personajes-prin-filtro-chikitiPunTaun":{
     "props":{
-      "text":"[Chikiti Pun Taun](/)",
+      "text":"[Chikiti Pun Taun](/personaje-chikiti-pun-taun)",
       "blockClass":["personajes-prin-filtro", "personajes-prin-filtro-chikitiPunTaun"]
     }
   },
@@ -135,7 +135,7 @@
   
   "rich-text#personajes-prin-filtro-virgencita":{
     "props":{
-      "text":"[Virgencita](/)",
+      "text":"[Virgencita](/personaje-virgencita)",
       "blockClass":["personajes-prin-filtro", "personajes-prin-filtro-virgencita"]
     }
   },
@@ -159,7 +159,7 @@
   
   "rich-text#personajes-prin-filtro-neonatos":{
     "props":{
-      "text":"[Neonatos](/)",
+      "text":"[Neonatos](/personaje-neonatos)",
       "blockClass":["personajes-prin-filtro", "personajes-prin-filtro-neonatos"]
     }
   },

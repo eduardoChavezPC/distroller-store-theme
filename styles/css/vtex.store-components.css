@@ -1613,7 +1613,7 @@
   width: 12px !important;
 }
 :global(.vtex-slider-layout-0-x-paginationDotsContainer--carrusel-metodosPago) {
-  margin-bottom: -10%;
+  top: 100%;
 }
 
 :global(.vtex-slider-layout-0-x-sliderTrack--carrusel-metodosPago) {
@@ -1716,8 +1716,8 @@
 
 /* HOME MOBILE ------------------- */
 :global(.vtex-slider-layout-0-x-slide--carrusel-metodosPago){
-  margin-left: 0.678788%!important;
-  margin-right: 0.678788%!important;
+  /* margin-left: 0.678788%!important;
+  margin-right: 0.678788%!important; */
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--promoInfo-mobile)
@@ -2454,7 +2454,7 @@
 :global(.vtex-rich-text-0-x-container--titulo-top) {
   display: flex;
   justify-content: center;
-  padding-top: 7%;
+  padding: 18px 0;
 }
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelfTop) {
@@ -4634,10 +4634,7 @@ border-radius: 5px;
 }
 :global(.vtex-flex-layout-0-x-flexRow--titulo-categoria)
 :global(.vtex-store-components-3-x-container){
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 18px 0px;
 }
 :global(.vtex-rich-text-0-x-container--texto-categoria){
   background-color: #8E3392;
@@ -4696,7 +4693,7 @@ border-radius: 5px;
     margin-bottom: 10%!important;
   }
   :global(.vtex-slider-layout-0-x-paginationDotsContainer--carrusel-metodosPago){
-    margin-bottom: -3%!important;
+    /* margin-bottom: -3%!important; */
   }
 }
 :global(.vtex-store-newsletter-1-x-emailInputContainer--emailNewsLetter-mobile)
@@ -4765,8 +4762,7 @@ border-radius: 5px;
 }
 :global(.vtex-flex-layout-0-x-flexRow--titulo-categoria-mobile)
 :global(.vtex-store-components-3-x-container){
-  padding-left: 0rem!important;
-  padding-right: 0rem!important;
+  padding: 16px 0px 18px 0px;
 }
 :global(.vtex-flex-layout-0-x-flexRow--title-top)
 :global(.vtex-store-components-3-x-container){
@@ -6309,7 +6305,9 @@ border-radius: 5px;
 :global(.vtex-flex-layout-0-x-flexColChild--card-indiv-personaje)
 :global(.vtex-store-components-3-x-imageElement--personaje-indiv){
   margin-top: -13%;
-  width: 161px;
+  width: 161px;    
+  padding: 10px 0px;
+  max-width: 140px;
 }
 :global(.vtex-rich-text-0-x-container--boton-indiv-personaje){
   display: block;
@@ -6929,7 +6927,11 @@ border-radius: 5px;
 /* Cambios banner mobile */
 :global(.vtex-flex-layout-0-x-flexRow--bannerMobile)
 :global(.vtex-store-components-3-x-container):first-child {
-  padding: 0px 0px 16px 0px;
+  padding: 0;
+}
+:global(.vtex-flex-layout-0-x-flexRow--title-newest)
+:global(.vtex-store-components-3-x-container):first-child {
+  padding: 0 0 18px 0;
 }
 :global(.vtex-flex-layout-0-x-flexColChild--bannerMobile):last-child {
   height: 0 !important;

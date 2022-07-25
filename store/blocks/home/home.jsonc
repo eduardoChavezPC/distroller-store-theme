@@ -814,7 +814,7 @@
       "fullWidth": true,
       "width": "100%",
       "blockClass": "texto-categoria-mobile",
-      "text": "Categorias"
+      "text": "Distroller Fámili"
     }
   },
   "flex-layout.row#promoInfo-mobile":{
@@ -1760,7 +1760,7 @@
   },
   "slider-layout#formasDePago": {
     "props": {
-      "centerMode": "center",
+      "centerMode": "disabled",
       // "fullWidth":true,
       "itemsPerPage": {
         "mobile": 2
