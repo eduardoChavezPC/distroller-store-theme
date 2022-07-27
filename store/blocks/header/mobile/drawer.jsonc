@@ -4,7 +4,8 @@
     "props": {
       "blockClass": "menuDrawer",
       "maxWidth": 384
-    }
+    },
+    "title":"drawer"
   },
   "flex-layout.row#menu-header": {
     "props": {

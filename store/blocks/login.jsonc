@@ -10,7 +10,8 @@
     //   "emailPlaceholder": "e-mail",
     //   "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true
-    }
+    },
+    "title":"login"
   }, "login": {
     "props": {
       "emailAndPasswordTitle": "LOG-IN",

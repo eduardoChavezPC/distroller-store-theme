@@ -16,7 +16,8 @@
         },
         "blocks": [
             "vtex.menu@2.x:submenu#product4"
-        ]
+        ],
+        "title":"ropaYAccesoriosParaTi-header-desktop"
     },
     "vtex.menu@2.x:submenu#product4": {
         "props": {

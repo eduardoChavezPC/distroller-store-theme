@@ -43,7 +43,8 @@
     "children":[
       "info-card#homeDesktop"
       // "slider-layout#promoInfo"
-    ]
+    ],
+    "title":"infocard-top-home-desktop"
   },
   "flex-layout.row#taniaInfo":{
     "props":{
@@ -51,7 +52,8 @@
     },
     "children":[
       "info-card#tania"    
-    ]
+    ],
+    "title":"infocard-tania-desktop"
   },
 
   "info-card#tania": {
@@ -107,7 +109,8 @@
   "children":[
       "flex-layout.col#giftCard-1",
       "flex-layout.col#giftCard-2"
-    ]
+    ],
+    "title":"giftcard-home-desktop"
   },
   "flex-layout.col#giftCard-1":{
     "props":{
@@ -161,7 +164,8 @@
       "horizontalAlign": "center",
       "blockClass": "recomendadosTitulo"
     },
-    "children": ["rich-text#recomendadosTitulo"]
+    "children": ["rich-text#recomendadosTitulo"],
+    "title":"titulo-lo-mas-top"
   },
   "rich-text#recomendadosTitulo": {
     "props": {
@@ -210,7 +214,8 @@
     "props": {
       "blockClass": "titulo-categoria"
     },
-    "children": ["rich-text#titulo-categoria"]
+    "children": ["rich-text#titulo-categoria"],
+    "title":"titulo-famili-desktop"
   },
   "rich-text#titulo-categoria": {
     "props": {
@@ -231,7 +236,8 @@
       "flex-layout.col#categoria3",
       "flex-layout.col#categoria4",
       "flex-layout.col#categoria5"
-    ]
+    ],
+    "title":"categorias-categoria-desktop"
   },
   //1
   "flex-layout.row#categoria1": {
@@ -710,7 +716,8 @@
     ],
     "props": {
       "blockClass": "bannerMobile"
-    }
+    },
+    "title":"banner-top-mobile"
   },
   "flex-layout.col#col-banner-mobile": {
     "children": [
@@ -807,7 +814,8 @@
     "props": {
       "blockClass": "titulo-categoria-mobile"
     },
-    "children": ["rich-text#titulo-categoria-mobile"]
+    "children": ["rich-text#titulo-categoria-mobile"],
+    "title":"titulo-famili-mobile"
   },
   "rich-text#titulo-categoria-mobile": {
     "props": {
@@ -832,7 +840,8 @@
     },
     "children":[
       "info-card#infoTania-mobile"
-    ]
+    ],
+    "title":"infocard-tania-mobile"
   },
   "info-card#infoTania-mobile": {
     "props": {
@@ -854,7 +863,8 @@
     },
     "children":[
       "info-card#promoBanner"
-    ]
+    ],
+    "title":"promo-banner-mobile"
   },
   "info-card#promoBanner": {
     "props": {
@@ -871,7 +881,8 @@
   },
   //top
   "flex-layout.row#shelf-top": {
-    "children": ["list-context.product-list#newest"]
+    "children": ["list-context.product-list#newest"],
+    "title":"shelf-lo-mas-nuevo-mobile"
   },
   "list-context.product-list#top": {
     "blocks": [
@@ -903,7 +914,8 @@
     },
     "children":[
       "rich-text#titulo-top"
-    ]
+    ],
+    "title":"titulo-lo-mas-nuevo-mobile"
   },
   "rich-text#titulo-top":{
     "props":{
@@ -915,7 +927,8 @@
 
   //newest
   "flex-layout.row#shelf-newest": {
-    "children": ["list-context.product-list#newest"]
+    "children": ["list-context.product-list#newest"],
+    "title":"shelf-lo-mas-nuevo"
   },
   "list-context.product-list#newest": {
     "blocks": [
@@ -947,7 +960,8 @@
     },
     "children":[
       "rich-text#titulo-newest"
-    ]
+    ],
+    "title":"titulo-lo-mas-nuevo"
   },
   "rich-text#titulo-newest":{
     "props":{
@@ -1040,7 +1054,8 @@
       "flex-layout.row#categoria3",
       "flex-layout.row#categoria4",
       "flex-layout.row#categoria5"
-    ]
+    ],
+    "title":"categorias-famili-mobile"
   },
   //1
   "flex-layout.row#rowCat1": {
@@ -1401,7 +1416,8 @@
       "fullWidth": true,
       "blockClass": "newsletter-home"
     },
-    "children": ["newsletter-form"]
+    "children": ["newsletter-form"],
+    "title":"newsletter-home-desktop"
   },
   "footer-spacer": {
     "props": {
@@ -1479,11 +1495,12 @@
     }
   },
   "flex-layout.row#shelf-recomendaciones": {
-    "children": ["list-context.product-list#recomendaciones"]
+    "children": ["list-context.product-list#recomendaciones"],
+    "title":"shelf-lo-mas-top-desktop"
   },
   "list-context.product-list#recomendaciones": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#desk-1"
     ],
     "children": [
       "slider-layout#demo-products"
@@ -1546,7 +1563,8 @@
       "flex-layout.col#oxxo",
       "flex-layout.col#mercado",
       "flex-layout.col#kueskiPay"
-    ]
+    ],
+    "title":"metodos-pago-desktop"
   },
 
   "flex-layout.col#kueskiPay": {
@@ -1763,7 +1781,8 @@
       "centerMode": "disabled",
       // "fullWidth":true,
       "itemsPerPage": {
-        "mobile": 2
+        "mobile": 2,
+        "tablet":3
       },
       "showNavigationArrows": "never",
       "infinite": true,
@@ -1778,7 +1797,8 @@
       "image#6",
       "image#7",
       "image#8"
-    ]
+    ],
+    "title":"metodos-pago-mobile"
   },
   "image#1": {
     "props": {
@@ -1817,7 +1837,8 @@
   },
   "image#8": {
     "props": {
-      "src": "assets/KueskiPay.svg"
+      "src": "assets/KueskiPay.svg",
+      "blockClass":"kueski"
     }
   }
 }

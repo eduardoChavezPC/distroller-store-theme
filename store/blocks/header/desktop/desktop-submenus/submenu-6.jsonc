@@ -49,7 +49,8 @@
                 "noFollow": false,
                 "tagTitle": "Distroller Chanel",
                 "text": "Distroller Chanel"
-            }
+            },
+            "title":"diversion-1"
         }
     },
     "menu-item#diversion-2": {
@@ -64,7 +65,8 @@
                 "noFollow": false,
                 "tagTitle": "Juegos",
                 "text": "Juegos"
-            }
+            },
+            "title":"diversion-2"
         }
     },
     "menu-item#diversion-3": {
@@ -79,7 +81,8 @@
                 "noFollow": false,
                 "tagTitle": "Diversion 3",
                 "text": "Diversion 3"
-            }
+            },
+            "title":"diversion-3"
         }
     }
 }

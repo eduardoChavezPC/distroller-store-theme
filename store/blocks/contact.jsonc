@@ -23,7 +23,8 @@
     },
     "children":[
       "flex-layout.col#contactanosCol"
-    ]
+    ],
+    "title":"contactanos"
   },
 
   "flex-layout.col#contactanosCol":{
@@ -170,7 +171,8 @@
     },
     "children":[
       "flex-layout.col#formEscribenos"
-    ]
+    ],
+    "title":"form-escribenos"
   },
 
   "flex-layout.col#formEscribenos":{
@@ -226,7 +228,8 @@
     "children":[
       "flex-layout.row#contact",
       "flex-layout.row#localStores"
-    ]
+    ],
+    "title":"contacto-desktop"
   },
 
   "flex-layout.row#contact":{
@@ -239,16 +242,6 @@
     ]
   },
 
-  // "flex-layout.col#contact-us": {
-  //   "props": {
-  //     "blockClass": "contact"
-  //   },
-  //   "children": [
-  //     "flex-layout.col#contact-us"
-  //     //"flex-layout.col#form"
-  //   ]
-  // },
-
   "flex-layout.col#contact-us": {
     "props":{
       "blockClass":"contact-us",
@@ -257,7 +250,6 @@
     "children": [
       "rich-text#contact-us",
       "image#contact",
-      // "rich-text#contact-us",
       "flex-layout.row#mailContacto",
       "flex-layout.row#ubicacionContacto"
     ]

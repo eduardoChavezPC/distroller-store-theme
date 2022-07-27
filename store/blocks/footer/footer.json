@@ -18,13 +18,13 @@
       "vtex.menu@2.x:menu#menuVertical2",
       "flex-layout.col#redesFooter",
       "flex-layout.row#footerImagen"
-      
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddigBottom": 3
-    }
+    },
+    "title":"menu-footer-desktop"
   },
 
   "flex-layout.col#redesFooter":{
@@ -35,7 +35,8 @@
       "flex-layout.row#tituloRedes",
       "flex-layout.row#iconosFooterDesktop",
       "flex-layout.row#infoPagos-master"
-    ]
+    ],
+    "title":"redesSociales-footer-desktop"
   },
 
   "flex-layout.row#iconosFooterDesktop":{
@@ -76,7 +77,8 @@
     },
     "children":[
       "flex-layout.row#footerImagen"
-    ]
+    ],
+    "title":"imagenes-footer-desktop"
   },
 
   "flex-layout.row#footerImagen":{
@@ -101,7 +103,8 @@
     ],
     "props": {
       "blockClass": "credits"
-    }
+    },
+    "title":"bottom-footer-desktop"
   },
   "flex-layout.row#footerRow":{
     "props":{

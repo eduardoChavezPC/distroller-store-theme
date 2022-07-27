@@ -16,7 +16,8 @@
         },
         "blocks": [
             "vtex.menu@2.x:submenu#product3"
-        ]
+        ],
+        "title":"chikitiPunTaun-header-desktop"
     },
     "vtex.menu@2.x:submenu#product3": {
         "props": {

@@ -16,7 +16,8 @@
         },
         "blocks": [
             "vtex.menu@2.x:submenu#product2"
-        ]
+        ],
+        "title":"chamoyYAmiguis-header-desktop"
     },
     "vtex.menu@2.x:submenu#product2": {
         "props": {

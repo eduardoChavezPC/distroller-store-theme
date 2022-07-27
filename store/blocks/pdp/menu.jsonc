@@ -11,7 +11,8 @@
     "blockClass": "menu-conoce-accordion",
     "orientation": "vertical"
   },
-  "children": ["flex-layout.row#1pdp"]
+  "children": ["flex-layout.row#1pdp"],
+  "title":"menu-conoce-mobile"
 },
 "flex-layout.row#1pdp": {
   "props": {
@@ -118,7 +119,8 @@
     "blockClass": "menu-specs-accordion",
     "orientation": "vertical"
   },
-  "children": ["flex-layout.row#2pdp"]
+  "children": ["flex-layout.row#2pdp"],
+  "title":"menu-especificaciones-mobile"
 },
 "flex-layout.row#2pdp": {
   "props": {
@@ -186,7 +188,8 @@
   },
   "children": [
     "flex-layout.row#3pdp"
-  ]
+  ],
+  "title":"menu-reviews-mobile"
 },
 "flex-layout.row#3pdp":{
   "props":{

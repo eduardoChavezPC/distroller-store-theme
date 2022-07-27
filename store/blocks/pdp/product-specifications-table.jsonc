@@ -2,7 +2,8 @@
   "product-specification-group#table": {
     "children": [
       "flex-layout.row#spec-group"
-    ]
+    ],
+    "title":"grupo-especificaciones"
   },
   "flex-layout.row#spec-group": {
     "props": {

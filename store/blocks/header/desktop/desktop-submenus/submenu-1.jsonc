@@ -16,7 +16,8 @@
         },
         "blocks": [
             "vtex.menu@2.x:submenu#product1"
-        ]
+        ],
+        "title":"bebesNeonatos-header-desktop"
     },
     "vtex.menu@2.x:submenu#product1": {
         "props": {

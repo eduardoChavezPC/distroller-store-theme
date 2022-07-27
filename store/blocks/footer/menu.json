@@ -14,7 +14,8 @@
       "menu-item#contacto",
       "menu-item#faq",
       "menu-item#fac"
-    ]
+    ],
+    "title":"informacion-footer-desktop"
   },
 
   "menu-item#fac": {
@@ -148,7 +149,8 @@
       "menu-item#politicasDeCompraEnvioyDevolucion",
       "menu-item#terminosYCondiciones",
       "menu-item#avisoDePrivacidad"
-    ]
+    ],
+    "title":"legales-footer-desktop"
   },
   "menu-item#legales": {
     "props": {

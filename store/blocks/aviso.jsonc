@@ -21,7 +21,8 @@
     "children":[
       "rich-text#tituloAviso",
       "flex-layout.row#texto"
-    ]
+    ],
+    "title":"aviso"
   },
   "flex-layout.row#texto":{
     "props":{
@@ -41,6 +42,7 @@
     "props":{
       "blockClass":"avisoTitulo",
       "text":"Aviso de privacidad"
-    }
+    },
+    "title":"titulo-aviso"
   }
 }

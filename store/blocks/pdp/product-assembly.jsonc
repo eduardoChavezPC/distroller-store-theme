@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#product-assembly-options",
       "assembly-option-input-values"
-    ]
+    ],
+    "title":"product-assembly-options"
   },
   "assembly-option-input-values": {
     "props": {

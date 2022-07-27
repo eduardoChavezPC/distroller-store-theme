@@ -9,7 +9,8 @@
     "props": {
       "content": "Meses sin intereses en compras mayores a $799",
       "blockClass": "header-mob"
-    }
+    },
+    "title":"barraNotificacion-header-mobile"
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -26,7 +27,8 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
-    }
+    },
+    "title":"header-row-mobile"
   },
 
   // "drawer": {
@@ -53,7 +55,8 @@
       "height": 32,
       "maxHeight": 32,
       "blockClass": "icon-login-mob"
-    }
+    },
+    "title":"login-icono-header-mobile"
   },
   "flex-layout.row#2-mobile": {
     "children": [
@@ -61,7 +64,8 @@
     ],
     "props": {
       "blockClass": "row-srchBar-mob"
-    }
+    },
+    "title":"searchbar-header-mobile"
   },
   "search-bar#mobile": {
     "blocks": ["autocomplete-result-list.v2"],

@@ -20,7 +20,8 @@
         "children": ["overlay-trigger#pais"],
         "props": {
             "horizontalAlign": "center"
-        }
+        },
+        "title":"pais-desktop"
     },
     "overlay-trigger#pais": {
         "children": [
@@ -52,7 +53,8 @@
             "rich-text#peru",
             "rich-text#argentina",
             "rich-text#usa"
-        ]
+        ],
+        "title":"overlay-paises"
       },
       "rich-text#chile": {
         "props": {
@@ -98,7 +100,8 @@
         ],
         "props": {
             "verticalAlign": "middle"
-        }
+        },
+        "title":"titulo-redes"
     },
     "flex-layout.row#txtIcons": {
         "children": [
@@ -262,7 +265,8 @@
         "props": {
             "verticalAlign": "middle",
             "blockClass": "envios-gratis"
-        }
+        },
+        "title":"texto-barra-notificaciones-desktop"
     },
     "rich-text#txtNotBar": {
         "props": {
@@ -279,7 +283,8 @@
         "props": {
             "horizontalAlign": "right",
             "verticalAlign": "middle"
-        }
+        },
+        "title":"overlay-newsletter-header-desktop"
     },
     "overlay-trigger#newsletter": {
         "children": [
@@ -325,7 +330,8 @@
             // "rich-text#newsletter-header",
             // "newsletter-input-email#header",
             // "newsletter-submit#header"
-        ]
+        ],
+        "title":"newsletter-header-desktop"
     },
     "flex-layout.row#text_newsletter-header": {
         "children": [
@@ -385,7 +391,8 @@
             "horizontalAlign": "right",
             "verticalAlign": "middle",
             "blockClass": "notbar__button-contact"
-        }
+        },
+        "title":"boton-contacto"
     },
     "rich-text#notbar__boton-contacto": {
         "props": {
@@ -414,7 +421,8 @@
         "props": {
             "verticalAlign": "middle",
             "width": "25%"
-        }
+        },
+        "title":"logo-header-desktop"
     },
     "logo#header": {
         "props": {
@@ -433,7 +441,8 @@
             "flex-layout.row#search-bar",
             "flex-layout.row#menu"
             // "vtex.menu@2.x:menu#category-menu"
-        ]
+        ],
+        "title":"menu-busqueda"
     },
     "flex-layout.row#search-bar": {
         "children": [
@@ -466,7 +475,8 @@
         ], 
         "props":{
             "width":"100%"
-        }
+        },
+        "title":"searchbar-desktop"
     },
     "flex-layout.row#desk-searchBar": {
         "children": ["search-bar"]
@@ -486,7 +496,8 @@
         "children": ["login"],
         "props": {
             "verticalAlign": "middle"
-        }
+        },
+        "title":"login-desktop"
     },
     "login": {
         "props": {
@@ -495,7 +506,8 @@
         }
     },
     "flex-layout.col#desk-sucursales": {
-        "children": ["rich-text#sucursales"]
+        "children": ["rich-text#sucursales"],
+        "title":"sucursales-desktop"
     },
     "rich-text#sucursales": {
         "props": {
@@ -504,7 +516,8 @@
         }
     },
     "flex-layout.col#desk-minicart": {
-        "children": ["minicart.v2"]
+        "children": ["minicart.v2"],
+        "title":"minicart-desktop"
     },
     "minicart.v2": {
         "props": {
@@ -512,7 +525,8 @@
         },
         "children": [
             "minicart-base-content"
-        ]
+        ],
+        "title":"minicart"
     },
     "rich-text#carrito":{
         "props":{
@@ -536,7 +550,8 @@
             "horizontalAlign": "right",
             "width": "100%",
             "blockClass": "row-menu"
-        }
+        },
+        "title":"menu-header-desktop"
     },
     /* ------------------------------------- Fin Header ------------------------------------- */
     
