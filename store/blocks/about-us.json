@@ -280,7 +280,7 @@
       "blockClass":"tituloAbout"
     },
     "children":[
-      "rich-text#tituloAboud-mobile"
+      "rich-text#tituloAboud-mobilet"
     ],
     "title":"titulo-about-us"
   },
