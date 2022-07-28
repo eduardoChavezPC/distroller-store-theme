@@ -6820,8 +6820,9 @@ border-radius: 5px;
 
 :global(.vtex-store-components-3-x-infoCardContainer--infoCard-giftCard){
   background-size: contain!important;
-  background-color: #fc5c34;
-  background-position: bottom!important;
+  background: round;
+  /* background-color: #fc5c34; */
+  /* background-position: bottom!important; */
 }
 
 
@@ -7165,4 +7166,18 @@ border-radius: 5px;
   :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
     top: -10%!important;
   }
+}
+:global(.vtex-disclosure-layout-1-x-content--answer--visible)
+:global(.vtex-rich-text-0-x-paragraph),
+:global(.vtex-rich-text-0-x-wrapper--compromisoText),
+:global(.vtex-rich-text-0-x-paragraph--rowVal1),
+:global(.vtex-rich-text-0-x-paragraph--rowVal2),
+:global(.vtex-rich-text-0-x-paragraph--rowVal3),
+:global(.vtex-rich-text-0-x-paragraph--rowVal4),
+:global(.vtex-rich-text-0-x-paragraph--mision),
+:global(.vtex-rich-text-0-x-paragraph--vision),
+:global(.vtex-rich-text-0-x-paragraph--about),
+:global(.vtex-rich-text-0-x-paragraph--terminos2),
+:global(.vtex-rich-text-0-x-paragraph--terminos){
+  text-align: justify;
 }
