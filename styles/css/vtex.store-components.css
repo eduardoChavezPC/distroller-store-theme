@@ -497,11 +497,10 @@
   color: #FFFFFF;
 }
 :global(.vtex-menu-2-x-menuItem--menu-prin-header) {
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 :global(.vtex-menu-2-x-styledLinkContainer--menu-prin-header) {
-  margin: 0px 5px 0px 20px;
-  padding: 10px; 
+  margin: 0px 5px 0px 5px;
 }
 :global(.vtex-menu-2-x-styledLinkContainer--menu-juegos) {
   padding: 10px; 
@@ -534,7 +533,7 @@
 }
 
 :global(.vtex-menu-2-x-menuContainer--col-desk-menu-items) {
-  width: 243px;
+  width: 235px;
 }
 
 :global(.vtex-menu-2-x-menuItem--menu-prin-header) :global(.vtex-menu-2-x-styledLink) {
@@ -6195,8 +6194,11 @@ border-radius: 5px;
 :global(.vtex-menu-2-x-styledLinkContent--menu-prin-header):hover{
   color:#FFFFFF;
 }
-:global(.vtex-menu-2-x-styledLinkContainer--menu-prin-header):hover{
+:global(.vtex-menu-2-x-styledLinkContent--menu-prin-header):hover{
   background-color: #F58831;
+}
+:global(.vtex-menu-2-x-styledLinkContent--menu-prin-header){
+  padding: 10px;
 }
 
 
@@ -7180,4 +7182,14 @@ border-radius: 5px;
 :global(.vtex-rich-text-0-x-paragraph--terminos2),
 :global(.vtex-rich-text-0-x-paragraph--terminos){
   text-align: justify;
+}
+
+/* Menú desktop */
+:global(.vtex-menu-2-x-submenuWrapper--cont-submenu-desktop) {
+  margin: 0px;
+}
+@media (max-width: 1340px) and (min-width: 1026px) {
+  :global(.vtex-menu-2-x-submenuWrapper--mob-menu-prin-header-ropa) {
+    left: -380px;
+  }
 }

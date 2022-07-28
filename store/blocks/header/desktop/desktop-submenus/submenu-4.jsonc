@@ -22,7 +22,7 @@
     "vtex.menu@2.x:submenu#product4": {
         "props": {
             "width": "auto",
-            "blockClass": "cont-submenu-desktop"
+            "blockClass": ["cont-submenu-desktop", "mob-menu-prin-header-ropa"]
         },
         "children": [
             // "flex-layout.row#producto-img"

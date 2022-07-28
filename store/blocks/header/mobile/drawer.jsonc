@@ -28,7 +28,8 @@
       "menu-item#mobile_menu-3",
       "menu-item#mobile_menu-4",
       "menu-item#mobile_menu-5",
-      "menu-item#mobile_menu-7"
+      "menu-item#mobile_menu-7",
+      "menu-item#mobile_menu-8"
     ],
     "props":{
       "orientation":"vertical",

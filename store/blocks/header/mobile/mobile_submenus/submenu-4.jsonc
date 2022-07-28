@@ -34,11 +34,11 @@
     },
     "children": [
       "menu-item#bolsasYCarteras",
-            "menu-item#joyeria",
-            "menu-item#trajesDeBano",
-            "menu-item#utilesEscolares",
-            "menu-item#cuidadoPersonal",
-            "menu-item#virgencitaPlis"
+      "menu-item#joyeria",
+      "menu-item#trajesDeBano",
+      "menu-item#utilesEscolares",
+      "menu-item#cuidadoPersonal",
+      "menu-item#virgencitaPlis"
     ]
   }
 
