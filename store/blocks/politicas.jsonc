@@ -119,16 +119,16 @@
           "blockClass":"row"
         },
         "children":[
-          "disclosure-trigger#first",
-          "image#arrow-group1"
+          "disclosure-trigger#first"
         ]
       },
       "disclosure-trigger#first": {
         "props":{
-          "width":"90%"
+          "width":"100%"
         },
         "children": [
-            "rich-text#question1"
+          "rich-text#question1",
+          "image#arrow-group1"
         ]
       },
       "disclosure-content#first": {
@@ -158,13 +158,13 @@
           "blockClass":"row"
         },
         "children":[
-          "disclosure-trigger#second", 
-          "image#arrow-group1"
+          "disclosure-trigger#second"
         ]
       },
       "disclosure-trigger#second": {
         "children": [
-            "rich-text#question2"
+          "rich-text#question2",
+          "image#arrow-group1"
         ]
       },
       "disclosure-content#second": {
@@ -194,13 +194,13 @@
           "blockClass":"row"
         },
         "children":[
-          "disclosure-trigger#third", 
-          "image#arrow-group1"
+          "disclosure-trigger#third"
         ]
       },
       "disclosure-trigger#third": {
         "children": [
-            "rich-text#question3"
+          "rich-text#question3",
+          "image#arrow-group1"
         ]
       },
       "disclosure-content#third": {
@@ -230,13 +230,13 @@
           "blockClass":"row"
         },
         "children":[
-          "disclosure-trigger#fourth", 
-          "image#arrow-group1"
+          "disclosure-trigger#fourth"
         ]
       },
       "disclosure-trigger#fourth": {
         "children": [
-            "rich-text#question4"
+          "rich-text#question4",
+          "image#arrow-group1"
         ]
       },
       "disclosure-content#fourth": {
@@ -287,14 +287,14 @@
           "blockClass":"row"
         },
         "children":[
-          "disclosure-trigger#firsta", 
-          "image#arrow-group1"
+          "disclosure-trigger#firsta"
         ]
       },
       
       "disclosure-trigger#firsta": {
         "children": [
-            "rich-text#question1a"
+          "rich-text#question1a",
+          "image#arrow-group1"
         ]
       },
       "disclosure-content#firsta": {
@@ -324,13 +324,13 @@
           "blockClass":"row"
         },
         "children":[
-          "disclosure-trigger#seconda", 
-          "image#arrow-group1"
+          "disclosure-trigger#seconda"
         ]
       },
       "disclosure-trigger#seconda": {
         "children": [
-            "rich-text#question2a"
+          "rich-text#question2a",
+          "image#arrow-group1"
         ]
       },
       "disclosure-content#seconda": {
@@ -360,13 +360,13 @@
           "blockClass":"row"
         },
         "children":[
-          "disclosure-trigger#thirda", 
-          "image#arrow-group1"
+          "disclosure-trigger#thirda"
         ]
       },
       "disclosure-trigger#thirda": {
         "children": [
-            "rich-text#question3a"
+          "rich-text#question3a",
+          "image#arrow-group1"
         ]
       },
       "disclosure-content#thirda": {
@@ -396,13 +396,13 @@
           "blockClass":"row"
         },
         "children":[
-          "disclosure-trigger#fourtha", 
-          "image#arrow-group1"
+          "disclosure-trigger#fourtha"
         ]
       },
       "disclosure-trigger#fourtha": {
         "children": [
-            "rich-text#question4a"
+          "rich-text#question4a",
+          "image#arrow-group1"
         ]
       },
       "disclosure-content#fourtha": {
@@ -432,13 +432,13 @@
           "blockClass":"row"
         },
         "children":[
-          "disclosure-trigger#fiftha", 
-          "image#arrow-group1"
+          "disclosure-trigger#fiftha"
         ]
       },
       "disclosure-trigger#fiftha": {
         "children": [
-            "rich-text#question5a"
+          "rich-text#question5a",
+          "image#arrow-group1"
         ]
       },
       "disclosure-content#fiftha": {
@@ -468,13 +468,13 @@
           "blockClass":"row"
         },
         "children":[
-          "disclosure-trigger#sixtha", 
-          "image#arrow-group1"
+          "disclosure-trigger#sixtha"
         ]
       },
       "disclosure-trigger#sixtha": {
         "children": [
-            "rich-text#question6a"
+          "rich-text#question6a",
+          "image#arrow-group1"
         ]
       },
       "disclosure-content#sixtha": {
