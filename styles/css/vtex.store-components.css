@@ -6331,8 +6331,8 @@ border-radius: 5px;
 
 :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a){
   background-color:#8E3392;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 12%;
+  margin-bottom: 12%;
   white-space: nowrap;
   border-radius: 10px;
   width: 257px;
@@ -6736,8 +6736,8 @@ border-radius: 5px;
 @media (max-width:640px) {
   :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a){
     background-color:#8E3392;
-    margin-top: 12%;
-    margin-bottom: 12%;
+    margin-top: 17%;
+    margin-bottom: 17%;
     white-space: nowrap;
     border-radius: 10px;
     width: 257px;
@@ -7128,7 +7128,7 @@ border-radius: 5px;
 @media (min-width: 1090px) and (max-width: 1500px) {
   :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
     height: calc(100% + 100px)!important;
-    top: -8%!important;
+    /* top: -8%!important; */
     left: -40%;
     /* margin-left: -100%; */
   }
@@ -7143,10 +7143,14 @@ border-radius: 5px;
   }
   :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
     margin-left: -50%;
+    /* height: 120%; */
+  }
+  :global(.vtex-rich-text-0-x-paragraph--info-personaje-indiv){
+    font-size: 20px!important;
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1089px) {
+@media (min-width: 1026px) and (max-width: 1089px) {
   :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
     margin-left: -124%!important;
     top: -9%;
@@ -7158,7 +7162,7 @@ border-radius: 5px;
     padding-left: 10%;
   }
 }
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1026px) and (max-width: 1280px) {
   :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
     margin-left: -80%;
   }
@@ -7166,7 +7170,7 @@ border-radius: 5px;
 
 @media (min-width: 1501px){
   :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
-    top: -10%!important;
+    top: -12%!important;
   }
 }
 :global(.vtex-disclosure-layout-1-x-content--answer--visible)
@@ -7191,5 +7195,19 @@ border-radius: 5px;
 @media (max-width: 1340px) and (min-width: 1026px) {
   :global(.vtex-menu-2-x-submenuWrapper--mob-menu-prin-header-ropa) {
     left: -380px;
+  }
+}
+
+@media (max-width: 1460px){
+  :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a){
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+}
+
+@media (min-width:640px) and (max-width: 1025px){
+  :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img-a) {
+    margin-top: 65%;
+    margin-bottom: 65%;
   }
 }
