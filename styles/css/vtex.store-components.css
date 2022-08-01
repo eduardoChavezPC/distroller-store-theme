@@ -6474,16 +6474,6 @@ border-radius: 5px;
   /* padding-left: 5%; */
 }
 
-:global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img) {
-  /* height: 100% !important; */
-  height: calc(100% + 100px);
-  position: relative;
-  /* left: -50%; */
-  top: -12%;
-  display: flex;
-  margin-left: -70%;
-  max-width: fit-content!important;
-}
 :global(.vtex-flex-layout-0-x-flexRowContent--personaje-indiv-row-info) {
   /* background-color: #00B6E9; */
   /* padding: 65px 0px 53px 0px; */
@@ -6787,9 +6777,6 @@ border-radius: 5px;
     }
     :global(.vtex-rich-text-0-x-paragraph--nombre-personaje-indiv){
       font-size: 48px;
-    }
-    :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
-      margin-left: -96%;
     }
     :global(.vtex-flex-layout-0-x-flexRowContent--personajesIndiv){
       padding-left: 4%;
@@ -7126,24 +7113,11 @@ border-radius: 5px;
 }
 
 @media (min-width: 1090px) and (max-width: 1500px) {
-  :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
-    height: calc(100% + 100px)!important;
-    /* top: -8%!important; */
-    left: -40%;
-    /* margin-left: -100%; */
-  }
   :global(.vtex-rich-text-0-x-paragraph--info-personaje-indiv){
     margin-left: 8%;
   }
-  :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
-    right: 10%;
-  }
   :global(.vtex-rich-text-0-x-paragraph--nombre-personaje-indiv){
     font-size: 32px;
-  }
-  :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
-    margin-left: -50%;
-    /* height: 120%; */
   }
   :global(.vtex-rich-text-0-x-paragraph--info-personaje-indiv){
     font-size: 20px!important;
@@ -7151,26 +7125,11 @@ border-radius: 5px;
 }
 
 @media (min-width: 1026px) and (max-width: 1089px) {
-  :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
-    margin-left: -124%!important;
-    top: -9%;
-  }
   :global(.vtex-rich-text-0-x-paragraph--info-personaje-indiv){
     font-size: 14px!important;
   }
   :global(.vtex-rich-text-0-x-paragraph--info-personaje-indiv){
     padding-left: 10%;
-  }
-}
-@media (min-width: 1026px) and (max-width: 1280px) {
-  :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
-    margin-left: -80%;
-  }
-}
-
-@media (min-width: 1501px){
-  :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img){
-    top: -12%!important;
   }
 }
 
@@ -7229,4 +7188,20 @@ border-radius: 5px;
 
 :global(.vtex-store-footer-2-x-footerLayout){
   margin-top: 1%!important;
+}
+
+@media (min-width: 1026px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--personajes-indiv-col-img) {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  :global(.vtex-store-components-3-x-imageElement--personajes-indiv-col-img) {
+    height: 120%;
+    position: relative;
+    top: -10%;
+    left: -2%;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--personajesIndiv) {
+    margin-bottom: 15%;
+  }
 }
