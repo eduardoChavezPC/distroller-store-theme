@@ -7228,5 +7228,5 @@ border-radius: 5px;
 }
 
 :global(.vtex-store-footer-2-x-footerLayout){
-  margin-top: 1%;
+  margin-top: 1%!important;
 }
