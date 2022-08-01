@@ -7226,3 +7226,7 @@ border-radius: 5px;
 :global(.vtex-rich-text-0-x-paragraph--vision){
   padding-right: 5%!important;
 }
+
+:global(.vtex-store-footer-2-x-footerLayout){
+  margin-top: 1%;
+}
