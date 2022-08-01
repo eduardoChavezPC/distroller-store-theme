@@ -7173,6 +7173,8 @@ border-radius: 5px;
     top: -12%!important;
   }
 }
+
+:global(.vtex-rich-text-0-x-paragraph--avisoTexto),
 :global(.vtex-disclosure-layout-1-x-content--answer--visible)
 :global(.vtex-rich-text-0-x-paragraph),
 :global(.vtex-rich-text-0-x-wrapper--compromisoText),
@@ -7218,4 +7220,9 @@ border-radius: 5px;
   flex-direction: row;
   justify-content: space-between;
   padding-right: 3%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--mision),
+:global(.vtex-rich-text-0-x-paragraph--vision){
+  padding-right: 5%!important;
 }
