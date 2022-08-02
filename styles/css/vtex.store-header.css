@@ -82,3 +82,11 @@
     transition: none;
   }
 }
+
+
+@media (max-width: 1025px) {
+  :global(.vtex-store-components-3-x-logoContainer--logo-Header) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
