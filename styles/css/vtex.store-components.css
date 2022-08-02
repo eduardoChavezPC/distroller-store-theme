@@ -2582,7 +2582,7 @@
   top: 12em;
 }
 :global(.vtex-store-components-3-x-infoCardContainer--info-card-promoBanner) {
-  margin-top: 20%;
+  margin-top: 8%;
 }
 :global(.vtex-store-components-3-x-infoCardTextContainer--info-card-promoBanner) {
   margin-bottom: 188px;
@@ -4097,6 +4097,7 @@ border-radius: 5px;
 :global(.vtex-rich-text-0-x-paragraph){
   font-family: 'Billy';
   font-size: 1.3rem;
+  text-align: justify;
 }
 :global(.vtex-flex-layout-0-x-flexColChild--first)
 :global(.vtex-disclosure-layout-1-x-content--visible)
@@ -4150,6 +4151,7 @@ border-radius: 5px;
 :global(.vtex-rich-text-0-x-paragraph){
   font-size: 0.9rem;
   font-family: inherit;
+  text-align: justify;
 }
 
 :global(.vtex-store-components-3-x-imageElement--imagen-contacto){
@@ -4239,7 +4241,7 @@ border-radius: 5px;
 
 :global(.vtex-flex-layout-0-x-flexRowContent--row)
 :global(.vtex-rich-text-0-x-paragraph){
-  width: 190%
+  /* width: 190% */
 }
 
 :global(.vtex-rich-text-0-x-paragraph--avisoTitulo){
@@ -7016,7 +7018,8 @@ border-radius: 5px;
 
 /* Home banners categorys */
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-categorias) {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
+  margin-bottom: 30px;
 }
 /* :global(.vtex-slider-layout-0-x-slide--slider-categorias) {
   margin-left: 0 !important;
