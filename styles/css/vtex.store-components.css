@@ -2583,6 +2583,7 @@
 }
 :global(.vtex-store-components-3-x-infoCardContainer--info-card-promoBanner) {
   margin-top: 8%;
+  min-height: 18em;
 }
 :global(.vtex-store-components-3-x-infoCardTextContainer--info-card-promoBanner) {
   margin-bottom: 188px;
@@ -4097,7 +4098,7 @@ border-radius: 5px;
 :global(.vtex-rich-text-0-x-paragraph){
   font-family: 'Billy';
   font-size: 1.3rem;
-  text-align: justify;
+  /* text-align: justify; */
 }
 :global(.vtex-flex-layout-0-x-flexColChild--first)
 :global(.vtex-disclosure-layout-1-x-content--visible)
